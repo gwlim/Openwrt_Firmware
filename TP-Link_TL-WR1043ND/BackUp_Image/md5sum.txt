@@ -1,0 +1,3 @@
+a3f22c1b3acbd443bc3dfcdb15375d4f  art_partition.backup
+ec6586e13e4300bcd3e9c5150ef14d23  uboot_partition.backup
+b2bb178f9e40275711f5bcda3676394d  wr1043nd_sysupgrade_back_to_factory.bin
