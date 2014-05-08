@@ -1,15 +1,25 @@
-OpenWRT firmware Customed Compiled
+Custom OpenWRT Firmware
+=======================
 
-Attitude Adjustment for WR1043ND Source:
+Attitude Adjustment 12.09.1 for WR1043ND
+----------------------------------------
+
+Source
+------
+
 https://github.com/gwlim/Attitude_Adjustment_WR1043ND.git
 
-Features:
--Customised CFLAGS for mips24kc
--Update toolchain to latest Linaro GCC 4.8 and Linaro Binutils
--Modify LuCI Interface
--6.5MB Base Image with Installable Modular Packages
+Features
+--------
 
-Recovery:
--Firmware to restore to default TP-Link Software in Backup Folder
--Uboot backup available
--Art Partition Backup Available
+* [Customised CFLAGS for mips24kc
+* [Update toolchain to latest Linaro GCC 4.8 and Linaro Binutils
+* [Modify LuCI Interface
+* [6.5MB Base Image with Installable Modular Packages
+
+Recovery
+--------
+
+* [Firmware to restore to default TP-Link Software in Backup Folder
+* [Uboot backup available
+* [Art Partition Backup Available
