@@ -21,5 +21,5 @@ Recovery
 --------
 
 * Firmware to restore to default TP-Link Software in [Backup Folder](https://github.com/gwlim/Openwrt_Firmware/tree/master/TP-Link_TL-WR1043ND/BackUp_Image)
-* Uboot backup available
-* Art Partition Backup Available
+* Uboot backup partition available
+* Art backup partition available
