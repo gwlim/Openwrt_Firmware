@@ -1,0 +1,2 @@
+837df82b3818d236db2788cc5e1b96b9  art_partition.backup
+39454b332677666510f6e1d4196839d6  uboot_oc_720_440_220.backup
