@@ -1,18 +1,22 @@
 Custom OpenWRT Firmware
 =======================
 
-Attitude Adjustment 12.09.1 for WR1043ND
+OpenWRT for WR1043NDv1 and MR3420v2
 ----------------------------------------
 
 Source
 ------
 
 https://github.com/gwlim/Attitude_Adjustment_WR1043ND.git
+https://github.com/gwlim/barrier-breaker-wr1043nd.git
+https://github.com/gwlim/barrier-breaker-mr3420v2.git
+
 
 Features
 --------
 
-* Customised CFLAGS for mips24kc
+* Customised CFLAGS for mips24kc (For WR1043NDv1) and mips74kc (For MR3420v2 and WDR4300v1)
+* Do not use the image for MR3420v2 unless you upgrade the flash chip to at least 8MB
 * Updated toolchain to latest Linaro GCC 4.8 and Linaro Binutils
 * LuCI Interface Tweaks
 * 6.5MB Base Image with Installable Modular Packages
