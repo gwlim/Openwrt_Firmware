@@ -1,12 +1,13 @@
-b9b34dfc321278fe5f92d3fee22e98b1 *openwrt-ar71xx-generic-mw4530r-v1-squashfs-factory.bin
-ef762b3b65514710f54e3beb5608f3df *openwrt-ar71xx-generic-mw4530r-v1-squashfs-sysupgrade.bin
-37d9c7a04f774580e4b3d3df73ebedb1 *openwrt-ar71xx-generic-tl-wdr3500-v1-squashfs-factory.bin
-e90df56cefb09ba1b5ac12279838b069 *openwrt-ar71xx-generic-tl-wdr3500-v1-squashfs-sysupgrade.bin
-dd41a21e40f2cbe9f8f8200fcc93565a *openwrt-ar71xx-generic-tl-wdr3600-v1-squashfs-factory.bin
-cb3f29e4ef00b275f28dee5dd1bd8161 *openwrt-ar71xx-generic-tl-wdr3600-v1-squashfs-sysupgrade.bin
-e90e3370e96fa84953efe49cc3f8860d *openwrt-ar71xx-generic-tl-wdr4300-v1-il-squashfs-factory.bin
-4604b72263de890114f6c1069aa3b46f *openwrt-ar71xx-generic-tl-wdr4300-v1-il-squashfs-sysupgrade.bin
-4647a4aa9e0296b0fb739956a650230a *openwrt-ar71xx-generic-tl-wdr4300-v1-squashfs-factory.bin
-ced4dbda1885f547359759155531dbdc *openwrt-ar71xx-generic-tl-wdr4300-v1-squashfs-sysupgrade.bin
-eaff09136520c868f41e4f5133c6ccfa *openwrt-ar71xx-generic-tl-wdr4310-v1-squashfs-factory.bin
-f4abf9ce5beb3a57debf3874424db914 *openwrt-ar71xx-generic-tl-wdr4310-v1-squashfs-sysupgrade.bin
+9bea7b9eb78567d2b58a2a9d60a5623d *openwrt-ar71xx-generic-mw4530r-v1-squashfs-factory.bin
+aefc071ea22652dfb24f79569ea08fbb *openwrt-ar71xx-generic-mw4530r-v1-squashfs-sysupgrade.bin
+c7fd64160082bddcaebe2af6e5a7be89 *openwrt-ar71xx-generic-tl-wdr3500-v1-squashfs-factory.bin
+fa12ab5960892f037e6c9ebc2903a594 *openwrt-ar71xx-generic-tl-wdr3500-v1-squashfs-sysupgrade.bin
+47d5bcb59d2b02fe82f1250cb2f28f3b *openwrt-ar71xx-generic-tl-wdr3600-v1-squashfs-factory.bin
+f0c14bf08b562a037f86c797df5f5883 *openwrt-ar71xx-generic-tl-wdr3600-v1-squashfs-sysupgrade.bin
+35d523e6b0888670971c5c644f0ea4da *openwrt-ar71xx-generic-tl-wdr4300-v1-il-squashfs-factory.bin
+c6814030345fe483fda4c24fd90fa40d *openwrt-ar71xx-generic-tl-wdr4300-v1-il-squashfs-sysupgrade.bin
+ec46e6ce95b5c8ef7f2bb351d3a00f81 *openwrt-ar71xx-generic-tl-wdr4300-v1-squashfs-factory.bin
+6b997f45c4381fdba014cbffcf165e64 *openwrt-ar71xx-generic-tl-wdr4300-v1-squashfs-sysupgrade.bin
+91c3abe118f3c7f940724a244bf75348 *openwrt-ar71xx-generic-tl-wdr4310-v1-squashfs-factory.bin
+833bb38e9fd75d08f2853693a4a8cc7c *openwrt-ar71xx-generic-tl-wdr4310-v1-squashfs-sysupgrade.bin
+
