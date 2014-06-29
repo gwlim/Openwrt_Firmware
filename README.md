@@ -32,8 +32,9 @@ Overclock
 ---------
 
 * Overclock firmware for WR1043NDv1 is available in [Backup Folder](https://github.com/gwlim/Openwrt_Firmware/tree/master/TP-Link_TL-WR1043ND/BackUp_Image)
-* 2 Preset Overclock: 
+* 3 Preset Overclock: 
 * 440MHZ CPU Clock, 440MHZ RAM, and 220MHZ AHB
+* 430MHZ CPU Clock, 430MHZ RAM, and 215MHZ AHB
 * 420MHZ CPU Clock, 420MHZ RAM, and 210MHZ AHB
 * Tested Stable and Working on my WR1043ND
 * To use simply sysupgrade to default TP-Link Factory Firmware using the sysupgrade to factory image then upgrade again using the Overclocked Firmware
