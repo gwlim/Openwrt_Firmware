@@ -1,0 +1,588 @@
+Package: freifunk-p2pblock
+Version: 3
+Depends: libc, iptables-mod-filter, iptables-mod-ipp2p, l7-protocols, iptables-mod-conntrack-extra
+Source: feeds/luci/contrib/package/freifunk-p2pblock
+Section: luci
+Architecture: ar71xx
+Installed-Size: 1318
+Filename: freifunk-p2pblock_3_ar71xx.ipk
+Size: 1946
+MD5Sum: 86f505025434425d7c1307bd92d67312
+SHA256sum: 32dbaa088a561004c0164cc85e48510b6cd3dbc4e106f09fb64fdf66bef361f5
+Description:  Simple Addon for Freifunk which use iptables layer7-, ipp2p- and recent-modules 
+ to block p2p/filesharing traffic
+
+Package: luci-app-ddns
+Version: 0.12+svn-r10530-1
+Depends: libc, ddns-scripts
+Source: feeds/luci/contrib/package/luci-addons
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ar71xx
+Installed-Size: 11179
+Filename: luci-app-ddns_0.12+svn-r10530-1_ar71xx.ipk
+Size: 11781
+MD5Sum: fcfa8252f47c7af9a014c4399b3306ca
+SHA256sum: b30cccdfdd1195c8c0d42eefb477eb3c1dcb0f1197dbe66b5058f0e35312a561
+Description:  Dynamic DNS configuration module
+
+Package: luci-app-firewall
+Version: 0.12+svn-r10530-1
+Depends: libc, firewall
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ar71xx
+Installed-Size: 68416
+Filename: luci-app-firewall_0.12+svn-r10530-1_ar71xx.ipk
+Size: 69131
+MD5Sum: 01daa91b48a93d0b5b41a495f73deaee
+SHA256sum: 01f57bc23c6f9199f909b3e8e6a75b99453ad5688f0256f472a591c9728577b3
+Description:  Firewall and Portforwarding application
+
+Package: luci-app-hd-idle
+Version: 0.12+svn-r10530-1
+Depends: libc, hd-idle
+Source: feeds/luci/contrib/package/luci-addons
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ar71xx
+Installed-Size: 6177
+Filename: luci-app-hd-idle_0.12+svn-r10530-1_ar71xx.ipk
+Size: 6897
+MD5Sum: 6317c779c78874415df47273bb8e4ee3
+SHA256sum: 1abb6df2a01f5979b18a0d14119c5a78826791d519d204b016941d6f19dd1756
+Description:  Hard Disk Idle Spin-Down module
+
+Package: luci-app-openvpn
+Version: 0.12+svn-r10530-1
+Depends: libc, openvpn-openssl
+Source: feeds/luci/contrib/package/luci-addons
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ar71xx
+Installed-Size: 61201
+Filename: luci-app-openvpn_0.12+svn-r10530-1_ar71xx.ipk
+Size: 61852
+MD5Sum: 9081415fa3dfc0ba91d039b6dc5701a2
+SHA256sum: 152c44a923c2f5f279ad544d2989ff7fff879676c69cb6b3f5c71a27f572456f
+Description:  LuCI Support for OpenVPN
+
+Package: luci-app-p2pblock
+Version: 0.12+svn-r10530-1
+Depends: libc, luci-app-firewall, freifunk-p2pblock
+Source: feeds/luci/contrib/package/luci-addons
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ar71xx
+Installed-Size: 6326
+Filename: luci-app-p2pblock_0.12+svn-r10530-1_ar71xx.ipk
+Size: 7106
+MD5Sum: 5453550408ca5ed643639e4a56b8ce33
+SHA256sum: 1ac38e2b334418c9f9918955e9536555b54d34a9e5c86b40467c74fe2123fbaa
+Description:  LuCI Support for the Freifunk P2P-Block addon
+
+Package: luci-app-p910nd
+Version: 0.12+svn-r10530-1
+Depends: libc, p910nd
+Source: feeds/luci/contrib/package/luci-addons
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ar71xx
+Installed-Size: 6655
+Filename: luci-app-p910nd_0.12+svn-r10530-1_ar71xx.ipk
+Size: 7364
+MD5Sum: a138bd0699447914ef3ec7cd1a2e709d
+SHA256sum: ccc8ae80531f65f31334ec973b2742e99cbfd14d2bf18f8c93c8d93e1ea089a1
+Description:  p910nd - Printer server module
+
+Package: luci-app-qos
+Version: 0.12+svn-r10530-1
+Depends: libc, qos-scripts
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ar71xx
+Installed-Size: 11026
+Filename: luci-app-qos_0.12+svn-r10530-1_ar71xx.ipk
+Size: 11604
+MD5Sum: 992c655b9eb5c1603ca4d63f15b4507f
+SHA256sum: dad1e69846544cf3cccd8653a3c852ae5b0abf6bc793bb45b4f6932db585065f
+Description:  Quality of Service configuration module
+
+Package: luci-app-tinyproxy
+Version: 0.12+svn-r10530-1
+Depends: libc, tinyproxy
+Source: feeds/luci/contrib/package/luci-addons
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ar71xx
+Installed-Size: 25310
+Filename: luci-app-tinyproxy_0.12+svn-r10530-1_ar71xx.ipk
+Size: 25887
+MD5Sum: 3f439eef64975e733c2cc109b07d9b07
+SHA256sum: 2f4361a7c09319000393a57561e4cec4c273bc072078edfe3a8c86369ac89e4b
+Description:  Tinyproxy - HTTP(S)-Proxy configuration
+
+Package: luci-app-transmission
+Version: 0.12+svn-r10530-1
+Depends: libc, transmission-daemon
+Source: feeds/luci/contrib/package/luci-addons
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ar71xx
+Installed-Size: 26716
+Filename: luci-app-transmission_0.12+svn-r10530-1_ar71xx.ipk
+Size: 27290
+MD5Sum: b9fff559c3642024f47be56dc8d2b09c
+SHA256sum: 80ddbb0777bed8138361b254290dfa3b971c084be21e42379662d0e65ddd286f
+Description:  LuCI Support for Transmission
+
+Package: luci-app-upnp
+Version: 0.12+svn-r10530-1
+Depends: libc, miniupnpd
+Source: feeds/luci/contrib/package/luci-addons
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ar71xx
+Installed-Size: 19683
+Filename: luci-app-upnp_0.12+svn-r10530-1_ar71xx.ipk
+Size: 20311
+MD5Sum: 4d491faeec6fb80367db2751b417049b
+SHA256sum: 315eadddab62d5a460ef4e07e91d5424b5d2f2098fd419b51c8ff4f1cd0983c2
+Description:  Universal Plug & Play configuration module
+
+Package: luci-app-wol
+Version: 0.12+svn-r10530-1
+Depends: libc, etherwake
+Source: feeds/luci/contrib/package/luci-addons
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ar71xx
+Installed-Size: 8815
+Filename: luci-app-wol_0.12+svn-r10530-1_ar71xx.ipk
+Size: 9440
+MD5Sum: e95ab8f30568249a67f8e06533492865
+SHA256sum: 4a6cc51363199bed6f6745303c98a72ee5214ceb1ffa253fc9fbd50aaa0f72c0
+Description:  LuCI Support for Wake-on-LAN
+
+Package: luci-base
+Version: 0.12+svn-r10530-1
+Depends: libc, lua, libuci-lua, libubus-lua, libopenssl
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ar71xx
+Installed-Size: 145024
+Filename: luci-base_0.12+svn-r10530-1_ar71xx.ipk
+Size: 145784
+MD5Sum: e58ef8921e141ee360a1ad284da25d83
+SHA256sum: 5902624511b1b5d90e585bd9c3a569735d8044ec03a05a729eec8ec7f6e9a99b
+Description:  LuCI core libraries
+
+Package: luci-i18n-catalan
+Version: 0.12+svn-r10530-1
+Depends: libc
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ar71xx
+Installed-Size: 16439
+Filename: luci-i18n-catalan_0.12+svn-r10530-1_ar71xx.ipk
+Size: 17115
+MD5Sum: 570c7a9edf6249ee0f34351df955a9f4
+SHA256sum: e55316744e5d178e2962706a48596c87b6e13b46d8ae57d807a45865f95bd99e
+Description:  Catalan (by Eduard Duran)
+
+Package: luci-i18n-chinese
+Version: 0.12+svn-r10530-1
+Depends: libc
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ar71xx
+Installed-Size: 19563
+Filename: luci-i18n-chinese_0.12+svn-r10530-1_ar71xx.ipk
+Size: 20308
+MD5Sum: deeb470ace12106103e3803a60070c98
+SHA256sum: 4d5d81352f0328b0ac55362ec5740f9bcdba39ed208e210607e22e0b4f65a000
+Description:  Chinese (by Chinese Translators)
+
+Package: luci-i18n-english
+Version: 0.12+svn-r10530-1
+Depends: libc
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ar71xx
+Installed-Size: 772
+Filename: luci-i18n-english_0.12+svn-r10530-1_ar71xx.ipk
+Size: 1465
+MD5Sum: 3916273a9a98f7377f861368433ffe7d
+SHA256sum: 8fd95c8ff4dec628d0e0dbf34a5bbca9da9da1948e2dca706c42c9a0a92784f2
+Description:  English
+
+Package: luci-i18n-french
+Version: 0.12+svn-r10530-1
+Depends: libc
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ar71xx
+Installed-Size: 21201
+Filename: luci-i18n-french_0.12+svn-r10530-1_ar71xx.ipk
+Size: 21931
+MD5Sum: d0ac30258e10a40fce3c260c5a8064c3
+SHA256sum: e718d9a927d336a6618b6d60012f72bed54a00c0fefe9545760acb83cc7c9581
+Description:  French (by Florian Fainelli)
+
+Package: luci-i18n-german
+Version: 0.12+svn-r10530-1
+Depends: libc
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ar71xx
+Installed-Size: 20461
+Filename: luci-i18n-german_0.12+svn-r10530-1_ar71xx.ipk
+Size: 21163
+MD5Sum: 8f55c69cbbbac8e1af04a6b794ced8f6
+SHA256sum: 0521b23926857c11740b3d645e38a62cc140b854af8e6f11bdc7db8efebeb522
+Description:  German
+
+Package: luci-i18n-greek
+Version: 0.12+svn-r10530-1
+Depends: libc
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ar71xx
+Installed-Size: 17442
+Filename: luci-i18n-greek_0.12+svn-r10530-1_ar71xx.ipk
+Size: 18191
+MD5Sum: ca6ecac832ffe1553ef51930a0c0d26f
+SHA256sum: 3c412ee1eda6b5adb14be82edcac764b4213e53dd16ef4d31a5525c53c3c1463
+Description:  Greek (by Vasilis Tsiligiannis)
+
+Package: luci-i18n-hebrew
+Version: 0.12+svn-r10530-1
+Depends: libc
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ar71xx
+Installed-Size: 6955
+Filename: luci-i18n-hebrew_0.12+svn-r10530-1_ar71xx.ipk
+Size: 7690
+MD5Sum: f9bc6fd1ca90aadc04db5d2f74ae38d2
+SHA256sum: 41d437a7e6f38ba4875a9332678fe4df573b4646de619222f1552370d6018687
+Description:  Hebrew
+
+Package: luci-i18n-hungarian
+Version: 0.12+svn-r10530-1
+Depends: libc
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ar71xx
+Installed-Size: 21867
+Filename: luci-i18n-hungarian_0.12+svn-r10530-1_ar71xx.ipk
+Size: 22594
+MD5Sum: e07ad3b5b660afef29a93174740e8807
+SHA256sum: a716257e61e892d445719455916bfb1786e64c0865a52ecd420f87a402e3965c
+Description:  Hungarian
+
+Package: luci-i18n-italian
+Version: 0.12+svn-r10530-1
+Depends: libc
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ar71xx
+Installed-Size: 16827
+Filename: luci-i18n-italian_0.12+svn-r10530-1_ar71xx.ipk
+Size: 17514
+MD5Sum: a7499a90fa3085837d0cd17271ae687b
+SHA256sum: c646e34ac6b25d9783ba635384a6b454f6e6bc6b1a51b49d394cd48ab091bbec
+Description:  Italian (by Matteo Croce)
+
+Package: luci-i18n-japanese
+Version: 0.12+svn-r10530-1
+Depends: libc
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ar71xx
+Installed-Size: 20524
+Filename: luci-i18n-japanese_0.12+svn-r10530-1_ar71xx.ipk
+Size: 21222
+MD5Sum: f63d6cf5b293f2af50892f4aeec02066
+SHA256sum: 8ab4156e342a1bff08946839cc1054d732a94c215b02efaf952f65925f899fea
+Description:  Japanese (by Tsukasa Hamano)
+
+Package: luci-i18n-malay
+Version: 0.12+svn-r10530-1
+Depends: libc
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ar71xx
+Installed-Size: 7480
+Filename: luci-i18n-malay_0.12+svn-r10530-1_ar71xx.ipk
+Size: 8105
+MD5Sum: d81ed5c8d716fa6e23e009fb79a029a4
+SHA256sum: 180f182e901361f8256d44fd0d35a57845f8a9735e951a7db287682b9f5c6337
+Description:  Malay (by Teow Wai Chet)
+
+Package: luci-i18n-norwegian
+Version: 0.12+svn-r10530-1
+Depends: libc
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ar71xx
+Installed-Size: 20256
+Filename: luci-i18n-norwegian_0.12+svn-r10530-1_ar71xx.ipk
+Size: 20969
+MD5Sum: d662dd728d002c6689cf242b5cd36a19
+SHA256sum: 46d8ef8dbc5f1e4b21837de9199cf3d07e4d21f0fa2c6a811201addd59b68d60
+Description:  Norwegian (by Lars Hardy)
+
+Package: luci-i18n-polish
+Version: 0.12+svn-r10530-1
+Depends: libc
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ar71xx
+Installed-Size: 21689
+Filename: luci-i18n-polish_0.12+svn-r10530-1_ar71xx.ipk
+Size: 22399
+MD5Sum: c0cf3d25b55c767690f24ae04a094250
+SHA256sum: 3349e4069c28780810fa163963e3f0cd5312760cd9a510e97005a5d8b70c9b4a
+Description:  Polish
+
+Package: luci-i18n-portuguese-brazilian
+Version: 0.12+svn-r10530-1
+Depends: libc
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ar71xx
+Installed-Size: 21687
+Filename: luci-i18n-portuguese-brazilian_0.12+svn-r10530-1_ar71xx.ipk
+Size: 22441
+MD5Sum: 2e31be2c0bb5e6560ea79f25f909ac75
+SHA256sum: 04e18ec5fe932db07b9fe7fd0756348d63e91d4f74c8fb86283a0d9ebf8dce31
+Description:  Portuguese (Brazilian) (by Carlos Cesario)
+
+Package: luci-i18n-portuguese
+Version: 0.12+svn-r10530-1
+Depends: libc
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ar71xx
+Installed-Size: 18842
+Filename: luci-i18n-portuguese_0.12+svn-r10530-1_ar71xx.ipk
+Size: 19534
+MD5Sum: e92b7e934d469c15dcfe6225a207a5f2
+SHA256sum: 6794b9ccdb6563ee6ce744fa51c880fd14fc0dc84b0bb694f57a4a6c7849faf6
+Description:  Portuguese (by Jose Monteiro)
+
+Package: luci-i18n-romanian
+Version: 0.12+svn-r10530-1
+Depends: libc
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ar71xx
+Installed-Size: 10490
+Filename: luci-i18n-romanian_0.12+svn-r10530-1_ar71xx.ipk
+Size: 11180
+MD5Sum: 3619d25a4ff1f045e3f802abdd50da77
+SHA256sum: 1b6dba63737a4dfa1eb10c526df5752b45c2c5c6e32c71a631725a1c943da0ae
+Description:  Romanian
+
+Package: luci-i18n-russian
+Version: 0.12+svn-r10530-1
+Depends: libc
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ar71xx
+Installed-Size: 24421
+Filename: luci-i18n-russian_0.12+svn-r10530-1_ar71xx.ipk
+Size: 25142
+MD5Sum: f5ca623e3f7602be7ebe8a8e3fd8ea53
+SHA256sum: ec9c4a8a346b39df6a736057dddee310c79d4a1fe6181ad19330a20685750400
+Description:  Russian (by Skryabin Dmitry)
+
+Package: luci-i18n-spanish
+Version: 0.12+svn-r10530-1
+Depends: libc
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ar71xx
+Installed-Size: 21027
+Filename: luci-i18n-spanish_0.12+svn-r10530-1_ar71xx.ipk
+Size: 21647
+MD5Sum: 357f301306dea4e784f4e48b469ac0ba
+SHA256sum: daae291dfaed283604e0a6dc7ac1e2469bdc4d25a832b62220d9c595bdf1d654
+Description:  Spanish (by Guillermo Javier Nardoni)
+
+Package: luci-i18n-ukrainian
+Version: 0.12+svn-r10530-1
+Depends: libc
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ar71xx
+Installed-Size: 24910
+Filename: luci-i18n-ukrainian_0.12+svn-r10530-1_ar71xx.ipk
+Size: 25623
+MD5Sum: 906451dc3f0e5385c1281d871b7f71e2
+SHA256sum: 59f11e2541a4f58f75f0bda19f98628bf29de84288902d399aebe4df71f08400
+Description:  Ukrainian
+
+Package: luci-i18n-vietnamese
+Version: 0.12+svn-r10530-1
+Depends: libc
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ar71xx
+Installed-Size: 6548
+Filename: luci-i18n-vietnamese_0.12+svn-r10530-1_ar71xx.ipk
+Size: 7256
+MD5Sum: b97efc41c6ddd2844c15183766e8308e
+SHA256sum: 3e1dcca21895ecad3818bec21f02bfc5b9970c3d9ca9e2dd6181f3001761a29e
+Description:  Vietnamese (by Hong Phuc Dang)
+
+Package: luci-lib-nixio
+Version: 0.12+svn-r10530-1
+Depends: libc, luci-base, libopenssl
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ar71xx
+Installed-Size: 33385
+Filename: luci-lib-nixio_0.12+svn-r10530-1_ar71xx.ipk
+Size: 33741
+MD5Sum: 4c1b943aa488b95a4384a7d5d5719998
+SHA256sum: 40e1b1fc3151eb5ff75674f95e22270f629022af3836e3a76f0e3318bc2f782c
+Description:  NIXIO POSIX library
+
+Package: luci-mod-admin-full
+Version: 0.12+svn-r10530-1
+Depends: libc, luci-base
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ar71xx
+Installed-Size: 84139
+Filename: luci-mod-admin-full_0.12+svn-r10530-1_ar71xx.ipk
+Size: 84815
+MD5Sum: f528f88a1fcf53cff4bff0b4cbc060b6
+SHA256sum: 74a781294339e20ff77a63f02d71e37d78d0e6baaa50754c41cfce5db72ed91e
+Description:  LuCI Administration - full-featured for full control
+
+Package: luci-proto-3g
+Version: 0.12+svn-r10530-1
+Depends: libc, comgt
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ar71xx
+Installed-Size: 2022
+Filename: luci-proto-3g_0.12+svn-r10530-1_ar71xx.ipk
+Size: 2622
+MD5Sum: aa6a33e1333740802a1b33fb4ce7b756
+SHA256sum: aae1b5f61ac1584bfe5575006b190b3726d0502fb9a4cc6966573914a69bc3bf
+Description:  Support for 3G
+
+Package: luci-proto-ipv6
+Version: 0.12+svn-r10530-1
+Depends: libc
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ar71xx
+Installed-Size: 4723
+Filename: luci-proto-ipv6_0.12+svn-r10530-1_ar71xx.ipk
+Size: 5320
+MD5Sum: bd176b143da463db104ea99d6ac33cf7
+SHA256sum: 823ceaa77115d076c61a11c8e46766dd3fb52382662e5790097e215d85b80335
+Description:  Support for DHCPv6/6in4/6to4/6rd/DS-Lite
+
+Package: luci-proto-ppp
+Version: 0.12+svn-r10530-1
+Depends: libc
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ar71xx
+Installed-Size: 3932
+Filename: luci-proto-ppp_0.12+svn-r10530-1_ar71xx.ipk
+Size: 4497
+MD5Sum: 7ded607a30d0341a6fcddba16d9d0bd7
+SHA256sum: bc737958a2ad08e4a1317cfd7e1d5fb6dfdefc765f384eb45b656276ee99718d
+Description:  Support for PPP/PPPoE/PPPoA/PPtP
+
+Package: luci-proto-relay
+Version: 0.12+svn-r10530-1
+Depends: libc, relayd
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ar71xx
+Installed-Size: 2557
+Filename: luci-proto-relay_0.12+svn-r10530-1_ar71xx.ipk
+Size: 3138
+MD5Sum: 2f9566e9a2485c3eb6098703e50dfd8e
+SHA256sum: a05c204f27b967ede09ccd68df6abde670227317cd504f73a546e79d81609cde
+Description:  Support for relayd pseudo bridges
+
+Package: luci-ssl
+Version: 0.12+svn-r10530-1
+Depends: libc, luci, libustream-polarssl, px5g
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ar71xx
+Installed-Size: 105
+Filename: luci-ssl_0.12+svn-r10530-1_ar71xx.ipk
+Size: 693
+MD5Sum: 9da80e5646fe9d739607de1e25378eb0
+SHA256sum: 705a1326e926fc5b985a187c5b16a57493e953b0b732b73ab6c5cb827e5cc060
+Description:  Standard OpenWrt set with HTTPS support
+
+Package: luci-theme-bootstrap
+Version: 0.12+svn-r10530-1
+Depends: libc
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ar71xx
+Installed-Size: 11616
+Filename: luci-theme-bootstrap_0.12+svn-r10530-1_ar71xx.ipk
+Size: 12304
+MD5Sum: ba67db862599adbe2c81d41ba5b289ba
+SHA256sum: 3952e89219bff29ee47bf47fea16ada00f80fbda0161d98b99470eed84c9a8db
+Description:  Bootstrap Theme (default)
+
+Package: luci
+Version: 0.12+svn-r10530-1
+Depends: libc, uhttpd, uhttpd-mod-ubus, luci-mod-admin-full, luci-theme-bootstrap, luci-app-firewall, luci-proto-ppp, libiwinfo-lua, luci-lib-nixio
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ar71xx
+Installed-Size: 105
+Filename: luci_0.12+svn-r10530-1_ar71xx.ipk
+Size: 767
+MD5Sum: bfe04694b79ca8edccd515ea01b95223
+SHA256sum: 1c7d6c3c037ce387c94decc467120b66f161d9e552d16486110d91bdb11c8966
+Description:  Standard OpenWrt set including full admin with ppp support and the default OpenWrt theme
+

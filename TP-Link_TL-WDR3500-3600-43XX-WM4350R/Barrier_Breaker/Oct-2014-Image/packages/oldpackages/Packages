@@ -1,0 +1,63 @@
+Package: hd-idle
+Version: 1.04-1
+Depends: libc
+Source: feeds/oldpackages/utils/hd-idle
+Section: utils
+Architecture: ar71xx
+Installed-Size: 4727
+Filename: hd-idle_1.04-1_ar71xx.ipk
+Size: 5286
+MD5Sum: a62ce68c244505ca466e0ba2a0a033fe
+SHA256sum: 01e9d34c7166e5f52d7312d2e9e428a23879b0e6024cf6e237347f3ae99d0ab7
+Description:  Another idle-daemon for attached hard drives
+
+Package: l7-protocols
+Version: 2009-05-28-2
+Depends: libc, iptables-mod-filter
+Source: feeds/oldpackages/net/l7-protocols
+Section: net
+Architecture: ar71xx
+Installed-Size: 48356
+Filename: l7-protocols_2009-05-28-2_ar71xx.ipk
+Size: 48413
+MD5Sum: 404f05b351b10114c03a5fdf63a570ec
+SHA256sum: e3bf33e72a457ce14bc543cf7cb74bb1779a98bcd49418f42d3490e7b982c48e
+Description:  l7-filter classifies packets based on patterns in application
+ layer data. This allows correct classification of P2P traffic that
+ uses unpredictable ports as well as standard protocols running on
+ non-standard ports.
+
+Package: p910nd
+Version: 0.95-3
+Depends: libc
+Source: feeds/oldpackages/net/p910nd
+Section: net
+Architecture: ar71xx
+Installed-Size: 5263
+Filename: p910nd_0.95-3_ar71xx.ipk
+Size: 5992
+MD5Sum: 386bc471b6ad0a32e94488fbfb2174c0
+SHA256sum: cb2d7c8fd70df43b046ed89630c60862caaf5dfe98cd92939cc5b5bb66f53b5e
+Description:  p910nd is a small daemon that copies any data received on
+ the port it is listening on to the corresponding printer
+ port. It is primarily intended for diskless Linux hosts
+ running as printer drivers but there is no reason why it
+ could not be used on diskful hosts. Port 9100 is copied
+ to /dev/lp0, 9101 to /dev/lp1 and 9102 to /dev/lp2. The
+ default is port 9100 to /dev/lp0.
+
+Package: restorefactory
+Version: 1-6
+Depends: libc
+Source: feeds/oldpackages/utils/restorefactory
+Section: utils
+Maintainer: Nuno Goncalves <nunojpg@gmail.com>
+Architecture: ar71xx
+Installed-Size: 668
+Filename: restorefactory_1-6_ar71xx.ipk
+Size: 1306
+MD5Sum: 2efb0333ab10103ad6bcaf4b44d9cd3d
+SHA256sum: 51138fa0f4920b6917e4032c32cd595ad0b742b1eadc2fb773067af4ffebe090
+Description:  RestoreFactory handles the reset button event and issues a "firstboot" command.
+ Button and wait time can be configured with a UCI file.
+
