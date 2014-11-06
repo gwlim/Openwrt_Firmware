@@ -1,0 +1,234 @@
+Package: ddns-scripts
+Version: 1.0.0-23
+Depends: libc
+Source: feeds/packages/net/ddns-scripts
+License: GPL-2.0
+Section: net
+Maintainer: Christian Schoenebeck <christian.schoenebeck@gmail.com>
+Architecture: all
+Installed-Size: 7249
+Filename: ddns-scripts_1.0.0-23_all.ipk
+Size: 7916
+MD5Sum: a203bd39c037bc9d0b833b0a9e3f2113
+SHA256sum: a6d4fbeff101400474706d7637e0a724774e5d2632c01eddfee7e74449788301
+Description:  A highly configurable set of scripts for doing
+ dynamic dns updates
+
+Package: etherwake
+Version: 1.09-3
+Depends: libc
+Source: feeds/packages/net/etherwake
+Section: net
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: ar71xx
+Installed-Size: 5020
+Filename: etherwake_1.09-3_ar71xx.ipk
+Size: 5767
+MD5Sum: 66bead1a94e0559adfd476ccb6590403
+SHA256sum: 82fb592853b74c94dab4813baf37d84bee282d3d1ae591bbdbf9b983ee6587ef
+Description:  You can wake up WOL compliant Computers which have been powered down to
+ sleep mode or start WOL compliant Computers with a BIOS feature.
+ WOL is an abbreviation for Wake-on-LAN. It is a standard that allows you
+ to turn on a computer from another location over a network connection.
+ ether-wake also supports WOL passwords.
+
+Package: libpcre
+Version: 8.35-2
+Depends: libc
+Source: feeds/packages/libs/pcre
+License: BSD-3c
+LicenseFiles: LICENCE
+Section: libs
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: ar71xx
+Installed-Size: 81843
+Filename: libpcre_8.35-2_ar71xx.ipk
+Size: 82469
+MD5Sum: c182ab19a98f4a15d415e1878ff87d56
+SHA256sum: a1a168c72d382db40ff8dcf657b104ff4d68122478cf3a672d3f9a7b05833aba
+Description:  A Perl Compatible Regular Expression library
+
+Package: lighttpd-mod-cgi
+Version: 1.4.35-2
+Depends: libc, lighttpd
+Source: feeds/packages/net/lighttpd
+Section: net
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: ar71xx
+Installed-Size: 8807
+Filename: lighttpd-mod-cgi_1.4.35-2_ar71xx.ipk
+Size: 9359
+MD5Sum: a82d3d7ec775b2209e6218904c070036
+SHA256sum: 4b7c98e4332df07f8e90ae702d31c224ca595dafec1405650ab8e5b34e5516ee
+Description:  CGI module
+
+Package: lighttpd
+Version: 1.4.35-2
+Depends: libc, libopenssl, libpcre, libpthread
+Source: feeds/packages/net/lighttpd
+Section: net
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: ar71xx
+Installed-Size: 84440
+Filename: lighttpd_1.4.35-2_ar71xx.ipk
+Size: 84291
+MD5Sum: 418b535e91b7fdff2277df5a6e8cea93
+SHA256sum: f6e54659336c42ea1c79f87532f27d4bb3caefdbe6669a69a0660ed30497dbd6
+Description:  A flexible and lightweight web server
+
+Package: luci-app-mwan3
+Version: 1.3-1
+Depends: libc, mwan3
+Source: feeds/packages/net/mwan3-luci
+License: GPLv2
+Section: LuCI
+Maintainer: Aedan Renner <chipdankly@gmail.com>
+Architecture: all
+Installed-Size: 13512
+Filename: luci-app-mwan3_1.3-1_all.ipk
+Size: 14221
+MD5Sum: 5c78fb110ac27f0879d72147bd657f0e
+SHA256sum: b371430f02c41c7065cbe9633222b94e7ea3f5893e9ce9c4f76faf58d1c99f93
+Description:  Hotplug script which makes configuration of multiple WAN interfaces simple and manageable
+ With loadbalancing/failover support for up to 250 WAN interfaces, connection tracking and an easy to manage traffic ruleset
+
+Package: mwan3
+Version: 1.5-8
+Depends: libc, ip, iptables, iptables-mod-conntrack-extra, iptables-mod-ipopt
+Source: feeds/packages/net/mwan3
+License: GPLv2
+Section: net
+Maintainer: Jeroen Louwes <jeroen.louwes@gmail.com>
+Architecture: all
+Installed-Size: 4875
+Filename: mwan3_1.5-8_all.ipk
+Size: 5576
+MD5Sum: 94019ccaab0c369b5c6af3fd7726d14f
+SHA256sum: dfe4e969f0f41df44375a837825fc2aedee5818a933f86b3b85da971557b1f9c
+Description:  Hotplug script which makes configuration of multiple WAN interfaces simple
+ and manageable. With loadbalancing/failover support for up to 250 wan
+ interfaces, connection tracking and an easy to manage traffic ruleset.
+
+Package: tinyproxy
+Version: 1.8.3-2
+Depends: libc
+Source: feeds/packages/net/tinyproxy
+Section: net
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 28698
+Filename: tinyproxy_1.8.3-2_ar71xx.ipk
+Size: 29079
+MD5Sum: 7a4a7922c37bc688e28470f6637fbd05
+SHA256sum: 026b098d3ca507469286ef53109e5f228ca5d183635978f49adf0d1f3d334bf4
+Description:  Tinyproxy is a lightweight HTTP and HTTPS proxy
+
+Package: transmission-cli
+Version: 2.84-1
+Depends: libc, transmission-daemon
+Source: feeds/packages/net/transmission
+Section: net
+Maintainer: Cezary Jackiewicz <cezary@eko.one.pl>
+Architecture: ar71xx
+Installed-Size: 739911
+Filename: transmission-cli_2.84-1_ar71xx.ipk
+Size: 735470
+MD5Sum: c5b96674609321a72a6f792c5d3588ea
+SHA256sum: 27608915fc14a4c90c971dc1aeeec4526b771b91cb059174eca5e1e207697399
+Description:  CLI utilities for transmission.
+
+Package: transmission-daemon
+Version: 2.84-1
+Depends: libc, libcurl, libopenssl, libpthread, libevent2, librt
+Source: feeds/packages/net/transmission
+Section: net
+Maintainer: Cezary Jackiewicz <cezary@eko.one.pl>
+Architecture: ar71xx
+Installed-Size: 189468
+Filename: transmission-daemon_2.84-1_ar71xx.ipk
+Size: 188993
+MD5Sum: 7c8477b123569fc9076450899aa02965
+SHA256sum: 34f03bb9a7b3b851bcec9a54c9a040e90df67cfec18165f6a68a82685cacd18f
+Description:  Transmission is a simple BitTorrent client.
+ It features a very simple, intuitive interface
+ on top on an efficient, cross-platform back-end.
+ This package contains the daemon itself.
+
+Package: transmission-remote
+Version: 2.84-1
+Depends: libc, libcurl, libopenssl, libpthread, libevent2, librt
+Source: feeds/packages/net/transmission
+Section: net
+Maintainer: Cezary Jackiewicz <cezary@eko.one.pl>
+Architecture: ar71xx
+Installed-Size: 196412
+Filename: transmission-remote_2.84-1_ar71xx.ipk
+Size: 195580
+MD5Sum: d6692218a48e39581a8c6a01a70d3de9
+SHA256sum: 2b171f71ce4137029e567a355c04753484c9b6ba30529ef9500dda21b549492a
+Description:  CLI remote interface for transmission.
+
+Package: transmission-web
+Version: 2.84-1
+Depends: libc, transmission-daemon
+Source: feeds/packages/net/transmission
+Section: net
+Maintainer: Cezary Jackiewicz <cezary@eko.one.pl>
+Architecture: ar71xx
+Installed-Size: 204331
+Filename: transmission-web_2.84-1_ar71xx.ipk
+Size: 205037
+MD5Sum: b20abbce32db25ef24af66eb8af7890c
+SHA256sum: dddb2cab4de6664c213ccc5f060b8bb9eee8ce8a758b25e4c651d64b78bc79a2
+Description:  Webinterface resources for transmission.
+
+Package: vsftpd-tls
+Version: 3.0.2-4
+Depends: libc, libopenssl
+Source: feeds/packages/net/vsftpd
+Section: net
+Maintainer: Cezary Jackiewicz <cezary@eko.one.pl>
+Architecture: ar71xx
+Installed-Size: 44976
+Filename: vsftpd-tls_3.0.2-4_ar71xx.ipk
+Size: 45127
+MD5Sum: 3dc38763643b1d7034a9ca483c8a0cc9
+SHA256sum: f8d0b96174c819aac13580760700ac7afb28999be63a05ed857770d210432715
+Description:  A fast and secure FTP server (TLS)
+
+Package: wget
+Version: 1.16-1
+Depends: libc, libpcre, libopenssl, librt
+Source: feeds/packages/net/wget
+Section: net
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: ar71xx
+Installed-Size: 183514
+Filename: wget_1.16-1_ar71xx.ipk
+Size: 183035
+MD5Sum: 0d8f7e7eb87bab5fb4de37f2e643adfb
+SHA256sum: b055f2d44136b17ec5a5fd40d55cdf557706f96939ad19d3605a351ca7254888
+Description:  Wget is a network utility to retrieve files from the Web using http
+ and ftp, the two most widely used Internet protocols. It works
+ non-interactively, so it will work in the background, after having
+ logged off. The program supports recursive retrieval of web-authoring
+ pages as well as ftp sites -- you can use wget to make mirrors of
+ archives and home pages or to travel the Web like a WWW robot.
+ This package is built with SSL support.
+
+Package: xl2tpd
+Version: 1.3.6-5619e1771048e74b729804e8602f409af0f3faea
+Depends: libc, ppp-mod-pppol2tp, ip, resolveip
+Source: feeds/packages/net/xl2tpd
+Section: net
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: ar71xx
+Installed-Size: 43929
+Filename: xl2tpd_1.3.6-5619e1771048e74b729804e8602f409af0f3faea_ar71xx.ipk
+Size: 44688
+MD5Sum: 2f71316f8a7635a0bcc1f11a62f625e7
+SHA256sum: e2893c42598fc8f4d2450e278a46645c2ef32864f76dcf9e1ca0c5ae732e965c
+Description:  l2tpd is the open source implementation of the L2TP tunneling protocol (RFC2661).
+ It does implement both LAC and LNS role in a L2TP networking architecture. The
+ main goal of this protocol is to tunnel PPP frame trough an IP network.
+

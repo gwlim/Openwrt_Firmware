@@ -1,0 +1,184 @@
+Package: miniupnpd
+Version: 1.8.20140523-4
+Depends: libc, iptables, libip4tc, libip6tc, ip6tables, libnfnetlink
+Source: feeds/routing/miniupnpd
+Section: net
+Maintainer: Markus Stenberg <fingon@iki.fi>
+Architecture: ar71xx
+Installed-Size: 52658
+Filename: miniupnpd_1.8.20140523-4_ar71xx.ipk
+Size: 53212
+MD5Sum: 5da358093a99a825979e3527ee03478e
+SHA256sum: 7cbb384dbc3ac4135a69a8c5926abdd1ee0122802068bbea4813f69b79a4f3c8
+Description:  Lightweight UPnP IGD, NAT-PMP & PCP daemon
+
+Package: quagga-bgpd
+Version: 0.99.22.3-1
+Depends: libc, quagga, quagga-libzebra
+Source: feeds/routing/quagga
+Section: net
+Maintainer: Vasilis Tsiligiannis <b_tsiligiannis@silverton.gr>
+Architecture: ar71xx
+Installed-Size: 171908
+Filename: quagga-bgpd_0.99.22.3-1_ar71xx.ipk
+Size: 170342
+MD5Sum: 31adb42cc364d79d8fd03663ec5c9049
+SHA256sum: 8f898b5c472d5b6e531b4008ab9a98f4602a1ccf2f4c99b1650c49124c3b05d1
+Description:  BGPv4, BGPv4+, BGPv4- routing engine
+
+Package: quagga-isisd
+Version: 0.99.22.3-1
+Depends: libc, quagga, quagga-libzebra
+Source: feeds/routing/quagga
+Section: net
+Maintainer: Vasilis Tsiligiannis <b_tsiligiannis@silverton.gr>
+Architecture: ar71xx
+Installed-Size: 70021
+Filename: quagga-isisd_0.99.22.3-1_ar71xx.ipk
+Size: 70085
+MD5Sum: 9a9103f58bb88954cf7d2fc43f05a6cf
+SHA256sum: cbdfabb5b8091eeb6564597cbaaff67071aa53826e93625e10fe9fcf1a913846
+Description:  IS-IS routing engine
+
+Package: quagga-libospf
+Version: 0.99.22.3-1
+Depends: libc, quagga
+Source: feeds/routing/quagga
+Section: net
+Maintainer: Vasilis Tsiligiannis <b_tsiligiannis@silverton.gr>
+Architecture: ar71xx
+Installed-Size: 163232
+Filename: quagga-libospf_0.99.22.3-1_ar71xx.ipk
+Size: 163165
+MD5Sum: 3b28358e6f13aabab3440ab032f961cf
+SHA256sum: 74e1b404ac2183ffb7e1d6acb318b54460b5b01ed54f2ac733c16d56ef35f66c
+Description:  OSPF library
+
+Package: quagga-libzebra
+Version: 0.99.22.3-1
+Depends: libc, quagga
+Source: feeds/routing/quagga
+Section: net
+Maintainer: Vasilis Tsiligiannis <b_tsiligiannis@silverton.gr>
+Architecture: ar71xx
+Installed-Size: 106438
+Filename: quagga-libzebra_0.99.22.3-1_ar71xx.ipk
+Size: 106010
+MD5Sum: e9111282c2c1652f5c1caa64c40eba79
+SHA256sum: 983eee548ce6e0ba2b72c1adb005a9640e6b1285c77a0ccf02a8a63c174f8a85
+Description:  zebra library
+
+Package: quagga-ospf6d
+Version: 0.99.22.3-1
+Depends: libc, quagga, quagga-libospf, quagga-libzebra
+Source: feeds/routing/quagga
+Section: net
+Maintainer: Vasilis Tsiligiannis <b_tsiligiannis@silverton.gr>
+Architecture: ar71xx
+Installed-Size: 72733
+Filename: quagga-ospf6d_0.99.22.3-1_ar71xx.ipk
+Size: 72810
+MD5Sum: df30eb85fd5a34e772027c12c07323ad
+SHA256sum: 64a4cd00a321ebb21216ce157d01013212b9c8f8df730cde0dbfbddeddb683de
+Description:  OSPFv3 routing engine
+
+Package: quagga-ospfd
+Version: 0.99.22.3-1
+Depends: libc, quagga, quagga-libospf, quagga-libzebra
+Source: feeds/routing/quagga
+Section: net
+Maintainer: Vasilis Tsiligiannis <b_tsiligiannis@silverton.gr>
+Architecture: ar71xx
+Installed-Size: 3723
+Filename: quagga-ospfd_0.99.22.3-1_ar71xx.ipk
+Size: 4316
+MD5Sum: d9eef49f7b1c4066e5f36b9626596653
+SHA256sum: edea5a94aceacb02276ac15dcb5c670aedeeb7ef44d0c18777ec8c110a0f94f9
+Description:  OSPFv2 routing engine
+
+Package: quagga-ripd
+Version: 0.99.22.3-1
+Depends: libc, quagga, quagga-libzebra
+Source: feeds/routing/quagga
+Section: net
+Maintainer: Vasilis Tsiligiannis <b_tsiligiannis@silverton.gr>
+Architecture: ar71xx
+Installed-Size: 33092
+Filename: quagga-ripd_0.99.22.3-1_ar71xx.ipk
+Size: 33247
+MD5Sum: 2885855b802fb9cfa66314828613d9d5
+SHA256sum: 309b623a213dcf372ee56667ae5411dfc98bda4d884b2f1e65b6cbca8d056583
+Description:  RIP routing engine
+
+Package: quagga-ripngd
+Version: 0.99.22.3-1
+Depends: libc, quagga, quagga-libzebra
+Source: feeds/routing/quagga
+Section: net
+Maintainer: Vasilis Tsiligiannis <b_tsiligiannis@silverton.gr>
+Architecture: ar71xx
+Installed-Size: 26806
+Filename: quagga-ripngd_0.99.22.3-1_ar71xx.ipk
+Size: 26956
+MD5Sum: e7efddb316fb8471c21874d54d3ae04a
+SHA256sum: e1bb2d7c2e7596ada00f944b62d94fc07334eb96a06104b325c3ec632b5d2151
+Description:  RIPNG routing engine
+
+Package: quagga-vtysh
+Version: 0.99.22.3-1
+Depends: libc, quagga, quagga-libzebra, libreadline, libncurses
+Source: feeds/routing/quagga
+Section: net
+Maintainer: Vasilis Tsiligiannis <b_tsiligiannis@silverton.gr>
+Architecture: ar71xx
+Installed-Size: 102416
+Filename: quagga-vtysh_0.99.22.3-1_ar71xx.ipk
+Size: 102774
+MD5Sum: a7c41c8224c5078bd4972796dacf81e0
+SHA256sum: 355049d657449f5c7aa00e78c782f9f65fe5deb012e5365e8eac128128b6f8d5
+Description:  integrated shell for Quagga routing software
+
+Package: quagga-watchquagga
+Version: 0.99.22.3-1
+Depends: libc, quagga, quagga-libzebra
+Source: feeds/routing/quagga
+Section: net
+Maintainer: Vasilis Tsiligiannis <b_tsiligiannis@silverton.gr>
+Architecture: ar71xx
+Installed-Size: 10961
+Filename: quagga-watchquagga_0.99.22.3-1_ar71xx.ipk
+Size: 11554
+MD5Sum: 02498370a8a331080fdca8f0f4c18f0e
+SHA256sum: 84740c033ee31daffb2ca21d0b585cc370360cccb7845ba9d115663c6840281c
+Description:  Quagga watchdog
+
+Package: quagga-zebra
+Version: 0.99.22.3-1
+Depends: libc, quagga, quagga-libzebra
+Source: feeds/routing/quagga
+Section: net
+Maintainer: Vasilis Tsiligiannis <b_tsiligiannis@silverton.gr>
+Architecture: ar71xx
+Installed-Size: 63778
+Filename: quagga-zebra_0.99.22.3-1_ar71xx.ipk
+Size: 63605
+MD5Sum: 7dfb930722fd811a736d913caa27bff1
+SHA256sum: a5a5f359ec53c81208157cd68699d4582d8c2c37dc6fc5e73199322a9e574118
+Description:  Zebra daemon
+
+Package: quagga
+Version: 0.99.22.3-1
+Depends: libc, librt
+Source: feeds/routing/quagga
+Section: net
+Maintainer: Vasilis Tsiligiannis <b_tsiligiannis@silverton.gr>
+Architecture: ar71xx
+Installed-Size: 2396
+Filename: quagga_0.99.22.3-1_ar71xx.ipk
+Size: 3032
+MD5Sum: db274729839ebc69826e8ec4e02f2bec
+SHA256sum: f3d4e4d93da91a384eac3d92b60037d78da249874be39e8e591ebde31482c62a
+Description:  A routing software package that provides TCP/IP based routing services
+ with routing protocols support such as RIPv1, RIPv2, RIPng, OSPFv2,
+ OSPFv3, BGP-4, and BGP-4+
+
