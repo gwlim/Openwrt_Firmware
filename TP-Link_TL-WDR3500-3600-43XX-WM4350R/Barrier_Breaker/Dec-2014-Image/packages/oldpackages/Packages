@@ -1,27 +1,14 @@
-Package: hd-idle
-Version: 1.04-1
-Depends: libc
-Source: feeds/oldpackages/utils/hd-idle
-Section: utils
-Architecture: ar71xx
-Installed-Size: 4724
-Filename: hd-idle_1.04-1_ar71xx.ipk
-Size: 5280
-MD5Sum: 0a21a6494c69ad91fe6b225e3722d14c
-SHA256sum: 0c4331a2c3a163645158bf87562ba788e7959f7e6421a3630a93628fde2507aa
-Description:  Another idle-daemon for attached hard drives
-
 Package: l7-protocols
 Version: 2009-05-28-2
 Depends: libc, iptables-mod-filter
 Source: feeds/oldpackages/net/l7-protocols
 Section: net
 Architecture: ar71xx
-Installed-Size: 48357
+Installed-Size: 48362
 Filename: l7-protocols_2009-05-28-2_ar71xx.ipk
-Size: 48420
-MD5Sum: 854eb584e287248da74759a7558a1c5e
-SHA256sum: c735375306867ff388aea5d97b03a72d98e70812490b72dd31f7c6ba5f836a14
+Size: 48429
+MD5Sum: f6c49b733f51fb5be74f717e951fdfe6
+SHA256sum: 7a6e11340a6e3d73f79302d7562b3bbca0416f4a5b786f4872c99e408d6b946a
 Description:  l7-filter classifies packets based on patterns in application
  layer data. This allows correct classification of P2P traffic that
  uses unpredictable ports as well as standard protocols running on
@@ -33,11 +20,11 @@ Depends: libc
 Source: feeds/oldpackages/net/p910nd
 Section: net
 Architecture: ar71xx
-Installed-Size: 5258
+Installed-Size: 5260
 Filename: p910nd_0.95-3_ar71xx.ipk
-Size: 5984
-MD5Sum: 2144087ecaf7e07264a920416102dd07
-SHA256sum: b700d95b5be9612e749858bf27db50cc89f6b9eed22672072e71c60fccb34200
+Size: 5992
+MD5Sum: 93538ceca673b2648a7342cb1e6d9462
+SHA256sum: 5d02c73407a9b8f090a27afea5081ef707f421073444600cffabb39ba04532fc
 Description:  p910nd is a small daemon that copies any data received on
  the port it is listening on to the corresponding printer
  port. It is primarily intended for diskless Linux hosts
@@ -53,11 +40,29 @@ Source: feeds/oldpackages/utils/restorefactory
 Section: utils
 Maintainer: Nuno Goncalves <nunojpg@gmail.com>
 Architecture: ar71xx
-Installed-Size: 667
+Installed-Size: 666
 Filename: restorefactory_1-6_ar71xx.ipk
-Size: 1298
-MD5Sum: d44bab8922445364dd4e9973d28ead08
-SHA256sum: 94540484ed05f1953b7783e43ebe7fed594c71b908795848046f84b58b1529f3
+Size: 1299
+MD5Sum: df35c4a39f93af8b29bcada2f5e9a523
+SHA256sum: bf3c2ad15c4770fbe6eddcf8987f248b305b13ae179d447c55c0ec5269f3f071
 Description:  RestoreFactory handles the reset button event and issues a "firstboot" command.
  Button and wait time can be configured with a UCI file.
+
+Package: tor
+Version: 0.2.4.22-1
+Depends: libc, libevent2, libopenssl, libpthread, librt
+Source: feeds/oldpackages/net/tor
+Section: net
+Architecture: ar71xx
+Installed-Size: 575633
+Filename: tor_0.2.4.22-1_ar71xx.ipk
+Size: 573622
+MD5Sum: 0b5cc3de58c82a819dba64adc8c8858a
+SHA256sum: bb0a4bc852cbe702b2668aa5b6d86438190aec7863c7aa7b6efbd43cbd4c0475
+Description:  Tor is a toolset for a wide range of organizations and people that want to
+ improve their safety and security on the Internet. Using Tor can help you
+ anonymize web browsing and publishing, instant messaging, IRC, SSH, and
+ more. Tor also provides a platform on which software developers can build
+ new applications with built-in anonymity, safety, and privacy features.
+ This package contains the tor daemon.
 
