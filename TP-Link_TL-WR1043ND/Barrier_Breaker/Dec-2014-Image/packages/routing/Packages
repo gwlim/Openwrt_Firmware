@@ -5,10 +5,10 @@ Source: feeds/routing/miniupnpd
 Section: net
 Maintainer: Markus Stenberg <fingon@iki.fi>
 Architecture: ar71xx
-Installed-Size: 52659
+Installed-Size: 52653
 Filename: miniupnpd_1.8.20140523-4_ar71xx.ipk
-Size: 53212
-MD5Sum: 6c9a6ee7d5ddadf32e2db889580ce44a
-SHA256sum: 19c10c628397c98276bb90acae3fb8eb330531640831e810981d5e4ae6ca80a2
+Size: 53217
+MD5Sum: 86958c0ffec1d251d810546737ef140c
+SHA256sum: e08949f663febb5feb5b345a9ecbf1b1281159d86d702dc9309cf68c75de9424
 Description:  Lightweight UPnP IGD, NAT-PMP & PCP daemon
 

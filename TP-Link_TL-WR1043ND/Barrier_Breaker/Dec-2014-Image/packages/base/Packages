@@ -7,9 +7,9 @@ Maintainer: Jo-Philipp Wich <xm@subsignal.org>
 Architecture: all
 Installed-Size: 1195
 Filename: 6in4_17-1_all.ipk
-Size: 1841
-MD5Sum: 5beaf7332f6e1f2e1172246ba6f33995
-SHA256sum: 7965cc481808f2fd2657c772b93d45e0d85922df6d202f585317511636abcff6
+Size: 1833
+MD5Sum: d6e43bf3b3fdceff03daa6489928a6ce
+SHA256sum: fa59e8d234db786cb0e5af01628ad29e40adf8d069f40465e10ae34af99f4c86
 Description:  Provides support for 6in4 tunnels in /etc/config/network.
  Refer to http://wiki.openwrt.org/doc/uci/network for
  configuration details.
@@ -21,11 +21,11 @@ Source: package/network/ipv6/6rd
 Section: net
 Maintainer: Stéphan Kochen <stephan@kochen.nl>
 Architecture: all
-Installed-Size: 2990
+Installed-Size: 2992
 Filename: 6rd_7-1_all.ipk
-Size: 3610
-MD5Sum: 05ce39b369b7239e7b246f1d0bfa5c69
-SHA256sum: cbc89ad3d4d9e1a381dcd9c457189c003583097585fa834ab494a613cce0530b
+Size: 3599
+MD5Sum: 6b2eadee1ad18dcf8037c6907447e166
+SHA256sum: 527f4735fe2272e900b4641f47a3322b4a5a0207940044fe258e7f9f57536237
 Description:  Provides support for 6rd tunnels in /etc/config/network.
  Refer to http://wiki.openwrt.org/doc/uci/network for
  configuration details.
@@ -37,26 +37,26 @@ Source: package/network/ipv6/6to4
 Section: net
 Maintainer: Jo-Philipp Wich <xm@subsignal.org>
 Architecture: all
-Installed-Size: 1074
+Installed-Size: 1075
 Filename: 6to4_12-1_all.ipk
-Size: 1710
-MD5Sum: 93491c392432b3a818075721e8847da2
-SHA256sum: 9bc2006429b1188d9a6c39a151e8a81952c535843470e78d61df9d25b853c95f
+Size: 1709
+MD5Sum: 6c0c2860b1bd799e3f6254e2d0796593
+SHA256sum: e7835f7886d4968ba0ffbbbd6bd6f2304f8528df4e9ab690a328bb3397d841cd
 Description:  Provides support for 6to4 tunnels in /etc/config/network.
  Refer to http://wiki.openwrt.org/doc/uci/network for
  configuration details.
 
 Package: base-files
-Version: 156-r43416
+Version: 156-r43439
 Depends: libc, netifd, procd, jsonfilter
 Source: package/base-files
 Section: base
 Architecture: ar71xx
-Installed-Size: 41079
-Filename: base-files_156-r43416_ar71xx.ipk
-Size: 41855
-MD5Sum: 14388f813245223947b2cdd3c27d1d99
-SHA256sum: c3a3a94fce5f4d117f63f55d5167679b25cfa91f7a1f54ba1425bbd71f8f61f3
+Installed-Size: 41087
+Filename: base-files_156-r43439_ar71xx.ipk
+Size: 41874
+MD5Sum: 4bf97621d4219508f59ca11834167e5e
+SHA256sum: 87884fe0c6a0dc129d2e351112de83e2186f37f47562d862524998bcc2f5f4fa
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -67,11 +67,11 @@ License: GPLv2
 Section: base
 Maintainer: John Crispin <blogic@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 17012
+Installed-Size: 17011
 Filename: block-mount_2014-06-22-e0430f5c62f367e5a8e02755412977b02c3fc45e_ar71xx.ipk
-Size: 17644
-MD5Sum: 86d9d7d3ee9f58ff2558e0e7c06aad54
-SHA256sum: b938e74b020d4a40dc2a582fdb2f1b4bb18885fdef70acadb6a5c6337cd83921
+Size: 17639
+MD5Sum: 5951c854bf884809500c2aa09d66e091
+SHA256sum: 7ec14186440b60ca57c83a36469ca00dc2c4fb29c931ba84af8c17263954079c
 Description:  Block device mounting and checking
 
 Package: busybox
@@ -84,11 +84,11 @@ Section: base
 Essential: yes
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 242741
+Installed-Size: 242719
 Filename: busybox_1.22.1-3_ar71xx.ipk
-Size: 241538
-MD5Sum: 5b7443368e3e7bec15e801456215d02a
-SHA256sum: c2b76cf239f6eab0ed14b28593e0bbe6fae32c42debb50a6910a883e3d3a0c1c
+Size: 241509
+MD5Sum: 736aa52cd6ea3919666425aa74449904
+SHA256sum: bbef58a2882b76f683c66ede50d5f63a8a5487a52e8f3f4aeb751135a53a03ab
 Description:  The Swiss Army Knife of embedded Linux.
  It slices, it dices, it makes Julian Fries.
 
@@ -99,11 +99,11 @@ Source: package/network/services/ppp
 Section: net
 Maintainer: Jo-Philipp Wich <xm@subsignal.org>
 Architecture: ar71xx
-Installed-Size: 8862
+Installed-Size: 8865
 Filename: chat_2.4.7-2_ar71xx.ipk
-Size: 9456
-MD5Sum: a918f7dbca37872d93b13520c375e9c5
-SHA256sum: 6bf165438ebd8f45c31edb5209e3f79dbcf527c542d7c20229bb9b39817dddd1
+Size: 9466
+MD5Sum: e5e58bca0ea2548b55253fd5c95a23dc
+SHA256sum: 3f8e1575de986cd4f6cf41bc769d0d1bf342f6f0629486980758e6725a88814a
 Description:  This package contains an utility to establish conversation with other PPP servers
  (via a modem).
 
@@ -114,11 +114,11 @@ Source: package/network/utils/comgt
 Section: utils
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 20301
+Installed-Size: 20298
 Filename: comgt_0.32-23_ar71xx.ipk
-Size: 20952
-MD5Sum: 647fae353d00e34dd1dcec3f0ad036c1
-SHA256sum: 3429be44afe797f2b600991eb6f4be17a2da4a095296f2f0ba64ac250c741aa0
+Size: 20963
+MD5Sum: 405a4cd920fe8a08a931e856449b3384
+SHA256sum: b43014e365023d356a89f2ec2870fc101953182812f3f06628179cd56bcb7429
 Description:  comgt is a scripting language interpreter useful for establishing 
  communications on serial lines and through PCMCIA modems as well as GPRS 
  and 3G datacards.
@@ -131,11 +131,11 @@ License: GPLv2
 LicenseFiles: COPYING
 Section: net
 Architecture: ar71xx
-Installed-Size: 92797
+Installed-Size: 92796
 Filename: dnsmasq_2.71-4_ar71xx.ipk
-Size: 93068
-MD5Sum: 9169f307df948afc04fe5c3ab6d325e4
-SHA256sum: 48c69f8d55571004df6c81108b813b7340b31a1adc8571851be22480cfc71d5d
+Size: 93047
+MD5Sum: cd7ee9341075296ba2b7ae9c7e8c9afd
+SHA256sum: aab73dfd3613594b0106ad1a8f8172a2a184ec996cb1c712c42d9ec006fc7991
 Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
 
 Package: dropbear
@@ -146,11 +146,11 @@ License: MIT
 LicenseFiles: LICENSE libtomcrypt/LICENSE libtommath/LICENSE
 Section: net
 Architecture: ar71xx
-Installed-Size: 80659
+Installed-Size: 80657
 Filename: dropbear_2014.63-2_ar71xx.ipk
-Size: 80855
-MD5Sum: 5f4288c3ab86f1cdb5e054a1b9cbfb28
-SHA256sum: 0052ef87465754149831a993a0590729b951d53fa9083284de3d8f87eb206a02
+Size: 80864
+MD5Sum: f926d30c9c38e061e0458a3475811411
+SHA256sum: 6d1f0c36dcdd4afd895e4f22edc04de07d646bcfe3cebc611fd240ba38228d55
 Description:  A small SSH2 server/client designed for small memory environments.
 
 Package: ds-lite
@@ -162,9 +162,9 @@ Maintainer: Steven Barth <steven@midlink.org>
 Architecture: all
 Installed-Size: 974
 Filename: ds-lite_4-1_all.ipk
-Size: 1608
-MD5Sum: e8a3a55c00fd9c2294e198a5f1962d30
-SHA256sum: c8d0f1165c51882653dba770583453e093a1156183b7311054ec896fc5936133
+Size: 1607
+MD5Sum: 675441f3844877dfeec8e79f4ed74e27
+SHA256sum: 01999019b27705e7dc23ed29d24ebbedaa2415e993bb39192331d7a5d830f07e
 Description:  Provides support for Dual-Stack Lite in /etc/config/network.
  Refer to http://wiki.openwrt.org/doc/uci/network for
  configuration details.
@@ -176,11 +176,11 @@ Source: package/network/config/firewall
 Section: net
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 59883
+Installed-Size: 59882
 Filename: firewall_2014-09-19_ar71xx.ipk
-Size: 60116
-MD5Sum: d2a65c4928d2a4fec8dd0fbfc47dcb59
-SHA256sum: f19fc39bd6842c118d4d06d213e07426ebf66b6df8a69dfbded5f5323cffd706
+Size: 60100
+MD5Sum: e3e05b5a9c766c58e9435a09a64b2ee0
+SHA256sum: f43aa0b542dbe5ebe804e03cf663281ca5c3660895660ddae86014dae25b52d4
 Description:  This package provides a config-compatible C implementation of the UCI firewall.
 
 Package: fstools
@@ -191,11 +191,11 @@ License: GPLv2
 Section: base
 Maintainer: John Crispin <blogic@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 16599
+Installed-Size: 16593
 Filename: fstools_2014-06-22-e0430f5c62f367e5a8e02755412977b02c3fc45e_ar71xx.ipk
-Size: 17060
-MD5Sum: a83257676b74d67ad38d2fba2d4d4281
-SHA256sum: cf4a76d6235155695b7afbdb80602cc785ea551b42ba471a09db66eaf64260ab
+Size: 17049
+MD5Sum: 19ae033f3812bdcc0f2925175b74f967
+SHA256sum: 995eab493018e5227cd44f16544a90aed61793c05670cd464923f2f5a4c8bc92
 Description:  OpenWrt filesystem tools
 
 Package: hostapd-common
@@ -205,11 +205,11 @@ Source: package/network/services/hostapd
 Section: net
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 4380
+Installed-Size: 4382
 Filename: hostapd-common_2014-06-03.1-1_ar71xx.ipk
-Size: 4972
-MD5Sum: 76dfed1882f6d217b53f38a7518b3f37
-SHA256sum: 7ccb361efbc3e4070ed665ea8d43a52c986b2f42252e1a944c211a6730c37e4b
+Size: 4977
+MD5Sum: 122ac2c688226469d8f9e1336ce6ab82
+SHA256sum: 020c37c34306f18a1d8eb0b657aaa8dd9210df2fddf6c11db30330997514d32f
 Description:  hostapd/wpa_supplicant common support files
 
 Package: igmpproxy
@@ -219,11 +219,11 @@ Source: package/network/services/igmpproxy
 Section: net
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 14059
+Installed-Size: 14054
 Filename: igmpproxy_0.1-8_ar71xx.ipk
-Size: 14725
-MD5Sum: 8addbbd2b7e9f118ecc0d0e8f5ac86a9
-SHA256sum: 57480df6c46c1fcdf35b310d68b8ed0e35849ebf72c621a253fe0a59e09364d0
+Size: 14721
+MD5Sum: e681acb9d11e1b51441d80d1cf374ed4
+SHA256sum: 7b37b4966f0c55e48868b3bea665ffae3529f4969976096a58fba8ca80c9302d
 Description:  IGMPproxy is a simple dynamic Multicast Routing Daemon using
  only IGMP signalling (Internet Group Management Protocol).
 
@@ -233,11 +233,11 @@ Depends: libc, kmod-ip6tables, iptables
 Source: package/network/utils/iptables
 Section: net
 Architecture: ar71xx
-Installed-Size: 214
+Installed-Size: 215
 Filename: ip6tables_1.4.21-1_ar71xx.ipk
-Size: 730
-MD5Sum: 70b9c8137559963393967f23a43a9285
-SHA256sum: 1469adce60505e2c45c20875a2e6fe57e0c204386f8e13c5974562daf60b6e37
+Size: 735
+MD5Sum: a488c65a4840f692ac692816f30ef42e
+SHA256sum: 2334a425de7bc63fadd5dde1dca49236c690995a3383f6bfca54f8cc2423757b
 Description:  IPv6 firewall administration tool
 
 Package: ip
@@ -247,11 +247,11 @@ Source: package/network/utils/iproute2
 Section: net
 Maintainer: Russell Senior <russell@personaltelco.net>
 Architecture: ar71xx
-Installed-Size: 68049
+Installed-Size: 68050
 Filename: ip_3.15.0-1_ar71xx.ipk
-Size: 68577
-MD5Sum: f8ae19e759baa9b871cbc3f7f0612885
-SHA256sum: 20a221c3f699462a73114b44f7e2f10e06b4555b1657d02a06da46a677957cbc
+Size: 68583
+MD5Sum: 7fdd37a8c86e3f09eaa6f80ad6ba8cb3
+SHA256sum: 2e4b7d1f2130534663c84319a824540d7d7bdcd2afb8335e6adc7865f794c327
 Description:  Routing control utility (Minimal)
 
 Package: iptables-mod-conntrack-extra
@@ -262,9 +262,9 @@ Section: net
 Architecture: ar71xx
 Installed-Size: 9051
 Filename: iptables-mod-conntrack-extra_1.4.21-1_ar71xx.ipk
-Size: 9675
-MD5Sum: fb8c2509550f12919f006164bbe5cc0b
-SHA256sum: 43aef95371539d58c9918457fe08014f5e2073ef03c478083a16e81718879a8b
+Size: 9680
+MD5Sum: 7eed17898e9566b439377e66f38d8b10
+SHA256sum: 6227daa503678f10629470de8586e62de270b0d0c3cce0df9ccf2d54f840c507
 Description:  Extra iptables extensions for connection tracking.
  
  Matches:
@@ -284,11 +284,11 @@ Depends: libc, iptables, kmod-ipt-filter
 Source: package/network/utils/iptables
 Section: net
 Architecture: ar71xx
-Installed-Size: 14338
+Installed-Size: 14339
 Filename: iptables-mod-filter_1.4.21-1_ar71xx.ipk
-Size: 14898
-MD5Sum: 301baa4b6dbf5d818a53b1bb1c20e6af
-SHA256sum: 73cb9965c3b15c523aeeaea10dcfcdcd3cb0651d574ac1d314d5e4f976fc79f7
+Size: 14900
+MD5Sum: e8fea60559e4989f46deec7367ba82fd
+SHA256sum: 5e102a4a2ae6992cb9b4997873d0573a8a3a02b5c269c7fea1a099f7c2e80071
 Description:  iptables extensions for packet content inspection.
  Includes support for:
  
@@ -303,11 +303,11 @@ Depends: libc, iptables, kmod-ipt-ipopt
 Source: package/network/utils/iptables
 Section: net
 Architecture: ar71xx
-Installed-Size: 13070
+Installed-Size: 13073
 Filename: iptables-mod-ipopt_1.4.21-1_ar71xx.ipk
-Size: 13623
-MD5Sum: 836d2ba4bebeb05fcdea9e83d0e5e887
-SHA256sum: a911280593f1e8de5697383cc4525f4a6a41a8740f62c9c3a1383e7a0504441a
+Size: 13640
+MD5Sum: 8c03b70407053411f54171fafa9bf9e8
+SHA256sum: 89db0dd622f8662a9f5f57633c928a1a9b51b18fc6ae218bdb4342863b05584f
 Description:  iptables extensions for matching/changing IP packet options.
  
  Matches:
@@ -335,9 +335,9 @@ Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: ar71xx
 Installed-Size: 2604
 Filename: iptables-mod-ipp2p_2.3-1_ar71xx.ipk
-Size: 3192
-MD5Sum: e59dc8c6c88e36a2e2a999a4117cb765
-SHA256sum: 3394efe91d5f941a93044b94ccc8b2318092d1203c127ab2569863dd5a48c89c
+Size: 3186
+MD5Sum: 73c5df88461b54b84cb573351e972ae8
+SHA256sum: a7b868acb27e24ded76010c3ff90ca683ec1247820f18f6a6c9574ff07cef426
 Description:  IPP2P iptables extension
 
 Package: iptables
@@ -346,11 +346,11 @@ Depends: libc, kmod-ipt-core, libip4tc, libip6tc, libxtables
 Source: package/network/utils/iptables
 Section: net
 Architecture: ar71xx
-Installed-Size: 49772
+Installed-Size: 49774
 Filename: iptables_1.4.21-1_ar71xx.ipk
-Size: 49984
-MD5Sum: f80178e46523e138247cfd42c558802c
-SHA256sum: 70834093ce49f757d7c5b7408f45af37ebdd6b86e97f2cf8196b3ff3079e81ec
+Size: 49993
+MD5Sum: a36aa5ed8cd40f985c7a07bf21f45bd4
+SHA256sum: 71147ddcd654b3427aa6f5fe3e77e843834718240ce7daaace1143040537ced0
 Description:  IP firewall administration tool.
  
  Matches:
@@ -395,11 +395,11 @@ Source: package/network/utils/iw
 Section: net
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 42366
+Installed-Size: 42367
 Filename: iw_3.15-1_ar71xx.ipk
-Size: 42941
-MD5Sum: aeecf939f4ec82ce4518ab24637a493d
-SHA256sum: 517c965a1ff46f0742e34e6c613932f7aa5aafcd2226d35f22a94437ea07f0b5
+Size: 42940
+MD5Sum: b878c39e635d3b93838b6f545aaff43a
+SHA256sum: 74180482654b2fa7d5aee024748b73109b2ae93673fbc3e99eed03faaee8db99
 Description:  cfg80211 interface configuration utility
 
 Package: iwinfo
@@ -411,9 +411,9 @@ Maintainer: Jo-Philipp Wich <xm@subsignal.org>
 Architecture: ar71xx
 Installed-Size: 5622
 Filename: iwinfo_51_ar71xx.ipk
-Size: 6207
-MD5Sum: 4af6f4e915c99631116f3214bd0ea63a
-SHA256sum: 031a6bf18cc08ad41932bc7696bdb7744772044c3aa554cc0770c39926eaa954
+Size: 6206
+MD5Sum: bc1475ece1a756099f319cc9c34ffe3f
+SHA256sum: 02add5c8910f764f43b59fa0793b42656775699b4ad4c132844386f999bcd518
 Description:  Command line frontend for the wireless information library.
 
 Package: jshn
@@ -424,11 +424,11 @@ License: ISC BSD-3c
 Section: utils
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 5322
+Installed-Size: 5321
 Filename: jshn_2014-11-23-f09ae76445e32511433fdab0a1bcda73aa84986d_ar71xx.ipk
-Size: 5970
-MD5Sum: e9b363780d53ff370dfb7f995d4e4f8b
-SHA256sum: 6fad067dfd3bfbe0f4beac08a4b1a9b8c6d32ed908e02f53058b4d7c814e4a73
+Size: 5966
+MD5Sum: 537483d6122716bd51a8973f6c7ea19f
+SHA256sum: a984cc85f59f5df58a6374f41c66a67d2c1c5647feaff24d88f7d24c030659a8
 Description:  Library for parsing and generating JSON from shell scripts
 
 Package: jsonfilter
@@ -438,201 +438,201 @@ Source: package/utils/jsonfilter
 Section: base
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 7951
+Installed-Size: 7954
 Filename: jsonfilter_2014-06-19-cdc760c58077f44fc40adbbe41e1556a67c1b9a9_ar71xx.ipk
-Size: 8584
-MD5Sum: a3ac97dcbdb3868eeaacfdc49f74d4c6
-SHA256sum: 43b2fafbbc8f6761768d3aec8227ee8e2b21bb1018419007250949c0b93b4d42
+Size: 8587
+MD5Sum: ecbad5c0c7162eac71f42cc5c005ff8e
+SHA256sum: cc0c6bbb3759ed6fe5908ac7316a101e4d3ea49a187f0739853981938be3bc54
 Description:  OpenWrt JSON filter utility
 
 Package: kmod-ath9k-common
-Version: 3.10.61+2014-05-22-1
-Depends: kernel (=3.10.61-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-ath
+Version: 3.10.60+2014-05-22-1
+Depends: kernel (=3.10.60-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-ath
 Source: package/kernel/mac80211
 Section: kernel
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 105214
-Filename: kmod-ath9k-common_3.10.61+2014-05-22-1_ar71xx.ipk
-Size: 102925
-MD5Sum: bb47c75f29af52a3c95b3999b30e29ba
-SHA256sum: 0ff1aa96f8b1d2061f4df4704193fe76f99be782e65776a78f38ea088d860504
+Installed-Size: 105166
+Filename: kmod-ath9k-common_3.10.60+2014-05-22-1_ar71xx.ipk
+Size: 102764
+MD5Sum: 4846e87a2cbe260944915a1974df9ba4
+SHA256sum: 067d8fc50da3080011fb6f5b0835e9ce55fc281f334b4d20d5cc1deb31d943d5
 Description:  Atheros 802.11n wireless devices (common code for ath9k and ath9k_htc)
 
 Package: kmod-ath9k
-Version: 3.10.61+2014-05-22-1
-Depends: kernel (=3.10.61-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-ath9k-common
+Version: 3.10.60+2014-05-22-1
+Depends: kernel (=3.10.60-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-ath9k-common
 Source: package/kernel/mac80211
 Section: kernel
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 39837
-Filename: kmod-ath9k_3.10.61+2014-05-22-1_ar71xx.ipk
-Size: 40516
-MD5Sum: 762ebae62efb6bf4f4a4c460ffc6ea42
-SHA256sum: 94b979f44935556fc080b2c19702817d810929e29289d68baa91fabf7e3ab69f
+Installed-Size: 39839
+Filename: kmod-ath9k_3.10.60+2014-05-22-1_ar71xx.ipk
+Size: 40518
+MD5Sum: 4c91834685360767b58fc1eafaab8a40
+SHA256sum: 41299d1fa316c27a2193bb82bf020df5bb2f4959b689a835f502535dd65b0343
 Description:  This module adds support for wireless adapters based on
  Atheros IEEE 802.11n AR5008 and AR9001 family of chipsets.
 
 Package: kmod-ath
-Version: 3.10.61+2014-05-22-1
-Depends: kernel (=3.10.61-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-mac80211
+Version: 3.10.60+2014-05-22-1
+Depends: kernel (=3.10.60-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-mac80211
 Source: package/kernel/mac80211
 Section: kernel
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 11530
-Filename: kmod-ath_3.10.61+2014-05-22-1_ar71xx.ipk
-Size: 11909
-MD5Sum: 71350cb33b52ff436d45b98503bd18bf
-SHA256sum: 8cdc67d8b1e3a2ee8e38a892351632d2aa15a3e1bfa6060a7bbf9ea8b14dac20
+Installed-Size: 11529
+Filename: kmod-ath_3.10.60+2014-05-22-1_ar71xx.ipk
+Size: 11908
+MD5Sum: 2213001136e171161e3123feaaa00440
+SHA256sum: b2a513070faff97d17f611a263b50c95b0107b63a50f5a5cb8611fa866a0093d
 Description:  This module contains some common parts needed by Atheros Wireless drivers.
 
 Package: kmod-cfg80211
-Version: 3.10.61+2014-05-22-1
-Depends: kernel (=3.10.61-1-eb60810c012fdcd9b9665c44ebbbcc7b), iw
+Version: 3.10.60+2014-05-22-1
+Depends: kernel (=3.10.60-1-eb60810c012fdcd9b9665c44ebbbcc7b), iw
 Source: package/kernel/mac80211
 Section: kernel
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 109273
-Filename: kmod-cfg80211_3.10.61+2014-05-22-1_ar71xx.ipk
-Size: 109422
-MD5Sum: 420f5c24fb29388f23de90791ebbc1be
-SHA256sum: c40cf5f4c0571ceda2996307f85780d94782c41b151cba02f4ff4b343c76ff34
+Installed-Size: 109276
+Filename: kmod-cfg80211_3.10.60+2014-05-22-1_ar71xx.ipk
+Size: 109433
+MD5Sum: efc9223f09370b722f7c415ada0af0d0
+SHA256sum: ee31fdb4e01d7a93029b1fda616308452c5f4caf2f768c3cb96facd3812d2a82
 Description:  cfg80211 is the Linux wireless LAN (802.11) configuration API.
 
 Package: kmod-crypto-aes
-Version: 3.10.61-1
-Depends: kernel (=3.10.61-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-crypto-core
+Version: 3.10.60-1
+Depends: kernel (=3.10.60-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-crypto-core
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ar71xx
-Installed-Size: 105
-Filename: kmod-crypto-aes_3.10.61-1_ar71xx.ipk
-Size: 679
-MD5Sum: baba20f79e9f1becad2b090b6983bd61
-SHA256sum: 54e83ea31d4ca6427c212a1b8bde8c5c8953f019b98620aa7e6f826b83636a9d
+Installed-Size: 106
+Filename: kmod-crypto-aes_3.10.60-1_ar71xx.ipk
+Size: 682
+MD5Sum: 91df5a1bf4e6ec4312003bca98b1b828
+SHA256sum: 1b9e0e2be461ac441a317f4e6d7141568c424bee695905b5d8d9e57069ea519d
 Description:  AES cipher CryptoAPI module
 
 Package: kmod-crypto-arc4
-Version: 3.10.61-1
-Depends: kernel (=3.10.61-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-crypto-core
+Version: 3.10.60-1
+Depends: kernel (=3.10.60-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-crypto-core
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ar71xx
-Installed-Size: 1244
-Filename: kmod-crypto-arc4_3.10.61-1_ar71xx.ipk
+Installed-Size: 1246
+Filename: kmod-crypto-arc4_3.10.60-1_ar71xx.ipk
 Size: 1868
-MD5Sum: 8a268449c7d5b59666260dc2690db897
-SHA256sum: dd590613b3c9148d8bedf87498cca278f3b49a751a66374593c97ba11efea7c2
+MD5Sum: 0f73b374a88f26f49168fb8e78065294
+SHA256sum: cb6f7dec721d6e306df9bdb2f1059bbda9c32fdcb8e527a614de04caf2fdbbb4
 Description:  ARC4 (RC4) cipher CryptoAPI module
 
 Package: kmod-crypto-core
-Version: 3.10.61-1
-Depends: kernel (=3.10.61-1-eb60810c012fdcd9b9665c44ebbbcc7b)
+Version: 3.10.60-1
+Depends: kernel (=3.10.60-1-eb60810c012fdcd9b9665c44ebbbcc7b)
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ar71xx
 Installed-Size: 7022
-Filename: kmod-crypto-core_3.10.61-1_ar71xx.ipk
+Filename: kmod-crypto-core_3.10.60-1_ar71xx.ipk
 Size: 7648
-MD5Sum: 73b4db49117a002e5e1a7eca64abc193
-SHA256sum: 25b41f80b0cda4104280b0c936f32829bf6f92cf3fed1a42056a9e3af19d4590
+MD5Sum: a1c8db898c9689d9cbee669b4e8e20a7
+SHA256sum: 65f8f3a6dced4139a3cafa32ba7940a42ba471f36d5f52713c9deffd86a2aba0
 Description:  Core CryptoAPI modules
 
 Package: kmod-crypto-ecb
-Version: 3.10.61-1
-Depends: kernel (=3.10.61-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-crypto-manager, kmod-crypto-core
+Version: 3.10.60-1
+Depends: kernel (=3.10.60-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-crypto-manager, kmod-crypto-core
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ar71xx
-Installed-Size: 1560
-Filename: kmod-crypto-ecb_3.10.61-1_ar71xx.ipk
-Size: 2189
-MD5Sum: 920588abea726eb0dc2cd751c71c19d1
-SHA256sum: 7c70039e37349282a7fbe5d7cfaa44dab7ed92e9f69e7a9a496ca41da8709a5f
+Installed-Size: 1559
+Filename: kmod-crypto-ecb_3.10.60-1_ar71xx.ipk
+Size: 2187
+MD5Sum: 6dad605b636db512bda54c751e485d41
+SHA256sum: 4568fecc9c44859b1fd8558587eb7442faffc70bf606a12971185ba57be889fa
 Description:  Electronic CodeBook CryptoAPI module
 
 Package: kmod-crypto-hash
-Version: 3.10.61-1
-Depends: kernel (=3.10.61-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-crypto-core
+Version: 3.10.60-1
+Depends: kernel (=3.10.60-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-crypto-core
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ar71xx
-Installed-Size: 5868
-Filename: kmod-crypto-hash_3.10.61-1_ar71xx.ipk
-Size: 6453
-MD5Sum: 5f16e268c328db2ac19db4b8465db036
-SHA256sum: 8590846b452f4c39687996eb3d20f5845964733b3ed2c7576fa2d11e254b4259
+Installed-Size: 5869
+Filename: kmod-crypto-hash_3.10.60-1_ar71xx.ipk
+Size: 6452
+MD5Sum: cdd8cc720e12ea68660bb5dbd9dffeba
+SHA256sum: 8e1e2a19e630331152247bebc1fc800ab628219611620b6eda70186353e11a3b
 Description:  CryptoAPI hash support
 
 Package: kmod-crypto-manager
-Version: 3.10.61-1
-Depends: kernel (=3.10.61-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-crypto-hash, kmod-crypto-pcompress, kmod-crypto-core
+Version: 3.10.60-1
+Depends: kernel (=3.10.60-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-crypto-hash, kmod-crypto-pcompress, kmod-crypto-core
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ar71xx
-Installed-Size: 3482
-Filename: kmod-crypto-manager_3.10.61-1_ar71xx.ipk
-Size: 4065
-MD5Sum: b37ba894696c00dd75ea1a37f7e55b8b
-SHA256sum: eb351286d48df9923f6aa9c2f5b6246ab53677fa73eadfcdac6d716c1ab1765f
+Installed-Size: 3479
+Filename: kmod-crypto-manager_3.10.60-1_ar71xx.ipk
+Size: 4062
+MD5Sum: bfdc1b63cc842ee9094312799cf489e8
+SHA256sum: e8c740d3d378ba7d6d69bce7fa07c37c5e52f8e6a5ca6b0453f3049516af7180
 Description:  CryptoAPI algorithm manager
 
 Package: kmod-crypto-pcompress
-Version: 3.10.61-1
-Depends: kernel (=3.10.61-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-crypto-core
+Version: 3.10.60-1
+Depends: kernel (=3.10.60-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-crypto-core
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ar71xx
 Installed-Size: 105
-Filename: kmod-crypto-pcompress_3.10.61-1_ar71xx.ipk
-Size: 691
-MD5Sum: 295dc3fba923a130243e187a8aa9be36
-SHA256sum: 088c1ea508c80ad839ec03f1a1c8004e18768dc14f38eafc69d7a1a481aee01d
+Filename: kmod-crypto-pcompress_3.10.60-1_ar71xx.ipk
+Size: 690
+MD5Sum: 4be95c128b2c9d2ed320238cbbf3ee6b
+SHA256sum: 773b97999ad6726c39e70bd1b3260c2d09a2eb1cd75147f1b1b8386b55605354
 Description:  CryptoAPI Partial (de)compression operations
 
 Package: kmod-crypto-sha1
-Version: 3.10.61-1
-Depends: kernel (=3.10.61-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-crypto-hash, kmod-crypto-core
+Version: 3.10.60-1
+Depends: kernel (=3.10.60-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-crypto-hash, kmod-crypto-core
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ar71xx
-Installed-Size: 1439
-Filename: kmod-crypto-sha1_3.10.61-1_ar71xx.ipk
-Size: 2066
-MD5Sum: b6fe85964fe89e5dd4981cfb259bbbb3
-SHA256sum: 09334a5d789fe89d3c7e39a15e6428179781b2567c46974af7e17eaf9f3f85e1
+Installed-Size: 1440
+Filename: kmod-crypto-sha1_3.10.60-1_ar71xx.ipk
+Size: 2068
+MD5Sum: 0eb6b72502034f796cb979a45d67370b
+SHA256sum: af3479ebcea761dcbe1f4b1c83a432c5a19da45f6368f6229e5543c4baf903bc
 Description:  SHA1 digest CryptoAPI module
 
 Package: kmod-gpio-button-hotplug
-Version: 3.10.61-1
-Depends: kernel (=3.10.61-1-eb60810c012fdcd9b9665c44ebbbcc7b)
+Version: 3.10.60-1
+Depends: kernel (=3.10.60-1-eb60810c012fdcd9b9665c44ebbbcc7b)
 Source: package/kernel/gpio-button-hotplug
 Section: kernel
 Architecture: ar71xx
-Installed-Size: 4416
-Filename: kmod-gpio-button-hotplug_3.10.61-1_ar71xx.ipk
-Size: 5137
-MD5Sum: 708922bc300e3007c98894cc0af0dcb4
-SHA256sum: 98da2baabb3fb7a7bda129c10a0d6ba95c1391d8b5f847dbb61af73303ce44e4
+Installed-Size: 4412
+Filename: kmod-gpio-button-hotplug_3.10.60-1_ar71xx.ipk
+Size: 5126
+MD5Sum: 5d2cc9d4ed57712743547768b58ecf3a
+SHA256sum: f3b9f4215d5483cb935ec8caf89a075dea5f0eb12e996809f672b2015d6355e5
 Description:  This is a replacement for the following in-kernel drivers:
  1) gpio_keys (KEYBOARD_GPIO)
  2) gpio_keys_polled (KEYBOARD_GPIO_POLLED)
@@ -642,92 +642,92 @@ Description:  This is a replacement for the following in-kernel drivers:
  an overkill for OpenWrt simple needs.
 
 Package: kmod-gre
-Version: 3.10.61-1
-Depends: kernel (=3.10.61-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-ipv6, kmod-iptunnel
+Version: 3.10.60-1
+Depends: kernel (=3.10.60-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-ipv6, kmod-iptunnel
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ar71xx
-Installed-Size: 7452
-Filename: kmod-gre_3.10.61-1_ar71xx.ipk
-Size: 8081
-MD5Sum: a42575fab2442326ec8d1d4af35f18b9
-SHA256sum: 2ec6e29c766e08f9db713beca9596973fb6ca47b798f5b0dbdae09cc2af68acf
+Installed-Size: 7453
+Filename: kmod-gre_3.10.60-1_ar71xx.ipk
+Size: 8084
+MD5Sum: 3b9f4ce66e74bd4fbf1bde380743ed3f
+SHA256sum: eb055d0a123189e991673b7a3c7e692e39aff644def2d3cfe4e787dad2c48df2
 Description:  Generic Routing Encapsulation support
 
 Package: kmod-ifb
-Version: 3.10.61-1
-Depends: kernel (=3.10.61-1-eb60810c012fdcd9b9665c44ebbbcc7b)
+Version: 3.10.60-1
+Depends: kernel (=3.10.60-1-eb60810c012fdcd9b9665c44ebbbcc7b)
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ar71xx
 Installed-Size: 2937
-Filename: kmod-ifb_3.10.61-1_ar71xx.ipk
-Size: 3508
-MD5Sum: 717f3d65985867cc8c261abe20caec8a
-SHA256sum: c4b49b4a81eb6991cd817e342c7103487d4b9404b27dbbb371ec15b53a980d15
+Filename: kmod-ifb_3.10.60-1_ar71xx.ipk
+Size: 3509
+MD5Sum: c1476d7c78588be3d4c4e4a2d06bfec5
+SHA256sum: 3be623cb971d08df3f8a361b78946bf9864b715ba0479c9b730fe733f8e1733c
 Description:  The Intermediate Functional Block
 
 Package: kmod-ip6-tunnel
-Version: 3.10.61-1
-Depends: kernel (=3.10.61-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-ipv6, kmod-iptunnel6
+Version: 3.10.60-1
+Depends: kernel (=3.10.60-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-ipv6, kmod-iptunnel6
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ar71xx
-Installed-Size: 11899
-Filename: kmod-ip6-tunnel_3.10.61-1_ar71xx.ipk
-Size: 12525
-MD5Sum: 15957d0a674ef5b1960f5e53fad65633
-SHA256sum: 593494af504cfe5c1c927deab1fcbbad8ce470595524466eee5eef821b880a79
+Installed-Size: 11874
+Filename: kmod-ip6-tunnel_3.10.60-1_ar71xx.ipk
+Size: 12500
+MD5Sum: bcc9e83c058f8f21ce398b38d05772ef
+SHA256sum: 57706871e9c272d11246dbbf9b6940543b4d21cc35f2675c5e7f3c4b723d7c60
 Description:  Kernel modules for IPv6-in-IPv6 and IPv4-in-IPv6 tunnelling
 
 Package: kmod-ip6tables
-Version: 3.10.61-1
-Depends: kernel (=3.10.61-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-ipv6, kmod-ipt-core, kmod-ipt-conntrack
+Version: 3.10.60-1
+Depends: kernel (=3.10.60-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-ipv6, kmod-ipt-core, kmod-ipt-conntrack
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ar71xx
 Installed-Size: 18893
-Filename: kmod-ip6tables_3.10.61-1_ar71xx.ipk
-Size: 19539
-MD5Sum: 667a6bddd5da212f27153d945dbf1f11
-SHA256sum: 895c67682473da181c9e5942212357e44299c91138dbbcdfd15473d16b284365
+Filename: kmod-ip6tables_3.10.60-1_ar71xx.ipk
+Size: 19523
+MD5Sum: 15ff1ee82d19c88810ea841912f92b66
+SHA256sum: 84b6d7697c52bee8e856f889a1595fb8f6ee54fde0bcbcbb4f5cd309635e27a5
 Description:  Netfilter IPv6 firewalling support
 
 Package: kmod-ipt-compat-xtables
-Version: 3.10.61+2.3-1
-Depends: kernel (=3.10.61-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-ipt-core, kmod-ip6tables
+Version: 3.10.60+2.3-1
+Depends: kernel (=3.10.60-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-ipt-core, kmod-ip6tables
 Source: package/network/utils/xtables-addons
 Section: kernel
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 1698
-Filename: kmod-ipt-compat-xtables_3.10.61+2.3-1_ar71xx.ipk
-Size: 2353
-MD5Sum: 55db41a4d2bed88f51b49930efcdc680
-SHA256sum: aeb226083925cae4c7645e871cbf30159b0c36915383a6b71a716914ce2645b2
+Installed-Size: 1697
+Filename: kmod-ipt-compat-xtables_3.10.60+2.3-1_ar71xx.ipk
+Size: 2357
+MD5Sum: d340885dd215a9b2fdc6e43beb31c1e1
+SHA256sum: 489e0dfd14f343f2295d89babc2c41aad1dd0a2902f590dfea38bbf00b68ee94
 Description:  API compatibilty layer netfilter module
 
 Package: kmod-ipt-conntrack-extra
-Version: 3.10.61-1
-Depends: kernel (=3.10.61-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-ipt-core, kmod-ipt-conntrack
+Version: 3.10.60-1
+Depends: kernel (=3.10.60-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-ipt-core, kmod-ipt-conntrack
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ar71xx
-Installed-Size: 9834
-Filename: kmod-ipt-conntrack-extra_3.10.61-1_ar71xx.ipk
-Size: 10502
-MD5Sum: c0461307b7d227d25503a3abc4fb317d
-SHA256sum: c2359df2191b06e95755753cf6a459a3a98712e3e9c05e04decf8c8469663fee
+Installed-Size: 9831
+Filename: kmod-ipt-conntrack-extra_3.10.60-1_ar71xx.ipk
+Size: 10488
+MD5Sum: 324da6e1eb5aebde0eb259532abd1cd6
+SHA256sum: 1fef15bfab8efd8ce7775d17f85dad1b702e72fe5e89674f51d212c0150a24d3
 Description:  Netfilter (IPv4) extra kernel modules for connection tracking
  Includes:
  - connbytes
@@ -737,18 +737,18 @@ Description:  Netfilter (IPv4) extra kernel modules for connection tracking
  - recent
 
 Package: kmod-ipt-conntrack
-Version: 3.10.61-1
-Depends: kernel (=3.10.61-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-ipt-core
+Version: 3.10.60-1
+Depends: kernel (=3.10.60-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-ipt-core
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ar71xx
-Installed-Size: 4783
-Filename: kmod-ipt-conntrack_3.10.61-1_ar71xx.ipk
-Size: 5415
-MD5Sum: c14b0172502f1fc94394b183ed366c42
-SHA256sum: 6cb364edd546f30749aaeb22e60bb5102572dc14830f902713e002da0bb199cc
+Installed-Size: 4781
+Filename: kmod-ipt-conntrack_3.10.60-1_ar71xx.ipk
+Size: 5413
+MD5Sum: a37b0e1d9447c5686a86550d2f113df0
+SHA256sum: da2897594e845515e0e56cc640fd3edaec3d07e51d5aeb70bd720ea437c8983c
 Description:  Netfilter (IPv4) kernel modules for connection tracking
  Includes:
  - conntrack
@@ -758,18 +758,18 @@ Description:  Netfilter (IPv4) kernel modules for connection tracking
  - state
 
 Package: kmod-ipt-core
-Version: 3.10.61-1
-Depends: kernel (=3.10.61-1-eb60810c012fdcd9b9665c44ebbbcc7b)
+Version: 3.10.60-1
+Depends: kernel (=3.10.60-1-eb60810c012fdcd9b9665c44ebbbcc7b)
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ar71xx
-Installed-Size: 23354
-Filename: kmod-ipt-core_3.10.61-1_ar71xx.ipk
+Installed-Size: 23353
+Filename: kmod-ipt-core_3.10.60-1_ar71xx.ipk
 Size: 23954
-MD5Sum: 9e8bceb73891d2a875b56f043159c9b7
-SHA256sum: 2806cd2a144a4ecfb7ae6d5b05128e24f81345b744c090e870f93fbeec5ee952
+MD5Sum: 23959e168ab7cb04f5132b6dbaf8dfdc
+SHA256sum: cae716edbf0f9dd3da2b54dda600b6230a30b131d9ea1f69d9361409e96cdc5f
 Description:  Netfilter core kernel modules
  Includes:
  - comment
@@ -781,36 +781,36 @@ Description:  Netfilter core kernel modules
  - TCPMSS
 
 Package: kmod-ipt-filter
-Version: 3.10.61-1
-Depends: kernel (=3.10.61-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-ipt-core, kmod-lib-textsearch, kmod-ipt-conntrack
+Version: 3.10.60-1
+Depends: kernel (=3.10.60-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-ipt-core, kmod-lib-textsearch, kmod-ipt-conntrack
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ar71xx
 Installed-Size: 7925
-Filename: kmod-ipt-filter_3.10.61-1_ar71xx.ipk
-Size: 8590
-MD5Sum: 3da83c84c19ee8de14246e72ce2e4538
-SHA256sum: 5d196b0c3778b69b1405cf68f57c48637832b5ee4f78ea1fac51b5f07231c9f2
+Filename: kmod-ipt-filter_3.10.60-1_ar71xx.ipk
+Size: 8597
+MD5Sum: 558cbe6dd6d7c7d49a832575f62a4f11
+SHA256sum: 622e41b8905df22572d5f107a1d25ef931c1a9e482255a4ff1d3f12b560c2a6c
 Description:  Netfilter (IPv4) kernel modules for packet content inspection
  Includes:
  - layer7
  - string
 
 Package: kmod-ipt-ipopt
-Version: 3.10.61-1
-Depends: kernel (=3.10.61-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-ipt-core
+Version: 3.10.60-1
+Depends: kernel (=3.10.60-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-ipt-core
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ar71xx
-Installed-Size: 5907
-Filename: kmod-ipt-ipopt_3.10.61-1_ar71xx.ipk
-Size: 6593
-MD5Sum: 2225d68964607fd5f34ba25141af9530
-SHA256sum: bc372546426c7e4f1627c7f57cbf43df23db73965b57a4559d40d9578137f070
+Installed-Size: 5903
+Filename: kmod-ipt-ipopt_3.10.60-1_ar71xx.ipk
+Size: 6595
+MD5Sum: 6944e9c0d0bbfd4d724adece0dac7f5b
+SHA256sum: b072c6986df14a8c14e2d2d16007f45b596f70e5e3b465f8733e93c388830d72
 Description:  Netfilter (IPv4) modules for matching/changing IP packet options
  Includes:
  - CLASSIFY
@@ -826,49 +826,49 @@ Description:  Netfilter (IPv4) modules for matching/changing IP packet options
  - unclean
 
 Package: kmod-ipt-ipp2p
-Version: 3.10.61+2.3-1
-Depends: kernel (=3.10.61-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-ipt-core, kmod-ipt-compat-xtables
+Version: 3.10.60+2.3-1
+Depends: kernel (=3.10.60-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-ipt-core, kmod-ipt-compat-xtables
 Source: package/network/utils/xtables-addons
 Section: kernel
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 5114
-Filename: kmod-ipt-ipp2p_3.10.61+2.3-1_ar71xx.ipk
-Size: 5704
-MD5Sum: c6cb77bb0911db8e359e3640d203da56
-SHA256sum: b2cd585542ab1a15cf46486292e9939a2fb05d3394c914f35c16aaa361798d9a
+Installed-Size: 5111
+Filename: kmod-ipt-ipp2p_3.10.60+2.3-1_ar71xx.ipk
+Size: 5697
+MD5Sum: 65576a5af2f44dac141eea21217d21f5
+SHA256sum: 93e2890106307baf59dfaa4cad4bd4aeae52e609b5ef3d58c455b82442dc26a8
 Description:  IPP2P netfilter module
 
 Package: kmod-ipt-nat
-Version: 3.10.61-1
-Depends: kernel (=3.10.61-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-ipt-core, kmod-ipt-conntrack
+Version: 3.10.60-1
+Depends: kernel (=3.10.60-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-ipt-core, kmod-ipt-conntrack
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ar71xx
-Installed-Size: 13179
-Filename: kmod-ipt-nat_3.10.61-1_ar71xx.ipk
-Size: 13812
-MD5Sum: 7b3df5ec6a780055bef785770f538e4b
-SHA256sum: a0393b42f379056201ba4dceea901e50d20cfd7cc709a7ecbf9e765056ba0dd5
+Installed-Size: 13063
+Filename: kmod-ipt-nat_3.10.60-1_ar71xx.ipk
+Size: 13706
+MD5Sum: f96cdc8828287f9efea3ec008f299bd6
+SHA256sum: da8f5e1d77e28f574ecf3d40553415d92107216610b9455e57b40cbc697bee56
 Description:  Netfilter (IPv4) kernel modules for basic NAT targets
  Includes:
  - MASQUERADE
 
 Package: kmod-ipt-nathelper
-Version: 3.10.61-1
-Depends: kernel (=3.10.61-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-ipt-core, kmod-ipt-nat
+Version: 3.10.60-1
+Depends: kernel (=3.10.60-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-ipt-core, kmod-ipt-nat
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ar71xx
-Installed-Size: 7754
-Filename: kmod-ipt-nathelper_3.10.61-1_ar71xx.ipk
-Size: 8426
-MD5Sum: 0eb96a8ae83629ac4291486b6a081516
-SHA256sum: 0a6040bc7b136a48b20c33dfd28bc58ac4cb68cf3ee1a306d1b1bf9bd2d3f33d
+Installed-Size: 7750
+Filename: kmod-ipt-nathelper_3.10.60-1_ar71xx.ipk
+Size: 8421
+MD5Sum: 6b5da930baf9f12e09d0076fe70c9227
+SHA256sum: ada6592fc808e8b573e40c09e6c7a39d330f840671c4efa9ba8df87dae1e644b
 Description:  Default Netfilter (IPv4) Conntrack and NAT helpers
  Includes:
  - ftp
@@ -876,452 +876,452 @@ Description:  Default Netfilter (IPv4) Conntrack and NAT helpers
  - tftp
 
 Package: kmod-iptunnel4
-Version: 3.10.61-1
-Depends: kernel (=3.10.61-1-eb60810c012fdcd9b9665c44ebbbcc7b)
+Version: 3.10.60-1
+Depends: kernel (=3.10.60-1-eb60810c012fdcd9b9665c44ebbbcc7b)
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ar71xx
-Installed-Size: 1843
-Filename: kmod-iptunnel4_3.10.61-1_ar71xx.ipk
-Size: 2457
-MD5Sum: 02b46809e9e188bac198d0d201e78c27
-SHA256sum: a7d5d960a0df65a885f021fecbbdde7f4d90411803e430e8cdc6a045eb965e47
+Installed-Size: 1850
+Filename: kmod-iptunnel4_3.10.60-1_ar71xx.ipk
+Size: 2466
+MD5Sum: 1684c30459838046ccbac6412ca8c227
+SHA256sum: 6ec7f5ea7a8a1b94788f8c2bc52cb22f25b513340797d9d2caa88a66e1beaafb
 Description:  Kernel modules for IPv4 tunneling
 
 Package: kmod-iptunnel6
-Version: 3.10.61-1
-Depends: kernel (=3.10.61-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-ipv6
+Version: 3.10.60-1
+Depends: kernel (=3.10.60-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-ipv6
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ar71xx
-Installed-Size: 1883
-Filename: kmod-iptunnel6_3.10.61-1_ar71xx.ipk
-Size: 2507
-MD5Sum: 4c93167d9f22ad2795879ce664054562
-SHA256sum: c51538537e2d934b467fd0a2b668dd6debeb8a8b13adb86c54456fd325858ec3
+Installed-Size: 1880
+Filename: kmod-iptunnel6_3.10.60-1_ar71xx.ipk
+Size: 2500
+MD5Sum: 92f80102f1001112983656993a79fa5b
+SHA256sum: 12e17e98852e7dfa2f248c838f79c613dcc3cb81501db73e66ab0fd8876b25f9
 Description:  Kernel modules for IPv6 tunneling
 
 Package: kmod-iptunnel
-Version: 3.10.61-1
-Depends: kernel (=3.10.61-1-eb60810c012fdcd9b9665c44ebbbcc7b)
+Version: 3.10.60-1
+Depends: kernel (=3.10.60-1-eb60810c012fdcd9b9665c44ebbbcc7b)
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ar71xx
 Installed-Size: 7567
-Filename: kmod-iptunnel_3.10.61-1_ar71xx.ipk
-Size: 8203
-MD5Sum: 20232298879d03490379c1f69951b4fa
-SHA256sum: 496a8a94486368c2228ce31266ecf36f077214900e3b45a7531d068c4063b0aa
+Filename: kmod-iptunnel_3.10.60-1_ar71xx.ipk
+Size: 8202
+MD5Sum: 2eb74e460f1e25a918401443daac80dc
+SHA256sum: c8b84139113426d84179a7b8e36de8b72533c69b4c4969e25164a8ab53ab32b3
 Description:  Kernel module for generic IP tunnel support
 
 Package: kmod-ipv6
-Version: 3.10.61-1
-Depends: kernel (=3.10.61-1-eb60810c012fdcd9b9665c44ebbbcc7b)
+Version: 3.10.60-1
+Depends: kernel (=3.10.60-1-eb60810c012fdcd9b9665c44ebbbcc7b)
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ar71xx
-Installed-Size: 148077
-Filename: kmod-ipv6_3.10.61-1_ar71xx.ipk
-Size: 148075
-MD5Sum: 8a86abe9f767d3a155e41b310ec47b30
-SHA256sum: a12226050be973536a06f7d3a0ae4c1efe703bc37c74257288fb60c76e30c6ea
+Installed-Size: 148078
+Filename: kmod-ipv6_3.10.60-1_ar71xx.ipk
+Size: 148073
+MD5Sum: 8131c6444b54b07a8e2ad99bad261ffb
+SHA256sum: 34cdecf47be9b85eed2acfc76139bdb61f3ec5b19b2f13d0eaa2068d4612792d
 Description:  Kernel modules for IPv6 support
 
 Package: kmod-l2tp
-Version: 3.10.61-1
-Depends: kernel (=3.10.61-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-ipv6
+Version: 3.10.60-1
+Depends: kernel (=3.10.60-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-ipv6
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ar71xx
-Installed-Size: 13164
-Filename: kmod-l2tp_3.10.61-1_ar71xx.ipk
-Size: 13758
-MD5Sum: ad7d96351fc56d46f3fdebdc8aed3ab6
-SHA256sum: dedd41141f70a07b85bec7ec307b4a596e6038f1a682fcd02fa29c6f29fa3e69
+Installed-Size: 13162
+Filename: kmod-l2tp_3.10.60-1_ar71xx.ipk
+Size: 13763
+MD5Sum: ae2a1e22c378df7ab4c4f232fcb1732d
+SHA256sum: 80aa78a8f29e34d3a6a003b513eed0f147158d6b6b1aab8ae9d89fb1daa185df
 Description:  Kernel modules for L2TP V3 Support
 
 Package: kmod-ledtrig-usbdev
-Version: 3.10.61-1
-Depends: kernel (=3.10.61-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-usb-core
+Version: 3.10.60-1
+Depends: kernel (=3.10.60-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-usb-core
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ar71xx
-Installed-Size: 2142
-Filename: kmod-ledtrig-usbdev_3.10.61-1_ar71xx.ipk
-Size: 2786
-MD5Sum: 077a37b9a9e23ab1787fb8d20bcf4317
-SHA256sum: 3fe57d07f3c93dce42bd83d6ac4a9cb802e508fd452346af528642fe66a181fc
+Installed-Size: 2149
+Filename: kmod-ledtrig-usbdev_3.10.60-1_ar71xx.ipk
+Size: 2796
+MD5Sum: 605dad76dc0b73f48e4b122575cd6c3b
+SHA256sum: e1f13b37ace0d93193a3627e32c76493737d6aeb614a08572ab7c898178d640c
 Description:  Kernel module to drive LEDs based on USB device presence/activity
 
 Package: kmod-lib-crc-ccitt
-Version: 3.10.61-1
-Depends: kernel (=3.10.61-1-eb60810c012fdcd9b9665c44ebbbcc7b)
+Version: 3.10.60-1
+Depends: kernel (=3.10.60-1-eb60810c012fdcd9b9665c44ebbbcc7b)
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ar71xx
-Installed-Size: 1325
-Filename: kmod-lib-crc-ccitt_3.10.61-1_ar71xx.ipk
-Size: 1942
-MD5Sum: 3dc474e71edef38eeb4c15d4f0ab1e9e
-SHA256sum: 25781899886393cc9c612b6c616faca19221d809d5ca8a3251ec974fb0c06a4a
+Installed-Size: 1329
+Filename: kmod-lib-crc-ccitt_3.10.60-1_ar71xx.ipk
+Size: 1944
+MD5Sum: 94708a598a894b26e529565f8982231a
+SHA256sum: 70d5a698b03acd35bbfcf703e18a07923d9eb01b5211dc2b8f699f1580584f56
 Description:  Kernel module for CRC-CCITT support
 
 Package: kmod-lib-lzo
-Version: 3.10.61-1
-Depends: kernel (=3.10.61-1-eb60810c012fdcd9b9665c44ebbbcc7b)
+Version: 3.10.60-1
+Depends: kernel (=3.10.60-1-eb60810c012fdcd9b9665c44ebbbcc7b)
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ar71xx
 Installed-Size: 2813
-Filename: kmod-lib-lzo_3.10.61-1_ar71xx.ipk
-Size: 3402
-MD5Sum: 2bc6ef83fe3e6b20c033e0bda2ae4b6f
-SHA256sum: 852c52cd0318c02fcdef791f8d9a710a8f339151a24e977755df5556535daad6
+Filename: kmod-lib-lzo_3.10.60-1_ar71xx.ipk
+Size: 3397
+MD5Sum: 67ee8fca45e6bb20c96391f7072f79c7
+SHA256sum: 88d1187bcf3c785cd5b19327f3ecc42fbab071020aa74ac15cbf5326df4a5602
 Description:  Kernel module for LZO compression/decompression support
 
 Package: kmod-lib-textsearch
-Version: 3.10.61-1
-Depends: kernel (=3.10.61-1-eb60810c012fdcd9b9665c44ebbbcc7b)
+Version: 3.10.60-1
+Depends: kernel (=3.10.60-1-eb60810c012fdcd9b9665c44ebbbcc7b)
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ar71xx
-Installed-Size: 3543
-Filename: kmod-lib-textsearch_3.10.61-1_ar71xx.ipk
-Size: 4136
-MD5Sum: d3967801f5eaedc2aba6a4b48d970c6a
-SHA256sum: 4b3c61e154080316960390053dea6822464a628b25ee6b4078905c6560366c09
+Installed-Size: 3534
+Filename: kmod-lib-textsearch_3.10.60-1_ar71xx.ipk
+Size: 4121
+MD5Sum: 19111df30df974e9fd3a0b5a3fa87d2a
+SHA256sum: 8c66a6c1e4c27ea11996b67e70875b2993553d1299a8b84656793d52d9ddc4c1
 Description:  Textsearch support
 
 Package: kmod-mac80211
-Version: 3.10.61+2014-05-22-1
-Depends: kernel (=3.10.61-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-crypto-core, kmod-crypto-arc4, kmod-crypto-aes, kmod-cfg80211, hostapd-common
+Version: 3.10.60+2014-05-22-1
+Depends: kernel (=3.10.60-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-crypto-core, kmod-crypto-arc4, kmod-crypto-aes, kmod-cfg80211, hostapd-common
 Source: package/kernel/mac80211
 Section: kernel
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 178986
-Filename: kmod-mac80211_3.10.61+2014-05-22-1_ar71xx.ipk
-Size: 179146
-MD5Sum: 535c1c414de2aca22d81045391c6e073
-SHA256sum: 73f1b432f55819986c45dfb51711fd3bac3fb6a39f6abd18daf94cdecb40aa28
+Installed-Size: 178983
+Filename: kmod-mac80211_3.10.60+2014-05-22-1_ar71xx.ipk
+Size: 179154
+MD5Sum: 7dc828d6f1cfce0f8f349198b4c5ed5a
+SHA256sum: d2afd3e81fa106bbcff751f036dc64cbba3ec92b6c5013d57917e1c5342ea60f
 Description:  Generic IEEE 802.11 Networking Stack (mac80211)
 
 Package: kmod-mppe
-Version: 3.10.61-1
-Depends: kernel (=3.10.61-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-ppp, kmod-crypto-core, kmod-crypto-arc4, kmod-crypto-sha1, kmod-crypto-ecb
+Version: 3.10.60-1
+Depends: kernel (=3.10.60-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-ppp, kmod-crypto-core, kmod-crypto-arc4, kmod-crypto-sha1, kmod-crypto-ecb
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ar71xx
-Installed-Size: 4144
-Filename: kmod-mppe_3.10.61-1_ar71xx.ipk
-Size: 4765
-MD5Sum: 17454b246723791e106adcf4d45b607d
-SHA256sum: 39f6e9bc322d52b6f60cd5f0fc1bafadf8623aa20c280a2f53dd9d82bcd4be1d
+Installed-Size: 4141
+Filename: kmod-mppe_3.10.60-1_ar71xx.ipk
+Size: 4758
+MD5Sum: 913e5ecfe0167a82b142a5cdd70e356f
+SHA256sum: fff624c367ca6eec4d3b967750931e7da74347ac4a4300b1e0481c4f20fa0b67
 Description:  Kernel modules for Microsoft PPP compression/encryption
 
 Package: kmod-nls-base
-Version: 3.10.61-1
-Depends: kernel (=3.10.61-1-eb60810c012fdcd9b9665c44ebbbcc7b)
+Version: 3.10.60-1
+Depends: kernel (=3.10.60-1-eb60810c012fdcd9b9665c44ebbbcc7b)
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ar71xx
-Installed-Size: 3012
-Filename: kmod-nls-base_3.10.61-1_ar71xx.ipk
-Size: 3598
-MD5Sum: b31d9e0e945ef887a1f71b11e41b2afb
-SHA256sum: 81cea3cdefe302d1dc2a01fb03ffdb957078d3e46a388d3dc1c27d2b1b991e48
+Installed-Size: 3013
+Filename: kmod-nls-base_3.10.60-1_ar71xx.ipk
+Size: 3599
+MD5Sum: f50347498abb429d971caab35a69ef17
+SHA256sum: a61b9ba19da36618688cceb7a8289eb0c0b3827589ed05cead7b41d33e2b604a
 Description:  Kernel module for NLS (Native Language Support)
 
 Package: kmod-ppp
-Version: 3.10.61-1
-Depends: kernel (=3.10.61-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-lib-crc-ccitt, kmod-slhc
+Version: 3.10.60-1
+Depends: kernel (=3.10.60-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-lib-crc-ccitt, kmod-slhc
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ar71xx
-Installed-Size: 19557
-Filename: kmod-ppp_3.10.61-1_ar71xx.ipk
-Size: 20136
-MD5Sum: 88202cfa1d0fc5f2caee386bfaff285c
-SHA256sum: c73b59767f081aa9993481ac9165371d2a4acd5401bc972011bc0586ca36dbbd
+Installed-Size: 19558
+Filename: kmod-ppp_3.10.60-1_ar71xx.ipk
+Size: 20140
+MD5Sum: 459f378afd39f3cfb5ebd0ad36b4dd6b
+SHA256sum: 28da9607da4b13525f8e1652f49ed1da4dea7c3891206f569326e7cc9a02fca2
 Description:  Kernel modules for PPP support
 
 Package: kmod-pppoe
-Version: 3.10.61-1
-Depends: kernel (=3.10.61-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-ppp, kmod-pppox
+Version: 3.10.60-1
+Depends: kernel (=3.10.60-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-ppp, kmod-pppox
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ar71xx
-Installed-Size: 6284
-Filename: kmod-pppoe_3.10.61-1_ar71xx.ipk
-Size: 6894
-MD5Sum: c70c1958e87006e00628bfbb5676c18c
-SHA256sum: 067a3ee37d8b5f167356efb4c7569f34208ea313f36bbb1342d7ca21376bf31b
+Installed-Size: 6288
+Filename: kmod-pppoe_3.10.60-1_ar71xx.ipk
+Size: 6901
+MD5Sum: 60d267fae163fb147f5875960e664575
+SHA256sum: e510ad61c75385203064b7f7e533b1ced7e8fe64dd4f264aa730310bbcbd3ec9
 Description:  Kernel module for PPPoE (PPP over Ethernet) support
 
 Package: kmod-pppol2tp
-Version: 3.10.61-1
-Depends: kernel (=3.10.61-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-ppp, kmod-pppox, kmod-l2tp
+Version: 3.10.60-1
+Depends: kernel (=3.10.60-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-ppp, kmod-pppox, kmod-l2tp
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ar71xx
-Installed-Size: 9150
-Filename: kmod-pppol2tp_3.10.61-1_ar71xx.ipk
-Size: 9770
-MD5Sum: e0507d6b174a67bbcc48d26189e87c40
-SHA256sum: d473ab0355becce76c8c50d81368dd129a9f1d30e9f73304e76a81f0588e141c
+Installed-Size: 9152
+Filename: kmod-pppol2tp_3.10.60-1_ar71xx.ipk
+Size: 9784
+MD5Sum: 175907d8254fae4b450cf2360e931b5b
+SHA256sum: 6a062f8106f3bd3cfa9ed05f2152b70ca8713ccf9c6aa53b5cd28eaebf39553b
 Description:  Kernel modules for PPPoL2TP (PPP over L2TP) support
 
 Package: kmod-pppox
-Version: 3.10.61-1
-Depends: kernel (=3.10.61-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-ppp
+Version: 3.10.60-1
+Depends: kernel (=3.10.60-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-ppp
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ar71xx
 Installed-Size: 1536
-Filename: kmod-pppox_3.10.61-1_ar71xx.ipk
-Size: 2145
-MD5Sum: dd415669577921ecc7fb41dc6c9c4800
-SHA256sum: 4b462b3c85a237a598b3323ef1e966f1e98fa9b8dd2b6b4623e80e026a1108c7
+Filename: kmod-pppox_3.10.60-1_ar71xx.ipk
+Size: 2144
+MD5Sum: 7bdec7471640d9cc4c71e37f8f66c1a2
+SHA256sum: 3bb3f9b8a5112908583e6d7cf6877189e5e6202321c6f759613fd81e6f9f33d3
 Description:  Kernel helper module for PPPoE and PPTP support
 
 Package: kmod-pptp
-Version: 3.10.61-1
-Depends: kernel (=3.10.61-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-ppp, kmod-gre, kmod-pppox
+Version: 3.10.60-1
+Depends: kernel (=3.10.60-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-ppp, kmod-gre, kmod-pppox
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ar71xx
-Installed-Size: 4969
-Filename: kmod-pptp_3.10.61-1_ar71xx.ipk
+Installed-Size: 4967
+Filename: kmod-pptp_3.10.60-1_ar71xx.ipk
 Size: 5537
-MD5Sum: 1d59cea0585f5dbaf73282685bbe5a9c
-SHA256sum: 16fab1faa0c28758b7e53b06f51d0af87f9eda90bd7f89d055c4bd54e1ec1fdb
+MD5Sum: 39d3c89674be812795210ffff531be6b
+SHA256sum: 77d54bd85891a5de894cd9999076d9a811b0e592000ac2143d5aca5fee729c20
 Description:  PPtP support
 
 Package: kmod-sched-connmark
-Version: 3.10.61-1
-Depends: kernel (=3.10.61-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-sched-core, kmod-ipt-core, kmod-ipt-conntrack-extra
+Version: 3.10.60-1
+Depends: kernel (=3.10.60-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-sched-core, kmod-ipt-core, kmod-ipt-conntrack-extra
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ar71xx
-Installed-Size: 1275
-Filename: kmod-sched-connmark_3.10.61-1_ar71xx.ipk
+Installed-Size: 1273
+Filename: kmod-sched-connmark_3.10.60-1_ar71xx.ipk
 Size: 1909
-MD5Sum: cb351926cafd16a41966182f960c3e74
-SHA256sum: 53bcbe6872f6d82b770b7b7b9783b7ddce0457c79db2f7941e8c74d16c357de4
+MD5Sum: 13e8f3ed0b816b68f76ed65aa873abb0
+SHA256sum: b989fb9f3a876c57e96fccc987cdb0ec5f66ad48c0965611825cdc4ba0c5d24e
 Description:  Traffic shaper conntrack mark support
 
 Package: kmod-sched-core
-Version: 3.10.61-1
-Depends: kernel (=3.10.61-1-eb60810c012fdcd9b9665c44ebbbcc7b)
+Version: 3.10.60-1
+Depends: kernel (=3.10.60-1-eb60810c012fdcd9b9665c44ebbbcc7b)
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ar71xx
-Installed-Size: 28690
-Filename: kmod-sched-core_3.10.61-1_ar71xx.ipk
-Size: 29226
-MD5Sum: e1dea994f015f6795bc6e22c0c20f162
-SHA256sum: fee88e2d03685ee29ccc50cf3c7338fd35682eec99bd4d7ae70c6c0acd5f6204
+Installed-Size: 28686
+Filename: kmod-sched-core_3.10.60-1_ar71xx.ipk
+Size: 29258
+MD5Sum: 65819a88f89373f578f82beea96ddde4
+SHA256sum: 17eb21c40a856184b3b3e5840dcd0746982651451dd3657c035da4dae0addb97
 Description:  Core kernel scheduler support for IP traffic
 
 Package: kmod-sit
-Version: 3.10.61-1
-Depends: kernel (=3.10.61-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-ipv6, kmod-iptunnel, kmod-iptunnel4
+Version: 3.10.60-1
+Depends: kernel (=3.10.60-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-ipv6, kmod-iptunnel, kmod-iptunnel4
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ar71xx
-Installed-Size: 9415
-Filename: kmod-sit_3.10.61-1_ar71xx.ipk
-Size: 10026
-MD5Sum: 9f171669de5bfd08929fdfb25b287230
-SHA256sum: 1c24003bbf92c57e63a83048e69b688cdf2cd5eb87218b28d513998cf2878f6c
+Installed-Size: 9414
+Filename: kmod-sit_3.10.60-1_ar71xx.ipk
+Size: 10023
+MD5Sum: 8c08c76b0e384e969c9c956c1f58c041
+SHA256sum: e6de1a94ea59617eb1c5ad06e6b17f391408808f0e68bf5f79a05f24952f66b4
 Description:  Kernel modules for IPv6-in-IPv4 tunnelling
 
 Package: kmod-slhc
-Version: 3.10.61-1
-Depends: kernel (=3.10.61-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-lib-crc-ccitt
+Version: 3.10.60-1
+Depends: kernel (=3.10.60-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-lib-crc-ccitt
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ar71xx
-Installed-Size: 3335
-Filename: kmod-slhc_3.10.61-1_ar71xx.ipk
-Size: 3954
-MD5Sum: f0a30c72a2624cd1b80e146cc8620575
-SHA256sum: f5b9084267fac13ddfb45a272d4d590895181feb20f2f6ec093c6779b15043d7
+Installed-Size: 3334
+Filename: kmod-slhc_3.10.60-1_ar71xx.ipk
+Size: 3949
+MD5Sum: b1817ab2ff236fea5332424bbbd8fe3d
+SHA256sum: 8cd4e7243c16bb837834b11d4075dfe21eb3f8cb5faee2c37194def75795004c
 Description:  Serial Line Header Compression
 
 Package: kmod-tun
-Version: 3.10.61-1
-Depends: kernel (=3.10.61-1-eb60810c012fdcd9b9665c44ebbbcc7b)
+Version: 3.10.60-1
+Depends: kernel (=3.10.60-1-eb60810c012fdcd9b9665c44ebbbcc7b)
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ar71xx
 Installed-Size: 11700
-Filename: kmod-tun_3.10.61-1_ar71xx.ipk
-Size: 12323
-MD5Sum: 3a22658064599bffee53fde0e096880b
-SHA256sum: b5e81455ee0d17549f3b64158a9b7ee6964de7800171f18c00a69e0a0e796560
+Filename: kmod-tun_3.10.60-1_ar71xx.ipk
+Size: 12329
+MD5Sum: 2ef4494c7319970280483e98504373a4
+SHA256sum: b6f7cd63f444c261b94f13eb916121450a10fcf54e000dc09aca253ec7126b96
 Description:  Kernel support for the TUN/TAP tunneling device
 
 Package: kmod-usb-core
-Version: 3.10.61-1
-Depends: kernel (=3.10.61-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-nls-base
+Version: 3.10.60-1
+Depends: kernel (=3.10.60-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-nls-base
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ar71xx
-Installed-Size: 70584
-Filename: kmod-usb-core_3.10.61-1_ar71xx.ipk
-Size: 71018
-MD5Sum: 7cd57c8f940ef5b93dd19cc9216c0fbe
-SHA256sum: a990e8d26c86fd6daedb9faf1066c210d5c64985edc75fba30378d2040e13614
+Installed-Size: 70586
+Filename: kmod-usb-core_3.10.60-1_ar71xx.ipk
+Size: 70981
+MD5Sum: 5a6ff7fff8de98cbb01f780d05899124
+SHA256sum: fa4f22493b1785de092f62f8437649105f92f4046bc66f82344ecf0b59d79006
 Description:  Kernel support for USB
 
 Package: kmod-usb-ohci
-Version: 3.10.61-1
-Depends: kernel (=3.10.61-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-usb-core
+Version: 3.10.60-1
+Depends: kernel (=3.10.60-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-usb-core
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ar71xx
-Installed-Size: 12234
-Filename: kmod-usb-ohci_3.10.61-1_ar71xx.ipk
-Size: 12844
-MD5Sum: f7a96f075d8b58bc604da7db0e1a7250
-SHA256sum: 469a52d5a5f30bcd38e487657952c411995304e974ee8840c3a2953069e5e7f1
+Installed-Size: 12233
+Filename: kmod-usb-ohci_3.10.60-1_ar71xx.ipk
+Size: 12836
+MD5Sum: c64ad8f3591b88461da862d7dbd42b7c
+SHA256sum: 279de0e2dd54b96b3d5a5442f5d6c4681ddba75c894f0ee6bc991035907139b4
 Description:  Kernel support for USB OHCI controllers
 
 Package: kmod-usb-printer
-Version: 3.10.61-1
-Depends: kernel (=3.10.61-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-usb-core
+Version: 3.10.60-1
+Depends: kernel (=3.10.60-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-usb-core
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ar71xx
-Installed-Size: 6862
-Filename: kmod-usb-printer_3.10.61-1_ar71xx.ipk
-Size: 7505
-MD5Sum: 5fd00a89c4bc30717e53992a72c6dede
-SHA256sum: 0253eda2da211129d2600e3dfdcd7285f2210b224766df8158fda10587f08a9f
+Installed-Size: 6864
+Filename: kmod-usb-printer_3.10.60-1_ar71xx.ipk
+Size: 7499
+MD5Sum: 477aca07c6b6327c0766b6ae070db87a
+SHA256sum: b51fcf9c65f5bd0e99455fa61cf3958b5770c2a6c3694c154af5afded6f69489
 Description:  Kernel support for USB printers
 
 Package: kmod-usb-serial-option
-Version: 3.10.61-1
-Depends: kernel (=3.10.61-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-usb-serial-wwan, kmod-usb-serial
+Version: 3.10.60-1
+Depends: kernel (=3.10.60-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-usb-serial-wwan, kmod-usb-serial
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ar71xx
-Installed-Size: 5978
-Filename: kmod-usb-serial-option_3.10.61-1_ar71xx.ipk
-Size: 5616
-MD5Sum: 914c1289cd0369b2f66c853a6d18d45a
-SHA256sum: 2721a062f5bc27e75c39f069fa5208ab6d4f6f339326b6afa7009a9c59d4897b
+Installed-Size: 5980
+Filename: kmod-usb-serial-option_3.10.60-1_ar71xx.ipk
+Size: 5626
+MD5Sum: fc579572208a37e23194e87863ef2d0f
+SHA256sum: 45242815f0a47ba5e5c2da23e8061fa927de4d68903fbcc54b01c47f3a72ff92
 Description:  Kernel support for Option HSDPA modems
 
 Package: kmod-usb-serial-wwan
-Version: 3.10.61-1
-Depends: kernel (=3.10.61-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-usb-serial
+Version: 3.10.60-1
+Depends: kernel (=3.10.60-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-usb-serial
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ar71xx
-Installed-Size: 3709
-Filename: kmod-usb-serial-wwan_3.10.61-1_ar71xx.ipk
-Size: 4298
-MD5Sum: bbf4ec525482905c7c86050963d83e20
-SHA256sum: 1da1304a0de09a6c003552b2a176e84871878a092f65e598c06fdd9a0b7d63ee
+Installed-Size: 3714
+Filename: kmod-usb-serial-wwan_3.10.60-1_ar71xx.ipk
+Size: 4312
+MD5Sum: 17b3bc2bcddd65b78a465f879c43aa0c
+SHA256sum: bcdce492145e6855c21c61c3b8187915759a2b58f456232c7d381bfd9860f9b5
 Description:  Kernel support for USB GSM and CDMA modems
 
 Package: kmod-usb-serial
-Version: 3.10.61-1
-Depends: kernel (=3.10.61-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-usb-core
+Version: 3.10.60-1
+Depends: kernel (=3.10.60-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-usb-core
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ar71xx
-Installed-Size: 12397
-Filename: kmod-usb-serial_3.10.61-1_ar71xx.ipk
-Size: 12996
-MD5Sum: 6a8260312a7c2806066d060930553472
-SHA256sum: 7aa3f7bdb43fff78faf9e64da1e5fc679459c486195a92ede0c44910f560a67c
+Installed-Size: 12398
+Filename: kmod-usb-serial_3.10.60-1_ar71xx.ipk
+Size: 12995
+MD5Sum: e66006c2bf597fc26c7e67d0bd54908d
+SHA256sum: 0197264bfdd7c30cb050b022e489d5263efcc4116fa036db913cd94372ab0ea7
 Description:  Kernel support for USB-to-Serial converters
 
 Package: kmod-usb2
-Version: 3.10.61-1
-Depends: kernel (=3.10.61-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-usb-core
+Version: 3.10.60-1
+Depends: kernel (=3.10.60-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-usb-core
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ar71xx
-Installed-Size: 22944
-Filename: kmod-usb2_3.10.61-1_ar71xx.ipk
-Size: 23484
-MD5Sum: 2775ea8b4a6e90955d98f59e1ad95d2e
-SHA256sum: 99f4ce9f3bc02e1839de0455a5e0dcd6fc656e37695f150b7d8c9cfa19abb5d3
+Installed-Size: 22949
+Filename: kmod-usb2_3.10.60-1_ar71xx.ipk
+Size: 23477
+MD5Sum: 0c7b86f37d9cd438267613df20766dc0
+SHA256sum: 48e5e029c51a77a71d892b9ffb16c9e9c8babe6ca5d06884a5c066790303aaa0
 Description:  Kernel support for USB2 (EHCI) controllers
 
 Package: kmod-zram
-Version: 3.10.61-1
-Depends: kernel (=3.10.61-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-lib-lzo
+Version: 3.10.60-1
+Depends: kernel (=3.10.60-1-eb60810c012fdcd9b9665c44ebbbcc7b), kmod-lib-lzo
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: ar71xx
-Installed-Size: 9504
-Filename: kmod-zram_3.10.61-1_ar71xx.ipk
-Size: 10136
-MD5Sum: 12b04f94bfc047197ae40d83677c4cef
-SHA256sum: 1746fdd48d64e0070da27dd9d05041eab38be6693645a349627b4242b22db588
+Installed-Size: 9503
+Filename: kmod-zram_3.10.60-1_ar71xx.ipk
+Size: 10132
+MD5Sum: 1c581467b60f1ba73862907d8e08e60d
+SHA256sum: 8a9e88a40a6f03a062c0810777b5d4b5f9d0f0ea1b79b81047247531f882404b
 Description:  Compressed RAM block device support
 
 Package: libblkid
@@ -1332,11 +1332,11 @@ License: GPLv2 LGPLv2.1 BSD-3c
 LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
 Section: libs
 Architecture: ar71xx
-Installed-Size: 95112
+Installed-Size: 95113
 Filename: libblkid_2.24.1-1_ar71xx.ipk
-Size: 95781
-MD5Sum: af303b8b26563c0dabf2d13a13c9c2e7
-SHA256sum: 7ad63082dd16dc8097b7064e088bfa13e0573380b58bd9c4cedb8e30c377f23a
+Size: 95771
+MD5Sum: 08c959c45c010a8d57347de61a61ac15
+SHA256sum: 42a2343f98d5147d4caf84c0a5641e0860dd9bc452048ea46dac02dc7c4c8894
 Description:  The libblkid library is used to identify block devices (disks) as to their
  content (e.g. filesystem type, partitions) as well as extracting additional
  information such as filesystem labels/volume names, partitions, unique
@@ -1350,11 +1350,11 @@ License: ISC BSD-3c
 Section: libs
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 3538
+Installed-Size: 3537
 Filename: libblobmsg-json_2014-11-23-f09ae76445e32511433fdab0a1bcda73aa84986d_ar71xx.ipk
 Size: 4170
-MD5Sum: 865f36b853b4b9d38320fc912edb154f
-SHA256sum: 449ce314429d580a951d94f6c44bc583f4c7e2e52ef47fdc1d54a29c2554f235
+MD5Sum: 3018798583a0e6475ac46d7b494f3f41
+SHA256sum: 19fece74b829770584981da8bae0cdee4a57d08d2771a488c46908723ff6ba99
 Description:  blobmsg <-> json conversion library
 
 Package: libcurl
@@ -1366,11 +1366,11 @@ LicenseFiles: COPYING
 Section: libs
 Maintainer: Imre Kaloz <kaloz@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 96416
+Installed-Size: 96417
 Filename: libcurl_7.38.0-1_ar71xx.ipk
-Size: 96767
-MD5Sum: 5ac82bd62c1cfdcec93f5639a012afd9
-SHA256sum: f2031cdb638812ffd04ba16f9498205c733f76c1772a8cfb35f51e3874e87b98
+Size: 96769
+MD5Sum: 5313e8d5297def9254f169124d95b082
+SHA256sum: d2e0d56128dba5ad5dccd803552f9cfb481e7bffd97a51384130e878d1309a13
 Description:  A client-side URL transfer library using PolarSSL
 
 Package: libevent2
@@ -1380,11 +1380,11 @@ Source: package/libs/libevent2
 Section: libs
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 94098
+Installed-Size: 94095
 Filename: libevent2_2.0.21-1_ar71xx.ipk
-Size: 95025
-MD5Sum: 865ceab90ec49811e159be156bf67206
-SHA256sum: 38b31c369d5765cec2ffa3e3ef0a1497cd023fdd622dbab72494550f141a5a05
+Size: 95018
+MD5Sum: c86e109ad86ca5bdd57e6140551b11a5
+SHA256sum: 9660d24080bb9bc961055eb472a8734317199a69c1ebfa1a61750b24e36f81fa
 Description:  The libevent API provides a mechanism to execute a callback function
  when a specific event occurs on a file descriptor or after a timeout
  has been reached. Furthermore, libevent also support callbacks due
@@ -1406,11 +1406,11 @@ Status: unknown hold not-installed
 Essential: yes
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 31348
+Installed-Size: 31346
 Filename: libgcc_4.8-linaro-1_ar71xx.ipk
-Size: 31905
-MD5Sum: 8dc415875c914942c92753d71bdebdd8
-SHA256sum: 8915854ce1fb8c3281e1e1098a0452ccf65550d597ebf67500584c18f541aa7c
+Size: 31908
+MD5Sum: c0c75abb856354590c14a2212db35399
+SHA256sum: 209ac23fe5b00aa9dc73785beda55734dd219ff020d2158e15bc7c2c4acf2d20
 Description:  GCC support library
 
 Package: libip4tc
@@ -1421,9 +1421,9 @@ Section: libs
 Architecture: ar71xx
 Installed-Size: 9949
 Filename: libip4tc_1.4.21-1_ar71xx.ipk
-Size: 10477
-MD5Sum: 0e1f7cc38a83a79e661627e661148f9f
-SHA256sum: 920aa1cd7dba275b6fe04d5afcaeb2ab28c034b9cb9c5b656c99fd24114b93b2
+Size: 10479
+MD5Sum: 251a867a0609ab4cc7f56f22c7181448
+SHA256sum: 7b7f3fc35a31ff75e55a4e274d989c9df973f3a4ffd8b0a8266e2b5666f5a51c
 Description:  IPv4 firewall - shared libiptc library
 
 Package: libip6tc
@@ -1432,11 +1432,11 @@ Depends: libc
 Source: package/network/utils/iptables
 Section: libs
 Architecture: ar71xx
-Installed-Size: 10310
+Installed-Size: 10313
 Filename: libip6tc_1.4.21-1_ar71xx.ipk
-Size: 10831
-MD5Sum: a91af1ad7b122fa33c6e2aa487d9ddb7
-SHA256sum: 7369e0d0c346998a142120986e27d32449ed7885f1d2a3c98b8261d50683e1fa
+Size: 10842
+MD5Sum: 563af95fc744d99f7089bde814060889
+SHA256sum: 1532691d8b0c5b19b7d639c5900b7e5f5ea51e82b64b06398ab72edbccd759c9
 Description:  IPv6 firewall - shared libiptc library
 
 Package: libiwinfo-lua
@@ -1446,11 +1446,11 @@ Source: package/network/utils/iwinfo
 Section: lang
 Maintainer: Jo-Philipp Wich <xm@subsignal.org>
 Architecture: ar71xx
-Installed-Size: 5454
+Installed-Size: 5456
 Filename: libiwinfo-lua_51_ar71xx.ipk
-Size: 5944
-MD5Sum: ba7dc1a46954723652bf74987aa62ed9
-SHA256sum: 04d0334212121fb91b3476ee06bc0cc0bc238480b126fa11ea4094aee53b5ce5
+Size: 5949
+MD5Sum: 27cfe8d7ecc54f5f6274eb9451cb05a5
+SHA256sum: 301aca42e550a57fa4f2f2a219df62b908ccdf510a74b5165ff8d2bf33929b0d
 Description:  This is the Lua binding for the iwinfo library. It provides access to all enabled
  backends.
 
@@ -1461,11 +1461,11 @@ Source: package/network/utils/iwinfo
 Section: libs
 Maintainer: Jo-Philipp Wich <xm@subsignal.org>
 Architecture: ar71xx
-Installed-Size: 21723
+Installed-Size: 21724
 Filename: libiwinfo_51_ar71xx.ipk
-Size: 22283
-MD5Sum: ebca9eb7b63ddc8c3b6756e27f3aecec
-SHA256sum: 694fe3bbb73317a21bf8932946425a6338993cb331de7f375be7629d57aa03e3
+Size: 22275
+MD5Sum: 1ca7d0dca1e4e2f5c44d281db11dd317
+SHA256sum: a10c4b4279b27a6824dc3d55c55eef8428faa718b6a053692a59e62d8d8de82d
 Description:  Wireless information library with consistent interface for proprietary Broadcom,
  madwifi, nl80211 and wext driver interfaces.
 
@@ -1478,11 +1478,11 @@ LicenseFiles: COPYING
 Section: libs
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 12782
+Installed-Size: 12783
 Filename: libjson-c_0.11-2_ar71xx.ipk
-Size: 13386
-MD5Sum: b34a71ab9cfb7ca0da64d374d2d41893
-SHA256sum: ecf511a6892818ab1ddf45d7bfa976c9e5ffdd5a58d5875670b3697d40a27032
+Size: 13381
+MD5Sum: e73288f52bd848cfea51e39560b80fa3
+SHA256sum: 710bcf1876ebfe64abb43c2f345f78a5273148de4fd41149a859d3039c551051
 Description:  This package contains a library for javascript object notation backends.
 
 Package: libjson-script
@@ -1495,9 +1495,9 @@ Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: ar71xx
 Installed-Size: 4875
 Filename: libjson-script_2014-11-23-f09ae76445e32511433fdab0a1bcda73aa84986d_ar71xx.ipk
-Size: 5459
-MD5Sum: 1cf00ef46d73203cdb4aa29e0228df8c
-SHA256sum: 91701feeb50983a24fb27e88ae42542a552352626bb9c1dee287c628830569b5
+Size: 5455
+MD5Sum: 44f78e329c1b2941a424740c61783e97
+SHA256sum: 277329590f69f7fdd21a89f37c49a1d3a582a2127380d2fbfd004df7f0a2c733
 Description:  Minimalistic JSON based scripting engine
 
 Package: liblua
@@ -1509,11 +1509,11 @@ LicenseFiles: COPYRIGHT
 Section: libs
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 70280
+Installed-Size: 70281
 Filename: liblua_5.1.5-1_ar71xx.ipk
-Size: 70535
-MD5Sum: a6be3e838fa85ac6ba849ce3ebc86847
-SHA256sum: 825f31a87703453c8aa903148edce79caa146599047a6c41c52bd533a47a225d
+Size: 70520
+MD5Sum: fd7dec0f7b2eee982a08110c9dfc9ee5
+SHA256sum: 8cb8481f531ae6fa21d23ce0fd53b2f59b8d144563bea0571553902cd7de8117
 Description:  Lua is a powerful light-weight programming language designed for extending 
  applications. Lua is also frequently used as a general-purpose, stand-alone 
  language. Lua is free software.
@@ -1525,11 +1525,11 @@ Depends: libc
 Source: package/libs/lzo
 Section: libs
 Architecture: ar71xx
-Installed-Size: 35464
+Installed-Size: 35465
 Filename: liblzo_2.08-1_ar71xx.ipk
-Size: 36037
-MD5Sum: c6e645df8847dc9aecb38cf843b2ef6a
-SHA256sum: fd6a54f7ba36317f03ca82c4465ca0f8a3c41a9b998af3ca1acaa232ebe88e72
+Size: 36026
+MD5Sum: 1c0e431890b1a27fcd3dce54fde713cd
+SHA256sum: 15054dd0216eb65f005c41e78bdce3e1b0210f1f8ca2fd9b8f0e14f3e45a9f6f
 Description:  LZO is a data compression library which is suitable for data de-/compression
  in real-time. This means it favours speed over compression ratio.
 
@@ -1540,11 +1540,11 @@ Source: package/libs/libnfnetlink
 Section: libs
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 8889
+Installed-Size: 8890
 Filename: libnfnetlink_1.0.1-1_ar71xx.ipk
-Size: 9604
-MD5Sum: f566d204a2395fb46ef1c34260599504
-SHA256sum: 498c3340b0d8e8cac2b9c793220aa92531001b6987cf06949d5eace82697deb1
+Size: 9602
+MD5Sum: 96eae8909143e0a07ebcfb646efd5fea
+SHA256sum: deb874b79e60d75f542d479a8d694b7c8b7167e0161007db9ac7263554e9eee5
 Description:  libnfnetlink is is the low-level library for netfilter related kernel/userspace communication.
  It provides a generic messaging infrastructure for in-kernel netfilter subsystems
  (such as nfnetlink_log, nfnetlink_queue, nfnetlink_conntrack) and their respective users
@@ -1560,9 +1560,9 @@ Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: ar71xx
 Installed-Size: 12923
 Filename: libnl-tiny_0.1-3_ar71xx.ipk
-Size: 13500
-MD5Sum: 9ed356617f99d0a901573ae9cbba60ff
-SHA256sum: c12b805e46ca71a4efdf868453f6cbd55a06b8b2c91d16d2efa4cfda48f1fb3a
+Size: 13509
+MD5Sum: 1d9d1bf6ad668503848630ab64e153fb
+SHA256sum: 1d6d74257d44150999d575e844f94f6c3dff4b30b57d0117326349517a8095cf
 Description:  This package contains a stripped down version of libnl
 
 Package: libopenssl
@@ -1573,11 +1573,11 @@ License: SSLEAY OPENSSL
 LicenseFiles: LICENSE
 Section: libs
 Architecture: ar71xx
-Installed-Size: 658751
+Installed-Size: 658752
 Filename: libopenssl_1.0.1j-1_ar71xx.ipk
-Size: 652406
-MD5Sum: b84de5f38e37235800e6be7ad2a1527b
-SHA256sum: 87e0327d62e0986070c2cf393d52e5dbf25a3604563650780ec9ab40af2cd197
+Size: 652475
+MD5Sum: b33c53a16a3ce3ba7c8c5fca27cf2072
+SHA256sum: 260fe2250bbd9317626b9ab4e5dbb55e20e313165ced76725779bb0807f7fbb4
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the Secure
  Sockets Layer (SSL v2/v3) and Transport Layer Security (TLS v1) protocols as well
@@ -1590,11 +1590,11 @@ Depends: libc
 Source: package/libs/polarssl
 Section: libs
 Architecture: ar71xx
-Installed-Size: 129961
+Installed-Size: 129960
 Filename: libpolarssl_1.3.8-2_ar71xx.ipk
-Size: 130394
-MD5Sum: 6ebdb0da3145cc872a3b2beb7871d5ad
-SHA256sum: 47402b17f17fb9f4f0a3cbdc861437d631ac8c7148120179ee4cc0950053dd45
+Size: 130383
+MD5Sum: 0dc42f0e56a1463f54d8190351907eaf
+SHA256sum: 1206daf126c6e1374a6d8f2a3be25ac757683f8d49267c402abd8a554f6be1dc
 Description:  The aim of the PolarSSL project is to provide a quality, open-source
  cryptographic library written in C and targeted at embedded systems.
  This package contains the PolarSSL library.
@@ -1608,11 +1608,11 @@ Status: unknown hold not-installed
 Essential: yes
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 30373
+Installed-Size: 30365
 Filename: libpthread_0.9.33.2-1_ar71xx.ipk
-Size: 30952
-MD5Sum: 904c337f293ac4e2cb7dd80e5340a9eb
-SHA256sum: 6667b3cecc960c714fc48dec117df66aaee529e5540c2fc5626693f2f7a21d22
+Size: 30940
+MD5Sum: f5b90a78fbe3af3310789392ba8e3b47
+SHA256sum: ae78fe5ef29d266321f1dad2c012d3648e96c07fb35dd019c82c6dc3165276df
 Description:  POSIX thread library
 
 Package: librt
@@ -1624,11 +1624,11 @@ Status: unknown hold not-installed
 Essential: yes
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 4894
+Installed-Size: 4889
 Filename: librt_0.9.33.2-1_ar71xx.ipk
-Size: 5468
-MD5Sum: 92a4b28bba772687d6fcbef0bc0ecba5
-SHA256sum: d4236760a7a831fddd613a60c52a3942dcf4af9b3d5127d80625f12b40260ae4
+Size: 5464
+MD5Sum: dd0b4330bc14bc5d4e50f06b81356d83
+SHA256sum: 8b1740fcc29f07fc952e92fddbe425991fdcf80f784918cb448d859cd75a77a9
 Description:  POSIX.1b RealTime extension library
 
 Package: libubox
@@ -1639,11 +1639,11 @@ License: ISC BSD-3c
 Section: libs
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 16608
+Installed-Size: 16606
 Filename: libubox_2014-11-23-f09ae76445e32511433fdab0a1bcda73aa84986d_ar71xx.ipk
-Size: 17152
-MD5Sum: cc1366aab021261b7e4f6c37c3e97b9c
-SHA256sum: f8704c0e9618261fe00b6104d2603b9e5c52cbd18032fb24030f837ab5976f81
+Size: 17154
+MD5Sum: cf65841b5e784657a47cdc515c7d687d
+SHA256sum: c558481d7e18019535171c02289a6630224d68a74577daf2f3403f8ff8a0562b
 Description:  Basic utility library
 
 Package: libubus-lua
@@ -1656,9 +1656,9 @@ Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: ar71xx
 Installed-Size: 5403
 Filename: libubus-lua_2014-09-17-4c4f35cf2230d70b9ddd87638ca911e8a563f2f3_ar71xx.ipk
-Size: 6003
-MD5Sum: e4ae24f500467795cc77ace29a8ca724
-SHA256sum: 5e267aa2ff65eb911caa9b978e43fa3169c4fd0780dd202127357cc3fc91584a
+Size: 5998
+MD5Sum: f9a229f309af211090dabc058875c714
+SHA256sum: 13741506ae819ecb76100b2574f24554ab8ffe67cbc814f4e58194392b2dfef7
 Description:  Lua binding for the OpenWrt RPC client
 
 Package: libubus
@@ -1669,11 +1669,11 @@ License: LGPLv2.1
 Section: libs
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 8621
+Installed-Size: 8624
 Filename: libubus_2014-09-17-4c4f35cf2230d70b9ddd87638ca911e8a563f2f3_ar71xx.ipk
-Size: 9257
-MD5Sum: 757199db9e54faa56b511cc17bf098c4
-SHA256sum: c73976ec4732e09c2443d31deb5a49cdd591e153ae4695df2d27369a3b5a1221
+Size: 9266
+MD5Sum: fa79a4e415958d525cf1015e0d594c91
+SHA256sum: 760e78193962eb43b043222565cf83e49ec29ea96003900697537c40108b31c0
 Description:  OpenWrt RPC client library
 
 Package: libuci-lua
@@ -1684,11 +1684,11 @@ License: LGPLv2.1 GPLv2
 Section: libs
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 6078
+Installed-Size: 6079
 Filename: libuci-lua_2014-04-11.1-1_ar71xx.ipk
-Size: 6649
-MD5Sum: a7892c235618d84dd87fe437091c2317
-SHA256sum: f43f3987b9c9589ac6a200967232c49556fa32d32f469c4eea34470a7f1d0631
+Size: 6652
+MD5Sum: 44f454507b55f847a1eea8e474255f41
+SHA256sum: 01df4fae5ce55f7d744efb7179fc740edfff715d0e1ae77c323855833d442705
 Description:  Lua plugin for UCI
 
 Package: libuci
@@ -1699,11 +1699,11 @@ License: LGPLv2.1 GPLv2
 Section: libs
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 15974
+Installed-Size: 15977
 Filename: libuci_2014-04-11.1-1_ar71xx.ipk
-Size: 16535
-MD5Sum: 5e729af9c4e7bcd50764f201ebc93919
-SHA256sum: 59857d577da9bd714e64cdcee8bb9e326eebe4e18832fe019fd20e1559350737
+Size: 16537
+MD5Sum: 215c7f8a15e2c1d537ec282978f454fe
+SHA256sum: 809b1c353aca9a2d3d6342a55b90a9688564b37be02ce813a1438b9b3b70df31
 Description:  C library for the Unified Configuration Interface (UCI)
 
 Package: libusb-1.0
@@ -1713,11 +1713,11 @@ Source: package/libs/libusb
 Section: libs
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 22168
+Installed-Size: 22167
 Filename: libusb-1.0_1.0.9-1_ar71xx.ipk
-Size: 22760
-MD5Sum: 722387707ad8c206dcd386d00a12d250
-SHA256sum: 3113b9e0a1b47c6bff8c173b1d9b26c8e9ba6c82a49a4ed1aebf29f380dbfb86
+Size: 22753
+MD5Sum: 71d7b71dcd62030e053d148205b206cc
+SHA256sum: 4867607bfddcde16a545e0051983b9fcddbc2ce87157d13b372986992da32470
 Description:  libusb is a C library that gives applications easy access to USB devices on
  many different operating systems.
 
@@ -1729,11 +1729,11 @@ License: ISC
 Section: libs
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 3410
+Installed-Size: 3409
 Filename: libustream-polarssl_2014-03-25-fc0b5ec804ee43c532978dd04ab0509c34baefb0_ar71xx.ipk
-Size: 4037
-MD5Sum: 0018f00fdbfa5ea41594ed71d86b6e4b
-SHA256sum: 93eb2a2bf7db8c338855dd8f259a0757ae5b68c44bd2ec0ac66b430acf1b5b8f
+Size: 4031
+MD5Sum: 9c32fb166294eebfe912eef3a175b359
+SHA256sum: 5f21dd1550a110229807aa7a46b24595198a0c7a6a01d61cff76f599561a5f28
 Description:  ustream SSL Library (polarssl)
 
 Package: libuuid
@@ -1744,11 +1744,11 @@ License: GPLv2 LGPLv2.1 BSD-3c
 LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
 Section: libs
 Architecture: ar71xx
-Installed-Size: 5361
+Installed-Size: 5363
 Filename: libuuid_2.24.1-1_ar71xx.ipk
-Size: 6091
-MD5Sum: fdcc3536c2bb0f98ecdb6c4e58c3790d
-SHA256sum: 5436f6ee733cd7e1e9e595f6e468b1283c69f4ac5ba3740cb1aaeb245ea2ec0b
+Size: 6112
+MD5Sum: 535b0499960b599e38a6bba231b2177f
+SHA256sum: 01c29ef4068042e84ccf8cec9d6ec181a68bbefbcdd8f96cced31d93c32e3f3e
 Description:  The UUID library is used to generate unique identifiers for objects
  that may be accessible beyond the local system. This library
  generates UUIDs compatible with those created by the Open Software
@@ -1762,9 +1762,9 @@ Section: libs
 Architecture: ar71xx
 Installed-Size: 16832
 Filename: libxtables_1.4.21-1_ar71xx.ipk
-Size: 17321
-MD5Sum: 54e1d398c2fbf53fd833afd69d13a866
-SHA256sum: eddca2367f5f2f54573b25488026e4c5399b3936e5701b7437cacc4142f30443
+Size: 17315
+MD5Sum: f7b14e066c7995a2e33326d09a6b121d
+SHA256sum: 65a1fb5ffca25c524746d587996b103fae72068eace9b2ea6b650d2f023e98f2
 Description:  IPv4/IPv6 firewall - shared xtables library
 
 Package: lua
@@ -1776,11 +1776,11 @@ LicenseFiles: COPYRIGHT
 Section: lang
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 4538
+Installed-Size: 4535
 Filename: lua_5.1.5-1_ar71xx.ipk
-Size: 5204
-MD5Sum: acb443c732665260b714baa749de5b9f
-SHA256sum: a2431dd940e66c3986a11bd0e1605dbf830d7aaabdb6fa431a5b34ab2c11ea97
+Size: 5206
+MD5Sum: 81943df722aef69860816680a6f53b8f
+SHA256sum: aa9426c1742719de28f1fa7d307b707d3c1b56e1fce71c6b069bf72de78ddc48
 Description:  Lua is a powerful light-weight programming language designed for extending 
  applications. Lua is also frequently used as a general-purpose, stand-alone 
  language. Lua is free software.
@@ -1793,11 +1793,11 @@ Source: package/system/mtd
 License: GPLv2 GPLv2+
 Section: utils
 Architecture: ar71xx
-Installed-Size: 13996
+Installed-Size: 14000
 Filename: mtd_20_ar71xx.ipk
-Size: 14573
-MD5Sum: bb165478f38a7cbe9b709434fb04d463
-SHA256sum: 82e59280d4b3bbc23a066434466708991c00efd97f43ccbdd2ec679fc4b2a339
+Size: 14578
+MD5Sum: 8384524edaadd24a87f18d8a11d01fa1
+SHA256sum: 6ec285c23e24e9e59c8923c3bd01285ba4181e46432a5a68841742afbab7e92d
 Description:  This package contains an utility useful to upgrade from other firmware or 
  older OpenWrt releases.
 
@@ -1809,11 +1809,11 @@ License: GPLv2
 Section: base
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 58502
+Installed-Size: 58499
 Filename: netifd_2014-09-08.1-46c569989f984226916fec28dd8ef152a664043e_ar71xx.ipk
-Size: 58606
-MD5Sum: 8d5f6468265c3f4de707c46c687552f0
-SHA256sum: 5c05e54e6e580b54a3874ae6339a4c6130984faa8d9b91760202fedf14686390
+Size: 58602
+MD5Sum: cee252bdda64e6f056ffa216694ba4e0
+SHA256sum: a82afeabb5624d34b22fbf07b1d8832c7f54f7a53ad40c50431e07ad09463e2e
 Description:  OpenWrt Network Interface Configuration Daemon
 
 Package: odhcp6c
@@ -1824,11 +1824,11 @@ License: GPL-2.0
 Section: net
 Maintainer: Steven Barth <steven@midlink.org>
 Architecture: ar71xx
-Installed-Size: 22798
+Installed-Size: 22793
 Filename: odhcp6c_2014-11-28-518cdfc1dbf5c61859f6faaf678e0bbed82755a6_ar71xx.ipk
-Size: 23395
-MD5Sum: d137ce13c06f2409c4f69a5c86824dd2
-SHA256sum: 2581352ba1c95d909019e1495d79a3f6e08b0c754577ad654a97404c54c700c8
+Size: 23377
+MD5Sum: 70183f09878ffc5f256ac44d0b52bb8b
+SHA256sum: 43b2b9483cc49be3adef9f4db667bf9f1920be78e58f61e23217d55a599fa76b
 Description:  Embedded DHCPv6-client for OpenWrt
 
 Package: odhcpd
@@ -1838,11 +1838,11 @@ Source: package/network/services/odhcpd
 Section: net
 Maintainer: Steven Barth <steven@midlink.org>
 Architecture: ar71xx
-Installed-Size: 30025
+Installed-Size: 30026
 Filename: odhcpd_2014-09-25-a6e2953843eaf6c93764f9feef10466e7a84ec85_ar71xx.ipk
-Size: 30435
-MD5Sum: 5c15062e5b5f03a6dd4d0c2ec10429cd
-SHA256sum: 081f030b7a87a324ad373146496df75ccc670ef5e2dcb43b34ca33bb49cf68a6
+Size: 30432
+MD5Sum: 50b2ee164d33c6dfc07bb65963717c3d
+SHA256sum: 5c3d416990063aa4b6e0939d3e5d1e74e13cbc067b5c3e653ef7fd242eb6e646
 Description:  odhcpd is a daemon for serving and relaying IP management protocols to
  configure clients and downstream routers. It tries to follow the RFC 6204
  requirements for IPv6 home routers.
@@ -1858,11 +1858,11 @@ Source: package/network/services/openvpn
 Section: net
 Maintainer: Mirko Vogt <mirko@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 154156
+Installed-Size: 154148
 Filename: openvpn-openssl_2.3.4-1_ar71xx.ipk
-Size: 153362
-MD5Sum: 741bc782cf2ae8cb0546a09a7619d5c0
-SHA256sum: 079271143d0c5bcdec8dff776431b4cb7f9ffec9405509bcb4ae0d619fe66d9e
+Size: 153357
+MD5Sum: 4c01df89d208c49e1a61290ac028c75a
+SHA256sum: 5c03993d09eaebb11801a623048d277284858a6995169d9e40d9e8a33fc86eb0
 Description:  Open source VPN solution using OpenSSL
 
 Package: opkg
@@ -1876,9 +1876,9 @@ Maintainer: Jo-Philipp Wich <xm@subsignal.org>
 Architecture: ar71xx
 Installed-Size: 56544
 Filename: opkg_9c97d5ecd795709c8584e972bfdf3aee3a5b846d-7_ar71xx.ipk
-Size: 56969
-MD5Sum: a12fca7f78b409914da942e2163b5afb
-SHA256sum: 56fe82b74f7a76567675efc3a2b0738b28575677e868a1fdc7749b136298c12b
+Size: 56971
+MD5Sum: 6ff688898af805172901f73818dbe907
+SHA256sum: e8def9716f081057038037e9d6eced14f36f0f31e1d73f643384c4d9cc0d4107
 Description:  Lightweight package management system
  opkg is the opkg Package Management System, for handling
  installation and removal of packages on a system. It can
@@ -1894,11 +1894,11 @@ Source: package/network/services/ppp
 Section: net
 Maintainer: Jo-Philipp Wich <xm@subsignal.org>
 Architecture: ar71xx
-Installed-Size: 9190
+Installed-Size: 9193
 Filename: ppp-mod-pppoe_2.4.7-2_ar71xx.ipk
-Size: 9792
-MD5Sum: a2828eb0e2bcff870581f9ace065f880
-SHA256sum: df3ed6eeaaf4dd607313d9bdc2caa574445c65094702983e912dbff240093b78
+Size: 9791
+MD5Sum: b65512807a0bd4e9dfbb4d423de28d01
+SHA256sum: be3d4d38cae81f2afc0900e8ab5382f433b6342cdcb0cc393026b7f0980fd119
 Description:  This package contains a PPPoE (PPP over Ethernet) plugin for ppp.
 
 Package: ppp-mod-pppol2tp
@@ -1908,11 +1908,11 @@ Source: package/network/services/ppp
 Section: net
 Maintainer: Jo-Philipp Wich <xm@subsignal.org>
 Architecture: ar71xx
-Installed-Size: 4451
+Installed-Size: 4453
 Filename: ppp-mod-pppol2tp_2.4.7-2_ar71xx.ipk
-Size: 5029
-MD5Sum: c24185d57c5e89dd9e3638c167219a63
-SHA256sum: e9853b11797aa7e507ef8559174eeb6666cbb9a3c20d3577bf283857484ef806
+Size: 5035
+MD5Sum: 039557cef8bf5d29e529b2b4b8e20bf9
+SHA256sum: 30f0c0f3cd6b21eb73c80d68b0abd2f1092e69f0cae5fe32430e28dbf5c1726c
 Description:  This package contains a PPPoL2TP (PPP over L2TP) plugin for ppp.
 
 Package: ppp-mod-pptp
@@ -1922,11 +1922,11 @@ Source: package/network/services/ppp
 Section: net
 Maintainer: Jo-Philipp Wich <xm@subsignal.org>
 Architecture: ar71xx
-Installed-Size: 15466
+Installed-Size: 15468
 Filename: ppp-mod-pptp_2.4.7-2_ar71xx.ipk
-Size: 16039
-MD5Sum: ec97640980c902d00ccd505e87bf91bf
-SHA256sum: 27d9c36bf349a3e2bcf40b0ef1d7e057348d3115db11477020e3c11641159dc3
+Size: 16038
+MD5Sum: 5b79db6c57811a5b52e2acd49ec135cd
+SHA256sum: 9ada950befedec05b76d3d866473dad8d993b347a75826ddc6f2bf654884909a
 Description:  This package contains a PPtP plugin for ppp.
 
 Package: ppp
@@ -1936,11 +1936,11 @@ Source: package/network/services/ppp
 Section: net
 Maintainer: Jo-Philipp Wich <xm@subsignal.org>
 Architecture: ar71xx
-Installed-Size: 105995
+Installed-Size: 105994
 Filename: ppp_2.4.7-2_ar71xx.ipk
-Size: 106211
-MD5Sum: dbf734a49677ca2b3a341c5cdd1f6a92
-SHA256sum: 8e1c28170e590ed5cdc7fe4326026ffda626afedcc85cdd1cec987e643502c4b
+Size: 106200
+MD5Sum: 193bf6be15e0dc30aec006aabe30ba47
+SHA256sum: 6f7b132a7588ccf1760ed02aac00b7070a5f0039968ec10e6586d8c3e5023819
 Description:  This package contains the PPP (Point-to-Point Protocol) daemon.
 
 Package: procd
@@ -1951,11 +1951,11 @@ License: GPLv2
 Section: base
 Maintainer: John Crispin <blogic@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 33109
+Installed-Size: 33112
 Filename: procd_2014-09-15-c1a558f7d0c1e6c1ffa5a47d557a7b45205eef1d_ar71xx.ipk
-Size: 33184
-MD5Sum: 0112ec678b0c33d7f635e7b4ddaa0518
-SHA256sum: 2f8073458b1fb039d8dd120d8dbcb9009bd81e33caf7114389626b6e78323c7d
+Size: 33176
+MD5Sum: 297ee5212648e9a6856e25d358b7f7b4
+SHA256sum: fed59bc465a9ab160686873812bfcc80fd117229e12e8d246d93771d2cb6d033
 Description:  OpenWrt system process manager
 
 Package: px5g
@@ -1965,11 +1965,11 @@ Source: package/utils/px5g
 Section: utils
 Maintainer: Jo-Philipp Wich <xm@subsignal.org>
 Architecture: ar71xx
-Installed-Size: 3858
+Installed-Size: 3857
 Filename: px5g_1_ar71xx.ipk
-Size: 4471
-MD5Sum: db5f135b505fa752c264451f1e23c75a
-SHA256sum: ca093aaacdbc06480302939057a7cb37ef59492b6260618656f0e1071e437d20
+Size: 4468
+MD5Sum: 9a9504e934052eb26162ddfc93b03f1e
+SHA256sum: 1d7ea1e53cff87c8cb9b9138c38d94973b852ec0f15b9fadad79887a692d3e17
 Description:  Px5g is a tiny standalone X.509 certificate generator.
  It suitable to create key files and certificates in DER
  and PEM format for use with stunnel, uhttpd and others.
@@ -1981,11 +1981,11 @@ Source: package/network/config/qos-scripts
 Section: utils
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: all
-Installed-Size: 6403
+Installed-Size: 6396
 Filename: qos-scripts_1.2.1-6_all.ipk
-Size: 7105
-MD5Sum: 9d94388a362a0e94fa932f1b5098e788
-SHA256sum: b3472b946c39e69bd9cf438419ffff16c95e06085fbad86631f978c79a21d8ff
+Size: 7092
+MD5Sum: 5ea6238a5909242045c92be8f344b840
+SHA256sum: 68bdb215ce4af596ed81359d4606de14bd56270ec59bdf01cc4525ad12c1009b
 Description:  A set of scripts that abstract QoS configuration into a simple 
  configuration file supporting stanzas that specify any number of QoS 
  entries.
@@ -1997,11 +1997,11 @@ Source: package/network/services/relayd
 Section: net
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 9703
+Installed-Size: 9705
 Filename: relayd_2014-06-29-8b20ffae06b9b7fcc6fb52d3b8a80b45ed424e39_ar71xx.ipk
-Size: 10304
-MD5Sum: d69bfdaab1ac05186b1dd9bef74d4658
-SHA256sum: 3a26de5ae0ca113e35bcf4fca81439d230de14bd344930fa9db9b85b44b9cdcd
+Size: 10301
+MD5Sum: 7ed62d2a9aad3927c424b0b2be399313
+SHA256sum: 80567912c6c3f2da35d81ad88d27a92a1c994bc256c0761bed08ef37595a2c31
 Description:  Transparent routing / relay daemon
 
 Package: resolveip
@@ -2011,11 +2011,11 @@ Source: package/network/utils/resolveip
 Section: utils
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 1800
+Installed-Size: 1798
 Filename: resolveip_2_ar71xx.ipk
-Size: 2516
-MD5Sum: fdad2cbbd43a13d409a450252ae0a0c3
-SHA256sum: ae2ab9bf670210b594f671790e2b13cc8da9d7784cb0f282a11201cd615b3f31
+Size: 2513
+MD5Sum: 5166267cf99a710afbbc17a97fbeb1b8
+SHA256sum: fc8ec52ea947ee02bb4b516474255fa8e4eec6aab551e1d8ee7cc842e5959b32
 Description:  This package contains the small resolveip utility which
  can be used by scripts to turn host names into numeric
  IP addresses. It supports IPv4 and IPv6 resolving and
@@ -2030,11 +2030,11 @@ License: GPLv2 LGPLv2.1 BSD-3c
 LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
 Section: utils
 Architecture: ar71xx
-Installed-Size: 25484
+Installed-Size: 25483
 Filename: swap-utils_2.24.1-1_ar71xx.ipk
-Size: 26005
-MD5Sum: 5c0f46233990bfd6ff8c2f7163c2a0f6
-SHA256sum: 95ef2d5f046d2e6612cea3ffca545e67f65cce1008b89edc806d5c2b2f36ffa3
+Size: 25998
+MD5Sum: 6d9fa81213baf41bd8f4a7e0bf6493f3
+SHA256sum: 247bc8ec5894add2822e6326f489633c8702d5dc9b070b05198e231162f2f510
 Description:  contains: mkswap, swaplabel
 
 Package: swconfig
@@ -2044,11 +2044,11 @@ Source: package/network/config/swconfig
 Section: base
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 7697
+Installed-Size: 7703
 Filename: swconfig_10_ar71xx.ipk
-Size: 8291
-MD5Sum: acdd0b917900af5c70bada794c4f5fe8
-SHA256sum: eef10419474bbef843004f79b7f905e9af6593398ba583a7024d7a3aff75bc7a
+Size: 8299
+MD5Sum: 22869eafe3cdab62adbf12838320743d
+SHA256sum: b8f9f36914c94881ff49b960e58b26e4b5b21c78c4f7e92be5dd99b257ee590b
 Description:  Switch configuration utility
 
 Package: tc
@@ -2058,11 +2058,11 @@ Source: package/network/utils/iproute2
 Section: net
 Maintainer: Russell Senior <russell@personaltelco.net>
 Architecture: ar71xx
-Installed-Size: 90974
+Installed-Size: 90978
 Filename: tc_3.15.0-1_ar71xx.ipk
-Size: 91534
-MD5Sum: 31aeac37824f1ae284cb9ebb49135f86
-SHA256sum: 32580ed8e5cafab6f1e3ddada4a17fb39d1fe87c98ab53ba8a36868474b1aeda
+Size: 91555
+MD5Sum: 9cc3928eb352eb6a9c018fe9dd8f195e
+SHA256sum: 3abbaa47ae9919a347fde6969463f24f25487e07c4aabb0d92ea95509265b671
 Description:  Traffic control utility
 
 Package: ubox
@@ -2073,11 +2073,11 @@ License: GPLv2
 Section: base
 Maintainer: John Crispin <blogic@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 23214
+Installed-Size: 23213
 Filename: ubox_2014-09-16-5c45b560bc8c9e13682269ed963a8a4a65959518_ar71xx.ipk
-Size: 23289
-MD5Sum: 7639646ab26e21a68b1341ca976cd9e9
-SHA256sum: 4ad5b39f286cde267b1113c01a7a266a2c4c8cab2aeec0229c375df747d81713
+Size: 23290
+MD5Sum: 85da8501026e92b915d9a81042787422
+SHA256sum: 247c6ae53bdf55895c00f3bd4bb6a4259868d7a0597b9d9aa0c931b0aa165f3c
 Description:  OpenWrt system helper toolbox
 
 Package: ubus
@@ -2088,11 +2088,11 @@ License: LGPLv2.1
 Section: base
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 3938
+Installed-Size: 3941
 Filename: ubus_2014-09-17-4c4f35cf2230d70b9ddd87638ca911e8a563f2f3_ar71xx.ipk
-Size: 4573
-MD5Sum: c19160a7b8f9c64dcaffcfed3784db52
-SHA256sum: e838861d69df8fe214fd70954c1d7b476042a6a13004526984143e77424c19e3
+Size: 4576
+MD5Sum: ba31d14e6f6e12c18cce3bc5df1ec960
+SHA256sum: e9b44334b6a0ad5a4b2bd222f483d82afbdf3ae066cc17b4e59bd5988a235c6c
 Description:  OpenWrt RPC client utility
 
 Package: ubusd
@@ -2103,11 +2103,11 @@ License: LGPLv2.1
 Section: base
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 7440
+Installed-Size: 7443
 Filename: ubusd_2014-09-17-4c4f35cf2230d70b9ddd87638ca911e8a563f2f3_ar71xx.ipk
-Size: 8071
-MD5Sum: 8da96f808f06298d337554602ba9c1fc
-SHA256sum: 19da87434545902af322949fb2ad31fdaa31e04810d974c338573e178dc68f4e
+Size: 8080
+MD5Sum: ea12c8d465f4eb1a8a2c63e5485ab18d
+SHA256sum: 88f33cb9421cfe506156680fc4aabe93bbf66dc6e5b72277e77cc05d395cc8f5
 Description:  OpenWrt RPC daemon
 
 Package: uci
@@ -2118,11 +2118,11 @@ License: LGPLv2.1 GPLv2
 Section: base
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 6651
+Installed-Size: 6654
 Filename: uci_2014-04-11.1-1_ar71xx.ipk
-Size: 7250
-MD5Sum: 5f070e8ce53237672513824a8e1e1e4f
-SHA256sum: 0d2ad5c628a8e6c63a3f77a1e4c4fa4ee6ba7a3cf3556d75be7e5536f6787e8a
+Size: 7255
+MD5Sum: fe120d1047e52fab7b4cdab976b1ae83
+SHA256sum: 44105b759cb83f1ebab82aad6be7345d6a8713875ac5358b83e5cc2a8eb782c8
 Description:  Utility for the Unified Configuration Interface (UCI)
 
 Package: uhttpd-mod-ubus
@@ -2132,11 +2132,11 @@ Source: package/network/services/uhttpd
 Section: net
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 6004
+Installed-Size: 6002
 Filename: uhttpd-mod-ubus_2014-10-27-fd8e5e379c23c5fbcec3e76894b839233df09067_ar71xx.ipk
-Size: 6680
-MD5Sum: 71b0d9bcc11b724cb7c62c0fca6acffc
-SHA256sum: a912027c8e3221ef9e5c2bd2038989cecd16d24fa6f7884c993068708018bd34
+Size: 6677
+MD5Sum: 5308dabf6d5b903e8dd6de607b286400
+SHA256sum: fe12c1a31badeda6d77e1a7900f7e9922c97dd5565245472714cb3b5972645bf
 Description:  The ubus plugin adds a HTTP/JSON RPC proxy for ubus and publishes the
  session.* namespace and procedures.
 
@@ -2147,11 +2147,11 @@ Source: package/network/services/uhttpd
 Section: net
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 21090
+Installed-Size: 21088
 Filename: uhttpd_2014-10-27-fd8e5e379c23c5fbcec3e76894b839233df09067_ar71xx.ipk
-Size: 21586
-MD5Sum: b901d2d4f10f6e1f26356a6d2453d534
-SHA256sum: 64793ee79502e8e0f63cf048d439e9029bc5273d9b5c815b919eedb063e9aee1
+Size: 21588
+MD5Sum: b01f0d29fa5cd5ab8c028ba21c28e764
+SHA256sum: e99cafbc040a7f7eb6437645d0b7ae436f7f397274213d3954d1d64a45d48826
 Description:  uHTTPd is a tiny single threaded HTTP server with TLS, CGI and Lua
  support. It is intended as a drop-in replacement for the Busybox
  HTTP daemon.
@@ -2164,11 +2164,11 @@ License: GPLv2
 Section: net
 Maintainer: Matti Laakso <malaakso@elisanet.fi>
 Architecture: ar71xx
-Installed-Size: 17727
+Installed-Size: 17724
 Filename: uqmi_2014-05-27-d7a56cad6d6ef3c2a5602fc604e31999eb9e78fa_ar71xx.ipk
-Size: 18417
-MD5Sum: b677e75d7201b895d729c2d36ebb15a8
-SHA256sum: 28af0e35e776a06a3ce0ec6827e44607fac3d1058cacd45cb6d84a208ad63155
+Size: 18424
+MD5Sum: 846cfd7835ab47323d3173f4585374c0
+SHA256sum: 41bb7ae5dbded4e8b90c07ff3e27769bc766f81ecb824e0c2dd37bfed3bbbce2
 Description:  uqmi is a command line tool for controlling mobile broadband modems using
  the QMI-protocol.
 
@@ -2180,11 +2180,11 @@ License: GPLv2
 Section: utils
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 11461
+Installed-Size: 11468
 Filename: usb-modeswitch_2014-07-18-01ecc3b9764d1dd89cf36ede0a2d98f9adb0cd33_ar71xx.ipk
-Size: 12082
-MD5Sum: 7595c345be9f22e53870ab9e6a6f2450
-SHA256sum: 04d5590d6069694687510938d3bac810f28338097fee9a6ad683f34bde157e44
+Size: 12085
+MD5Sum: 0315c5ae0634b75a6d15bbe7efd386a0
+SHA256sum: 9ae3a8419c4c431b254650fdb38398f705e104bf3ce3e1912b7c71ae93c91767
 Description:  USB mode switching utility
 
 Package: wpad
@@ -2194,11 +2194,11 @@ Source: package/network/services/hostapd
 Section: net
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 368053
+Installed-Size: 368051
 Filename: wpad_2014-06-03.1-1_ar71xx.ipk
-Size: 367810
-MD5Sum: 7eb8c40206bce7599cbe1670fad6bcf9
-SHA256sum: ece125952aedd142beeff80a1e0949f086092562d482770843dae60ddb54ba5d
+Size: 367838
+MD5Sum: fae8464bfb4c1b36634f0e77c3e3e56d
+SHA256sum: 835e57e2b94a567afade2969504605759bd8fc1667f87550466111469e00768e
 Description:  This package contains a full featured IEEE 802.1x/WPA/EAP/RADIUS
  Authenticator and Supplicant
 
@@ -2213,8 +2213,8 @@ Architecture: ar71xx
 Installed-Size: 39253
 Filename: zlib_1.2.8-1_ar71xx.ipk
 Size: 39853
-MD5Sum: f42d542ec297199800f75432518b8fe5
-SHA256sum: ae9ae7e57c774d8f661e68b255e8ad70741ea0e38d153bacaf1aa3b934d69fb7
+MD5Sum: 58c82e720119946225dad2ec6772b080
+SHA256sum: 10308b4057ad7fbd28f6bc5e9e19777cd08e2d7fa1b3e263fcaf4fc8b16de1dc
 Description:  Library implementing the deflate compression method
 
 Package: zram-swap
@@ -2223,11 +2223,11 @@ Depends: libc, kmod-zram, swap-utils, block-mount
 Source: package/system/zram-swap
 Section: utils
 Architecture: all
-Installed-Size: 1121
+Installed-Size: 1120
 Filename: zram-swap_1-2_all.ipk
-Size: 1731
-MD5Sum: 8354a0e5b4798f5fcec2ed04f2548b1b
-SHA256sum: 59b466c777e4272809b9f40bb57bac8547c5061d6b3850ba11bd722796461d25
+Size: 1727
+MD5Sum: 15acad72cb173a8a1eb3d8953a528468
+SHA256sum: 3b3e3094c90306f50924987300513e34723b1beb10f7b012dc880bec741ca133
 Description:  A script to activate swaping on a compressed zram partition. This 
  could be used to increase the available memory, by using compressed 
  memory.
