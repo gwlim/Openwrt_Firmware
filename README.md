@@ -7,9 +7,8 @@ OpenWRT for WR1043NDv1 and MR3420v2
 Source
 ------
 
-https://github.com/gwlim/Attitude_Adjustment_WR1043ND.git
-https://github.com/gwlim/barrier-breaker-wr1043nd.git
-https://github.com/gwlim/barrier-breaker-mr3420v2.git
+https://github.com/gwlim/mips74k-barrier-breaker-patch
+https://github.com/gwlim/mips24k-barrier-breaker-patch
 
 
 Features
@@ -32,8 +31,7 @@ Overclock
 ---------
 
 * Overclock firmware for WR1043NDv1 is available in [Backup Folder](https://github.com/gwlim/Openwrt_Firmware/tree/master/TP-Link_TL-WR1043ND/BackUp_Image)
-* 3 Preset Overclock: 
-* 440MHZ CPU Clock, 440MHZ RAM, and 220MHZ AHB
+* 2 Preset Overclock: 
 * 430MHZ CPU Clock, 430MHZ RAM, and 215MHZ AHB
 * 420MHZ CPU Clock, 420MHZ RAM, and 210MHZ AHB
 * Tested Stable and Working on my WR1043ND
