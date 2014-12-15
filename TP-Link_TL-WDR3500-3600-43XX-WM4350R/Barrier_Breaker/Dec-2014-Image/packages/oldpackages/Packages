@@ -4,11 +4,11 @@ Depends: libc, iptables-mod-filter
 Source: feeds/oldpackages/net/l7-protocols
 Section: net
 Architecture: ar71xx
-Installed-Size: 48362
+Installed-Size: 48355
 Filename: l7-protocols_2009-05-28-2_ar71xx.ipk
-Size: 48429
-MD5Sum: f6c49b733f51fb5be74f717e951fdfe6
-SHA256sum: 7a6e11340a6e3d73f79302d7562b3bbca0416f4a5b786f4872c99e408d6b946a
+Size: 48414
+MD5Sum: efdb324bcb5be3311c4795ae75fa9be7
+SHA256sum: d0545b3d90fd0c207d482672ecd85ea26fe20bb270df69f90cd2d5157275d60d
 Description:  l7-filter classifies packets based on patterns in application
  layer data. This allows correct classification of P2P traffic that
  uses unpredictable ports as well as standard protocols running on
@@ -20,11 +20,11 @@ Depends: libc
 Source: feeds/oldpackages/net/p910nd
 Section: net
 Architecture: ar71xx
-Installed-Size: 5260
+Installed-Size: 5263
 Filename: p910nd_0.95-3_ar71xx.ipk
-Size: 5992
-MD5Sum: 93538ceca673b2648a7342cb1e6d9462
-SHA256sum: 5d02c73407a9b8f090a27afea5081ef707f421073444600cffabb39ba04532fc
+Size: 5991
+MD5Sum: aa1c3d1a7624c15f8f6ad48c802d6235
+SHA256sum: 519deeaa58542b2ed5fd5c750cd548ace265a34b28fa20ffbd7ac7e1f4832d0a
 Description:  p910nd is a small daemon that copies any data received on
  the port it is listening on to the corresponding printer
  port. It is primarily intended for diskless Linux hosts
@@ -40,29 +40,11 @@ Source: feeds/oldpackages/utils/restorefactory
 Section: utils
 Maintainer: Nuno Goncalves <nunojpg@gmail.com>
 Architecture: ar71xx
-Installed-Size: 666
+Installed-Size: 668
 Filename: restorefactory_1-6_ar71xx.ipk
-Size: 1299
-MD5Sum: df35c4a39f93af8b29bcada2f5e9a523
-SHA256sum: bf3c2ad15c4770fbe6eddcf8987f248b305b13ae179d447c55c0ec5269f3f071
+Size: 1303
+MD5Sum: 780567addcb1f6d414259b35724dc243
+SHA256sum: 640e75acc104b0cdefc8199a717db8eec239eb65000a1696a593ccd0180b0124
 Description:  RestoreFactory handles the reset button event and issues a "firstboot" command.
  Button and wait time can be configured with a UCI file.
-
-Package: tor
-Version: 0.2.4.22-1
-Depends: libc, libevent2, libopenssl, libpthread, librt
-Source: feeds/oldpackages/net/tor
-Section: net
-Architecture: ar71xx
-Installed-Size: 575633
-Filename: tor_0.2.4.22-1_ar71xx.ipk
-Size: 573622
-MD5Sum: 0b5cc3de58c82a819dba64adc8c8858a
-SHA256sum: bb0a4bc852cbe702b2668aa5b6d86438190aec7863c7aa7b6efbd43cbd4c0475
-Description:  Tor is a toolset for a wide range of organizations and people that want to
- improve their safety and security on the Internet. Using Tor can help you
- anonymize web browsing and publishing, instant messaging, IRC, SSH, and
- more. Tor also provides a platform on which software developers can build
- new applications with built-in anonymity, safety, and privacy features.
- This package contains the tor daemon.
 
