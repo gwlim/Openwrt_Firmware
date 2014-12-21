@@ -1,0 +1,8 @@
+2221b920609ff293a13828c349572961 *openwrt-ar71xx-generic-mw4530r-v1-squashfs-factory_uboot_unlocked.bin
+6ed6632597937929c79fc54548cd3738 *openwrt-ar71xx-generic-tl-wdr3500-v1-squashfs-factory_uboot_unlocked.bin
+bbcda775609ce26d038ca546d82793d5 *openwrt-ar71xx-generic-tl-wdr3600-v1-squashfs-factory_uboot_unlocked.bin
+f6fac2fea8eb3065a20ad7fbc9ec1c22 *openwrt-ar71xx-generic-tl-wdr4300-v1-il-squashfs-factory_uboot_unlocked.bin
+5df25c9c43242c36778d3499d6a31de1 *openwrt-ar71xx-generic-tl-wdr4300-v1-squashfs-factory_uboot_unlocked.bin
+e5410fb3cd8d30cab0a5b64034149426 *openwrt-ar71xx-generic-tl-wdr4310-v1-squashfs-factory_uboot_unlocked.bin
+2d422796066caa515f3ed3e98f67e67d  uboot_for_tp-link_tl-wdr3600-43x0_oc_600_400_200.bin
+809106e731b906a44dd2a1651c2f7cf7  uboot_for_tp-link_tl-wdr3600-43x0_oc_600_450_225.bin
