@@ -4,11 +4,11 @@ Depends: libc, iptables-mod-filter
 Source: feeds/oldpackages/net/l7-protocols
 Section: net
 Architecture: ar71xx
-Installed-Size: 48355
+Installed-Size: 48358
 Filename: l7-protocols_2009-05-28-2_ar71xx.ipk
-Size: 48431
-MD5Sum: 8e7bb97626960de079c4fa0dacf87fe6
-SHA256sum: dd1dabb6ffa9d4a81e92dfec5532ce7a39e43863911d532dedad7a54ca74dd0e
+Size: 48423
+MD5Sum: e7324346bdbad6e5fc26ffac02e6e705
+SHA256sum: a74b6f6cd6e9055f77b1a9e93f8bb675297264bb14bfa788fb64c86abd58def5
 Description:  l7-filter classifies packets based on patterns in application
  layer data. This allows correct classification of P2P traffic that
  uses unpredictable ports as well as standard protocols running on
@@ -20,11 +20,11 @@ Depends: libc
 Source: feeds/oldpackages/net/p910nd
 Section: net
 Architecture: ar71xx
-Installed-Size: 5255
+Installed-Size: 5258
 Filename: p910nd_0.95-3_ar71xx.ipk
-Size: 5978
-MD5Sum: 24928a24b89cfc458de40f6e709519cc
-SHA256sum: 07f25d959f826b11e60df57bb36a93ed8f73ed0b9c822f7b84871e06e7a9c514
+Size: 5991
+MD5Sum: 374ba94609f8a540eca30ccc380dd365
+SHA256sum: 62531303619e93776471ab9d309ccef16c595e9d477027febc2aa123c5df0d1e
 Description:  p910nd is a small daemon that copies any data received on
  the port it is listening on to the corresponding printer
  port. It is primarily intended for diskless Linux hosts
@@ -40,11 +40,11 @@ Source: feeds/oldpackages/utils/restorefactory
 Section: utils
 Maintainer: Nuno Goncalves <nunojpg@gmail.com>
 Architecture: ar71xx
-Installed-Size: 667
+Installed-Size: 668
 Filename: restorefactory_1-6_ar71xx.ipk
 Size: 1302
-MD5Sum: 3faae902ec5eb9052ab71bd9185f2a90
-SHA256sum: 5507a0d8f99948d1fc20b39e282c0fe67858c27be989f4d152b8813c2504c210
+MD5Sum: f6f6456ae94c970602447a671850ba53
+SHA256sum: d7109a4046638ec439a84d3d31a8b6acd3eb8af9fe0ef424ca4efb6a20d2e1f2
 Description:  RestoreFactory handles the reset button event and issues a "firstboot" command.
  Button and wait time can be configured with a UCI file.
 
