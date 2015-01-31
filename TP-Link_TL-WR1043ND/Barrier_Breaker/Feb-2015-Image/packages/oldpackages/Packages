@@ -1,0 +1,50 @@
+Package: l7-protocols
+Version: 2009-05-28-2
+Depends: libc, iptables-mod-filter
+Source: feeds/oldpackages/net/l7-protocols
+Section: net
+Architecture: ar71xx
+Installed-Size: 48354
+Filename: l7-protocols_2009-05-28-2_ar71xx.ipk
+Size: 48415
+MD5Sum: 0d8660c0b047049e8dbd7af2bbbe1d04
+SHA256sum: ddaa206545f791256938f56454a8b973d9db1268fb09a937a56de9b63afe6cb4
+Description:  l7-filter classifies packets based on patterns in application
+ layer data. This allows correct classification of P2P traffic that
+ uses unpredictable ports as well as standard protocols running on
+ non-standard ports.
+
+Package: p910nd
+Version: 0.95-3
+Depends: libc
+Source: feeds/oldpackages/net/p910nd
+Section: net
+Architecture: ar71xx
+Installed-Size: 5259
+Filename: p910nd_0.95-3_ar71xx.ipk
+Size: 5991
+MD5Sum: 6f8e0dc4d2ff533330d4436973c3cc4b
+SHA256sum: b4345d6f6f393704c3c6b83c8d0d693823c365fa7c38c3a86f881579b5262c9b
+Description:  p910nd is a small daemon that copies any data received on
+ the port it is listening on to the corresponding printer
+ port. It is primarily intended for diskless Linux hosts
+ running as printer drivers but there is no reason why it
+ could not be used on diskful hosts. Port 9100 is copied
+ to /dev/lp0, 9101 to /dev/lp1 and 9102 to /dev/lp2. The
+ default is port 9100 to /dev/lp0.
+
+Package: restorefactory
+Version: 1-6
+Depends: libc
+Source: feeds/oldpackages/utils/restorefactory
+Section: utils
+Maintainer: Nuno Goncalves <nunojpg@gmail.com>
+Architecture: ar71xx
+Installed-Size: 668
+Filename: restorefactory_1-6_ar71xx.ipk
+Size: 1306
+MD5Sum: 375e537ddd846d30ba8f63964c65f736
+SHA256sum: e135923297bab1efc03459a137c6c86a6365726f3ce6d93b7671332c02f025e8
+Description:  RestoreFactory handles the reset button event and issues a "firstboot" command.
+ Button and wait time can be configured with a UCI file.
+
