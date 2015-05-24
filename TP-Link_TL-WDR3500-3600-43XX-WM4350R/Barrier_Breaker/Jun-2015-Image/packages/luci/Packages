@@ -1,0 +1,266 @@
+Package: freifunk-p2pblock
+Version: 3
+Depends: libc, iptables-mod-filter, iptables-mod-ipp2p, l7-protocols, iptables-mod-conntrack-extra
+Source: feeds/luci/contrib/package/freifunk-p2pblock
+Section: luci
+Architecture: ar71xx
+Installed-Size: 1317
+Filename: freifunk-p2pblock_3_ar71xx.ipk
+Size: 1950
+MD5Sum: 7e3143000532aa1d0fda15dd765d767f
+SHA256sum: 9d93d272630d1a656a026c47b64457cfa00b8e94fcc5cec0c97f059fc40add98
+Description:  Simple Addon for Freifunk which use iptables layer7-, ipp2p- and recent-modules 
+ to block p2p/filesharing traffic
+
+Package: luci-app-ddns
+Version: 0.12+git-15.112.69076-6153b99-1
+Depends: libc, ddns-scripts
+Source: feeds/luci/contrib/package/luci-addons
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ar71xx
+Installed-Size: 11242
+Filename: luci-app-ddns_0.12+git-15.112.69076-6153b99-1_ar71xx.ipk
+Size: 11863
+MD5Sum: bc3bcee4d3d75555f07d66b2daf9b6e6
+SHA256sum: 14c0f07ff03f2ff054064f6b25d5b34987a874ffa4d02562f33b352556156778
+Description:  Dynamic DNS configuration module
+
+Package: luci-app-firewall
+Version: 0.12+git-15.112.69076-6153b99-1
+Depends: libc, firewall
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ar71xx
+Installed-Size: 68414
+Filename: luci-app-firewall_0.12+git-15.112.69076-6153b99-1_ar71xx.ipk
+Size: 69133
+MD5Sum: d35db9b0472d95883e6882a25edb99c5
+SHA256sum: 94475f510735d39fe723580e26737d83b9eb4d1af49f04674ac0f3e6cf173b4c
+Description:  Firewall and Portforwarding application
+
+Package: luci-app-p2pblock
+Version: 0.12+git-15.112.69076-6153b99-1
+Depends: libc, luci-app-firewall, freifunk-p2pblock
+Source: feeds/luci/contrib/package/luci-addons
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ar71xx
+Installed-Size: 6315
+Filename: luci-app-p2pblock_0.12+git-15.112.69076-6153b99-1_ar71xx.ipk
+Size: 7100
+MD5Sum: 3640cafb0da60111802203e7a1ab1e4e
+SHA256sum: 7c9ce04dfa87a92bc49ee347be2d1d34af80ad1b390447870176a02ed2ea2994
+Description:  LuCI Support for the Freifunk P2P-Block addon
+
+Package: luci-app-p910nd
+Version: 0.12+git-15.112.69076-6153b99-1
+Depends: libc, p910nd
+Source: feeds/luci/contrib/package/luci-addons
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ar71xx
+Installed-Size: 6645
+Filename: luci-app-p910nd_0.12+git-15.112.69076-6153b99-1_ar71xx.ipk
+Size: 7366
+MD5Sum: 68b8ed80d15c0a63a04f131405f879ef
+SHA256sum: 543c284f4d86daa47eb77def3cd354a1fb159a97e7f7ef4e5985e48abc05a7ff
+Description:  p910nd - Printer server module
+
+Package: luci-app-tinyproxy
+Version: 0.12+git-15.112.69076-6153b99-1
+Depends: libc, tinyproxy
+Source: feeds/luci/contrib/package/luci-addons
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ar71xx
+Installed-Size: 25301
+Filename: luci-app-tinyproxy_0.12+git-15.112.69076-6153b99-1_ar71xx.ipk
+Size: 25882
+MD5Sum: 15cb91985b007ec94a4fa8bb44337703
+SHA256sum: 1c850ea6f980e077120900a9a5538c023e0d62afb6edfda10f9397c649ed2fa7
+Description:  Tinyproxy - HTTP(S)-Proxy configuration
+
+Package: luci-app-upnp
+Version: 0.12+git-15.112.69076-6153b99-1
+Depends: libc, miniupnpd
+Source: feeds/luci/contrib/package/luci-addons
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ar71xx
+Installed-Size: 19678
+Filename: luci-app-upnp_0.12+git-15.112.69076-6153b99-1_ar71xx.ipk
+Size: 20319
+MD5Sum: 88acf1032ece6895a8a2f7318efe70bb
+SHA256sum: d9f50ed2621aa11983b80e8114343c7f2171f2487b2c586b94b24264a3193223
+Description:  Universal Plug & Play configuration module
+
+Package: luci-app-wol
+Version: 0.12+git-15.112.69076-6153b99-1
+Depends: libc, etherwake
+Source: feeds/luci/contrib/package/luci-addons
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ar71xx
+Installed-Size: 8813
+Filename: luci-app-wol_0.12+git-15.112.69076-6153b99-1_ar71xx.ipk
+Size: 9453
+MD5Sum: 69f2783ca7e65ec282d4faa93e54c63b
+SHA256sum: bb8f4e09aa659e2a8ea6877c837d42e784a9096bf4788fce79c1c29d827cbb16
+Description:  LuCI Support for Wake-on-LAN
+
+Package: luci-base
+Version: 0.12+git-15.112.69076-6153b99-1
+Depends: libc, lua, libuci-lua, libubus-lua, libopenssl
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ar71xx
+Installed-Size: 145343
+Filename: luci-base_0.12+git-15.112.69076-6153b99-1_ar71xx.ipk
+Size: 146081
+MD5Sum: 9a33ca3489f3f77ac360005cdc51319a
+SHA256sum: fa8f85f483a8ef1080125a55d1faaa37dd5545ba9639e61171652fee71bbe622
+Description:  LuCI core libraries
+
+Package: luci-i18n-english
+Version: 0.12+git-15.112.69076-6153b99-1
+Depends: libc
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ar71xx
+Installed-Size: 767
+Filename: luci-i18n-english_0.12+git-15.112.69076-6153b99-1_ar71xx.ipk
+Size: 1471
+MD5Sum: e493ec9f776c94b35197f2b8fe2dcb47
+SHA256sum: f8f2d853cd12e3a957ab478f0b579f50d419e1a3e1656eefe6f85f7f4ad0b5ea
+Description:  English
+
+Package: luci-lib-nixio
+Version: 0.12+git-15.112.69076-6153b99-1
+Depends: libc, luci-base, libopenssl
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ar71xx
+Installed-Size: 33494
+Filename: luci-lib-nixio_0.12+git-15.112.69076-6153b99-1_ar71xx.ipk
+Size: 33888
+MD5Sum: 78d704daa6b1e45420b37813098176e6
+SHA256sum: 9c1c146b0efa299c169ea6b065a798f72dbea3585655f81a4888bcfe2a5c353b
+Description:  NIXIO POSIX library
+
+Package: luci-mod-admin-full
+Version: 0.12+git-15.112.69076-6153b99-1
+Depends: libc, luci-base
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ar71xx
+Installed-Size: 84319
+Filename: luci-mod-admin-full_0.12+git-15.112.69076-6153b99-1_ar71xx.ipk
+Size: 85001
+MD5Sum: eeff0f6e34a55c8301b1bdd802db6115
+SHA256sum: 938232c3da8e480f6dba8de93d3450b4055dce1d8db536d8f96ff42b4e1827e3
+Description:  LuCI Administration - full-featured for full control
+
+Package: luci-proto-3g
+Version: 0.12+git-15.112.69076-6153b99-1
+Depends: libc, comgt
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ar71xx
+Installed-Size: 2020
+Filename: luci-proto-3g_0.12+git-15.112.69076-6153b99-1_ar71xx.ipk
+Size: 2625
+MD5Sum: 3fa5300e2f5db5e6c8fed41979cd97fd
+SHA256sum: 7e5b27826540f8fc05a9cac04dacb905076a9768635e9ead49fa2a5c75271cb7
+Description:  Support for 3G
+
+Package: luci-proto-ipv6
+Version: 0.12+git-15.112.69076-6153b99-1
+Depends: libc
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ar71xx
+Installed-Size: 4725
+Filename: luci-proto-ipv6_0.12+git-15.112.69076-6153b99-1_ar71xx.ipk
+Size: 5333
+MD5Sum: fba069ea196b43cd27bb1b790970a3ad
+SHA256sum: 89668f47ec352353d4f285083b609e00133fa218e11be0a6f7abac8fdeedb320
+Description:  Support for DHCPv6/6in4/6to4/6rd/DS-Lite
+
+Package: luci-proto-ppp
+Version: 0.12+git-15.112.69076-6153b99-1
+Depends: libc
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ar71xx
+Installed-Size: 3925
+Filename: luci-proto-ppp_0.12+git-15.112.69076-6153b99-1_ar71xx.ipk
+Size: 4492
+MD5Sum: eacaa53943c50d39b3ff503b6786d503
+SHA256sum: 4aefca3488ac29b9b3ca9734bbaa431feb369a718ad42743bbc18992f9b14a97
+Description:  Support for PPP/PPPoE/PPPoA/PPtP
+
+Package: luci-proto-relay
+Version: 0.12+git-15.112.69076-6153b99-1
+Depends: libc, relayd
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ar71xx
+Installed-Size: 2553
+Filename: luci-proto-relay_0.12+git-15.112.69076-6153b99-1_ar71xx.ipk
+Size: 3143
+MD5Sum: c9d0fe5e616671f5ab23773c7882cca4
+SHA256sum: 73fd46c460b61b5ebf844a1b7e89ed262314c9a3054f435bc8aea07988580f6f
+Description:  Support for relayd pseudo bridges
+
+Package: luci-ssl
+Version: 0.12+git-15.112.69076-6153b99-1
+Depends: libc, luci, libustream-polarssl, px5g
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ar71xx
+Installed-Size: 104
+Filename: luci-ssl_0.12+git-15.112.69076-6153b99-1_ar71xx.ipk
+Size: 701
+MD5Sum: 6a9ccbb993b7de233a2dc76140b9cd7a
+SHA256sum: 1938240c2f254bee83203e212dce9f68a2e2b05fdc6cd3698a319683d7881222
+Description:  Standard OpenWrt set with HTTPS support
+
+Package: luci-theme-bootstrap
+Version: 0.12+git-15.112.69076-6153b99-1
+Depends: libc
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ar71xx
+Installed-Size: 11577
+Filename: luci-theme-bootstrap_0.12+git-15.112.69076-6153b99-1_ar71xx.ipk
+Size: 12283
+MD5Sum: aab50a280262741067d3efe231c46bab
+SHA256sum: 15e6fe41473480afac63988cd505790171b33f483836405e476e1f908c6c7958
+Description:  Bootstrap Theme (default)
+
+Package: luci
+Version: 0.12+git-15.112.69076-6153b99-1
+Depends: libc, uhttpd, uhttpd-mod-ubus, luci-mod-admin-full, luci-theme-bootstrap, luci-app-firewall, luci-proto-ppp, libiwinfo-lua, luci-lib-nixio
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ar71xx
+Installed-Size: 104
+Filename: luci_0.12+git-15.112.69076-6153b99-1_ar71xx.ipk
+Size: 784
+MD5Sum: 8650aada438919034797d0b090cfdc25
+SHA256sum: bc277e88d10c607c274edcdffecd33612d0f8e8171512256faaa863323108228
+Description:  Standard OpenWrt set including full admin with ppp support and the default OpenWrt theme
+

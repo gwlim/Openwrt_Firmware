@@ -1,0 +1,14 @@
+Package: miniupnpd
+Version: 1.8.20140523-4
+Depends: libc, iptables, libip4tc, libip6tc, ip6tables, libnfnetlink
+Source: feeds/routing/miniupnpd
+Section: net
+Maintainer: Markus Stenberg <fingon@iki.fi>
+Architecture: ar71xx
+Installed-Size: 52664
+Filename: miniupnpd_1.8.20140523-4_ar71xx.ipk
+Size: 53236
+MD5Sum: 6bab7e798ce71b04c0d318a01aeaf41e
+SHA256sum: fd83f1b3fca30c8d96112852e85d4cfed605b6bcb5d9455b7899cde23ddbbb4c
+Description:  Lightweight UPnP IGD, NAT-PMP & PCP daemon
+
