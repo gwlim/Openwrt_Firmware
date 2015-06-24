@@ -9,8 +9,8 @@ Architecture: all
 Installed-Size: 7250
 Filename: ddns-scripts_1.0.0-23_all.ipk
 Size: 7921
-MD5Sum: 9a204a5c32c7961ee210025fcee2aa47
-SHA256sum: 437f74a358f19bf4e7a4cbde6b9e0b307490ff214e46b630c451d663dee85fac
+MD5Sum: 595f5f3fee0f0ffeb5d51ee159086f98
+SHA256sum: 64736438b467b89c32753d2a8a0561d3cd340ce280104bda72ce865318940863
 Description:  A highly configurable set of scripts for doing
  dynamic dns updates
 
@@ -21,11 +21,11 @@ Source: feeds/packages/net/etherwake
 Section: net
 Maintainer: Peter Wagner <tripolar@gmx.at>
 Architecture: ar71xx
-Installed-Size: 4997
+Installed-Size: 4998
 Filename: etherwake_1.09-3_ar71xx.ipk
-Size: 5740
-MD5Sum: 3b93ab2107f19063442632c07d58e8cd
-SHA256sum: c5e5aca1ba9a1e6861e190e7d684f85f2beb2d52b33794fbcaed728f48de9c1f
+Size: 5749
+MD5Sum: 907b025f1113a1d19c7bb30e56271f0e
+SHA256sum: aaa251988fea243e8b05dcdd7a07a13473eda47a47f7e86854046b5e135db3b5
 Description:  You can wake up WOL compliant Computers which have been powered down to
  sleep mode or start WOL compliant Computers with a BIOS feature.
  WOL is an abbreviation for Wake-on-LAN. It is a standard that allows you
@@ -41,11 +41,11 @@ LicenseFiles: LICENCE
 Section: libs
 Maintainer: Thomas Heil <heil@terminal-consulting.de>
 Architecture: ar71xx
-Installed-Size: 82174
+Installed-Size: 82172
 Filename: libpcre_8.35-2_ar71xx.ipk
-Size: 82823
-MD5Sum: d83759a8c56f1645187427b59ead3753
-SHA256sum: 85e91cd85adf52b3f8eb3642307f34c6a0699709018e5ccc13601c4ecdaa4a97
+Size: 82817
+MD5Sum: 0e1294e2bb8e91007072fa685137637d
+SHA256sum: 90219ea76f82e42f1e2b300c5054b4a63df54461e6ce7a5b8d97f5da6a736814
 Description:  A Perl Compatible Regular Expression library
 
 Package: luci-app-mwan3
@@ -58,9 +58,9 @@ Maintainer: Aedan Renner <chipdankly@gmail.com>
 Architecture: all
 Installed-Size: 13582
 Filename: luci-app-mwan3_1.3-5_all.ipk
-Size: 14296
-MD5Sum: a1ad29c0c02f4b4dc6b627e1864fbe9e
-SHA256sum: b20aadc1250a5fc86e12a6fc166f4bdc34b82868ef5dc59fbd8cef78cf69e157
+Size: 14298
+MD5Sum: dddb0289000a8a755788328c963ca499
+SHA256sum: 1617ea8ce4fa01f0588ba6e3cd24e47129b1a1c7677e0cde8dfd643cf5956706
 Description:  Hotplug script which makes configuration of multiple WAN interfaces simple and
  manageable with loadbalancing/failover support for up to 250 physical or logical
  WAN interfaces, connection tracking and an easy to manage traffic ruleset
@@ -73,11 +73,11 @@ License: GPLv2
 Section: luci
 Maintainer: Toke Høiland-Jørgensen <toke@toke.dk>
 Architecture: all
-Installed-Size: 3164
+Installed-Size: 3162
 Filename: luci-app-sqm_3-2_all.ipk
-Size: 3943
-MD5Sum: 1a546a8b7b9b101eb5afed7588cb427a
-SHA256sum: 349d9652ad17f39f9824b817b65b576047d7f7c3cbf8e5b19109ddaf7f5dc1db
+Size: 3942
+MD5Sum: 9bd8c8a74cc6f2a7673e2c333a136b17
+SHA256sum: fb8edc7af0994eb8c19d0e60c6305a6f0586fcc197691738264c29cb037330d8
 Description:  Control the simple_qos SQM script
 
 Package: mwan3
@@ -88,11 +88,11 @@ License: GPLv2
 Section: net
 Maintainer: Jeroen Louwes <jeroen.louwes@gmail.com>
 Architecture: all
-Installed-Size: 4877
+Installed-Size: 4876
 Filename: mwan3_1.5-10_all.ipk
-Size: 5612
-MD5Sum: cabbe281bdea6fb8824ae75b4e6b6088
-SHA256sum: 6a0698da029edbb05a4733dd60ccbdf53bbbe4bc0b1c02ee6dd1b332b37c6fa6
+Size: 5608
+MD5Sum: f395156e3b4f33d6207ae231d1594fb6
+SHA256sum: cfb9088a31031bdb8eb37ccd13f1b077a52ddda1d4cf830757ea516c89ace7ae
 Description:  Hotplug script which makes configuration of multiple WAN interfaces simple
  and manageable. With loadbalancing/failover support for up to 250 wan
  interfaces, connection tracking and an easy to manage traffic ruleset.
@@ -105,11 +105,11 @@ License: GPLv2
 Section: net
 Maintainer: Toke Høiland-Jørgensen <toke@toke.dk>
 Architecture: all
-Installed-Size: 11624
+Installed-Size: 11628
 Filename: sqm-scripts_8-4_all.ipk
-Size: 12303
-MD5Sum: 0e9e2cdfedd2363bca586d98daf2ad3d
-SHA256sum: aa17d9c1d20d46bba0ce37a231a7025bf98ee33bd8992e0ddd9514b0d9b10922
+Size: 12299
+MD5Sum: a4b75456918815e5b4908f647f9affa2
+SHA256sum: 8a710f36d41bf442d75a1752d1c1cb4dee19497a5c4399585ab5452af3845ac5
 Description:  A set of scripts that does simple SQM configuration.
 
 Package: tinyproxy
@@ -119,11 +119,11 @@ Source: feeds/packages/net/tinyproxy
 Section: net
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 28747
+Installed-Size: 28748
 Filename: tinyproxy_1.8.3-2_ar71xx.ipk
-Size: 29172
-MD5Sum: 791b2c852905d0a57a788bdbfa2f7482
-SHA256sum: 6098d1d0916b1d28aff420fec8746b413c2ed0837252fce377bcac274b3ee9fb
+Size: 29168
+MD5Sum: f15fff622257f6809949cc3a2e93a328
+SHA256sum: 21360a905072e18848352c96fcf69d15bd5e964083984ca7e09d90ca063a5919
 Description:  Tinyproxy is a lightweight HTTP and HTTPS proxy
 
 Package: vsftpd-tls
@@ -133,11 +133,11 @@ Source: feeds/packages/net/vsftpd
 Section: net
 Maintainer: Cezary Jackiewicz <cezary@eko.one.pl>
 Architecture: ar71xx
-Installed-Size: 45337
+Installed-Size: 45334
 Filename: vsftpd-tls_3.0.2-4_ar71xx.ipk
-Size: 45528
-MD5Sum: 9093bb144e515eb6c19ef2ff6559b77e
-SHA256sum: 28aafb58ac1b11caba99dbe9aa39c9fbcf6fc6e645d446af206fe1c893f8961a
+Size: 45522
+MD5Sum: 2d245f87ada87948a1ecc848b95588f8
+SHA256sum: 1ee070505ce9197277349edd66b1b221effc784cb2a54d4f46ec3d4079a2bdc7
 Description:  A fast and secure FTP server (TLS)
 
 Package: wget
@@ -147,11 +147,11 @@ Source: feeds/packages/net/wget
 Section: net
 Maintainer: Maxim Storchak <m.storchak@gmail.com>
 Architecture: ar71xx
-Installed-Size: 184107
+Installed-Size: 184106
 Filename: wget_1.16-1_ar71xx.ipk
-Size: 183763
-MD5Sum: 094acde7e3516ec4f1fa7466ffd50917
-SHA256sum: d4f99ee3204ab729f4f05a860deda1a4942c68dbb6fb304f30041d23488d614a
+Size: 183758
+MD5Sum: dadf9d4be217e939d8ff1548fb077e36
+SHA256sum: 9bb041afe0ab50554c63d56cc5f7c8d0117a273999b6ec8ee189e6c1ea791a95
 Description:  Wget is a network utility to retrieve files from the Web using http
  and ftp, the two most widely used Internet protocols. It works
  non-interactively, so it will work in the background, after having
@@ -167,11 +167,11 @@ Source: feeds/packages/net/xl2tpd
 Section: net
 Maintainer: Daniel Golle <daniel@makrotopia.org>
 Architecture: ar71xx
-Installed-Size: 44249
+Installed-Size: 44251
 Filename: xl2tpd_1.3.6-5619e1771048e74b729804e8602f409af0f3faea_ar71xx.ipk
-Size: 44998
-MD5Sum: fb67ccc28ea72fd5baadd2b478e432dd
-SHA256sum: b8eadce35722205941625a31ce9ed734a6ce0caebebe1232ba792e99bfe2d101
+Size: 44999
+MD5Sum: c5281064909a054d949f02738d67dbb9
+SHA256sum: f9801fd913062d0adddff6191d2ceaf2ce71a01d34e18e0e502eb3bcc1935d50
 Description:  l2tpd is the open source implementation of the L2TP tunneling protocol (RFC2661).
  It does implement both LAC and LNS role in a L2TP networking architecture. The
  main goal of this protocol is to tunnel PPP frame trough an IP network.
