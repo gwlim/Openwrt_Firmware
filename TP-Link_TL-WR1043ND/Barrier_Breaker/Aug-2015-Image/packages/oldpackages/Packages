@@ -1,0 +1,34 @@
+Package: p910nd
+Version: 0.95-3
+Depends: libc
+Source: feeds/oldpackages/net/p910nd
+Section: net
+Architecture: ar71xx
+Installed-Size: 5258
+Filename: p910nd_0.95-3_ar71xx.ipk
+Size: 5991
+MD5Sum: 4fb084fea1646a619bfd4b75866ac270
+SHA256sum: 2e9dbbbdeadfcc6a04f79ef56bab08bdfa466fe65fdfff6c66a40c615bc11db4
+Description:  p910nd is a small daemon that copies any data received on
+ the port it is listening on to the corresponding printer
+ port. It is primarily intended for diskless Linux hosts
+ running as printer drivers but there is no reason why it
+ could not be used on diskful hosts. Port 9100 is copied
+ to /dev/lp0, 9101 to /dev/lp1 and 9102 to /dev/lp2. The
+ default is port 9100 to /dev/lp0.
+
+Package: restorefactory
+Version: 1-6
+Depends: libc
+Source: feeds/oldpackages/utils/restorefactory
+Section: utils
+Maintainer: Nuno Goncalves <nunojpg@gmail.com>
+Architecture: ar71xx
+Installed-Size: 668
+Filename: restorefactory_1-6_ar71xx.ipk
+Size: 1307
+MD5Sum: f7ce853035ea446fd2943104ada130fd
+SHA256sum: eeb06ca4014abce1783214d0cb014566093ca2dda35bf2b2e34eafc48da0b413
+Description:  RestoreFactory handles the reset button event and issues a "firstboot" command.
+ Button and wait time can be configured with a UCI file.
+
