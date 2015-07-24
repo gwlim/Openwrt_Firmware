@@ -1,0 +1,34 @@
+Package: p910nd
+Version: 0.95-3
+Depends: libc
+Source: feeds/oldpackages/net/p910nd
+Section: net
+Architecture: mpc85xx
+Installed-Size: 4849
+Filename: p910nd_0.95-3_mpc85xx.ipk
+Size: 5585
+MD5Sum: adfa5ab66ab26af4f9fa4bb571052866
+SHA256sum: 4a545328b67555cafea72a205e9fd2cf69ae06ce91485638159a4fa7c0739d28
+Description:  p910nd is a small daemon that copies any data received on
+ the port it is listening on to the corresponding printer
+ port. It is primarily intended for diskless Linux hosts
+ running as printer drivers but there is no reason why it
+ could not be used on diskful hosts. Port 9100 is copied
+ to /dev/lp0, 9101 to /dev/lp1 and 9102 to /dev/lp2. The
+ default is port 9100 to /dev/lp0.
+
+Package: restorefactory
+Version: 1-6
+Depends: libc
+Source: feeds/oldpackages/utils/restorefactory
+Section: utils
+Maintainer: Nuno Goncalves <nunojpg@gmail.com>
+Architecture: mpc85xx
+Installed-Size: 668
+Filename: restorefactory_1-6_mpc85xx.ipk
+Size: 1304
+MD5Sum: 850435e3aef5b90854483675d61dcb6a
+SHA256sum: c6f1699d54f58100062bc3dc1831576fcb5d9d0d1686bb4379b9b5abcb600d30
+Description:  RestoreFactory handles the reset button event and issues a "firstboot" command.
+ Button and wait time can be configured with a UCI file.
+
