@@ -1,0 +1,15 @@
+Package: restorefactory
+Version: 1-6
+Depends: libc
+Source: feeds/oldpackages/utils/restorefactory
+Section: utils
+Maintainer: Nuno Goncalves <nunojpg@gmail.com>
+Architecture: ar71xx
+Installed-Size: 668
+Filename: restorefactory_1-6_ar71xx.ipk
+Size: 1308
+MD5Sum: 50d80bbbcde020b5f1fa4b88cf5158e6
+SHA256sum: b3dda619edf4ccc61f0069d01a23ed3f36390df9b1d0b01214ffa44a0fe5f067
+Description:  RestoreFactory handles the reset button event and issues a "firstboot" command.
+ Button and wait time can be configured with a UCI file.
+

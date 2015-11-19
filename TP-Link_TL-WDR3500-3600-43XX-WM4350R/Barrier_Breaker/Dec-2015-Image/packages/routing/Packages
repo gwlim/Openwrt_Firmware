@@ -1,0 +1,56 @@
+Package: bird4
+Version: 1.4.3-1
+Depends: libc, libpthread
+Source: feeds/routing/bird
+Section: net
+Architecture: ar71xx
+Installed-Size: 165455
+Filename: bird4_1.4.3-1_ar71xx.ipk
+Size: 166264
+MD5Sum: fc45d80e2120dde436952c4da44adf37
+SHA256sum: 3f361c1dcee7b3cf8e8ceee46ce1a288593c664e5d2ec5ccc4564c8653b67051
+Description:  BIRD is an internet routing daemon which manages TCP/IP routing tables
+ with support of modern routing protocols, easy to use configuration
+ interface and powerful route filtering language. It is lightweight and
+ efficient and therefore appropriate for small embedded routers.
+ 
+ This is IPv4 version of BIRD, it supports OSPFv2, RIPv2 and BGP
+ protocols.
+ 
+ In BGP, BIRD supports communities, multiprotocol extensions, MD5
+ authentication, 32bit AS numbers and could act as a route server or a
+ route reflector. BIRD also supports multiple RIBs, multiple kernel
+ routing tables and redistribution between the protocols with a powerful
+ configuration syntax.
+ 
+
+Package: mcproxy
+Version: 2014-05-02-bbb2e7ee230c172e68766946e4b4e48f7449ee15-1
+Depends: libc, libpthread, libstdcpp
+Source: feeds/routing/mcproxy
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 119949
+Filename: mcproxy_2014-05-02-bbb2e7ee230c172e68766946e4b4e48f7449ee15-1_ar71xx.ipk
+Size: 120335
+MD5Sum: 42de1214ef05e1ff96f148b21abd4fc2
+SHA256sum: ea72a75aad8485380aa87ba61da91c52857b83b26644f09e9d71a9f572635c5b
+Description:  mcproxy is a free & open source implementation of the IGMP/MLD proxy function (see  RFC 4605) for Linux systems.
+ It operates on the kernel tables for multicast routing and allows for multiple instantiations,
+ as well as dynamically changing downstream interfaces.
+
+Package: miniupnpd
+Version: 1.8.20140523-4
+Depends: libc, iptables, libip4tc, libip6tc, ip6tables, libnfnetlink
+Source: feeds/routing/miniupnpd
+Section: net
+Maintainer: Markus Stenberg <fingon@iki.fi>
+Architecture: ar71xx
+Installed-Size: 52973
+Filename: miniupnpd_1.8.20140523-4_ar71xx.ipk
+Size: 53523
+MD5Sum: 6d6309841c98be4d0e8e29a183809042
+SHA256sum: f84f1739ca943b3c4169b38effa8db4520bfce8df2538a57b1610d90a70d567d
+Description:  Lightweight UPnP IGD, NAT-PMP & PCP daemon
+
