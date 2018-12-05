@@ -1,7 +1,7 @@
 Custom OpenWRT Firmware
 =======================
 
-Fast-Path builds have moved to https://github.com/gwlim/Fast-Path-LEDE-OpenWRT
+Fast-Path builds have moved to https://github.com/gwlim/openwrt-sfe-flowoffload
 ------------------------------------------------------------------------------
 
 OpenWRT for WR1043NDv1 and MR3420v2
